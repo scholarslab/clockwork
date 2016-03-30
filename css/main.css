@@ -68,6 +68,7 @@
 }
 
 #banner .provocation {
+  color: red;
   float:right;
   text-align:right;
 }
