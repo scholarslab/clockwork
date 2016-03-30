@@ -1,53 +1,13 @@
 ---
-layout: default
+layout: page
 title: Sonification
 permalink: /sonification/
 ---
 <head>
-<style>
-body {
-  margin: 0;
-}
-  nav {
-    display: block;
-    float: right;
-    width: 120px;
-  }
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 120px;
-    background-color: #ccffff;
-  }
-li a {
-  display: block;
-  color: #000;
-  padding: 8px 8px 25px 8px;
-  text-decoration: none;
-}
 
-li a:active {
-  background-color: #ff0000;
-  color: white;
-}
-li a:hover:not(.active) {
-  background-color: #00b3b3;
-  color: white;
-}
-</style>
 </head>
 <body>
-  <nav>
-    <ul>
-      <li><a href="/sonification/"> Sonification </a></li>
-      <li><a href="/documentation/"> Documentation </a></li>
-      <li><a href="/curriculum/"> Curriculum </a></li>
-      <li><a href="/about/"> About </a></li>
-    </ul>
-  </nav>
 
-<div>
   <p>
     Bacon ipsum dolor amet jerky tongue tri-tip cow. Rump pig pancetta filet mignon. Corned beef kielbasa flank boudin t-bone pork loin alcatra ball tip fatback ribeye bacon. Hamburger porchetta bacon cow, ham hock strip steak shoulder flank pastrami picanha filet mignon corned beef short ribs jowl drumstick.
   </p><p>
