@@ -15,7 +15,7 @@ Elevator pitch: “Learning, we want you to do it” -Gillet
 
 <div class="marginalia">
 
-Hey what's up
+Care more about CSS/HTML? Check out these links and this link and that link and those links.
 
 </div>
 

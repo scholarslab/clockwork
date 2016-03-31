@@ -2,7 +2,7 @@
     margin: 0;
   }
     h1 {
-    padding: 5px 40px 0 5px;
+    padding: 5px 20px 0 5px;
   }
 
   h2 {
@@ -55,15 +55,22 @@
     /*}*/
 
 .marginalia {
+  font-family: monospace;
+  font-size: 14px;
   float: right;
+  width: 150px;
+  background: blanchedalmond;
+  border: 5px solid burlywood;
+  padding: 20px;
 }
 
 #banner {
+  z-index: 100;
   position:fixed;
   bottom: 0;
   right:0;
   left:0;
-  background-color: rgba(0,0,0,0.25);
+  background-color: rgba(255,235,205,0.75);
 }
 
 #banner h1 {
@@ -78,7 +85,8 @@
 }
 
 nav {
-  background-color: rgba(0,0,0,0.125);
+  z-index: 10;
+  background-color: rgba(255,235,205,.75);
 }
 
 #main {
