@@ -61,16 +61,16 @@
   width: 150px;
   background: blanchedalmond;
   border: 5px solid burlywood;
-  padding: 20px;
+  padding: 15px;
 }
 
 #banner {
-  z-index: 100;
+  /*z-index: 100;*/
   position:fixed;
   bottom: 0;
   right:0;
   left:0;
-  background-color: rgba(255,235,205,0.75);
+  background-color: rgba(0,0,0,0.10);
 }
 
 #banner h1 {
@@ -85,8 +85,8 @@
 }
 
 nav {
-  z-index: 10;
-  background-color: rgba(255,235,205,.75);
+  /*z-index: 10;*/
+  background-color: rgba(0,0,0,.125);
 }
 
 #main {
