@@ -19,6 +19,11 @@ permalink: /sonification/
   <video src="/assets/gasminimumwage.mp4" class="soundviz" controls></video>
 </p>
 <p>
+  <video src="/assets/gasmwanesth.mp4" class="soundviz" controls></videos>
+</p>
+
+
+<p>
   <video src="/assets/milkmwanesth.mp4" class="soundviz" controls></video>
 </p>
 <p>
