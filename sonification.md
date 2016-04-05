@@ -7,21 +7,21 @@ permalink: /sonification/
     Bacon ipsum dolor amet jerky tongue tri-tip cow. Rump pig pancetta filet mignon. Corned beef kielbasa flank boudin t-bone pork loin alcatra ball tip fatback ribeye bacon. Hamburger porchetta bacon cow, ham hock strip steak shoulder flank pastrami picanha filet mignon corned beef short ribs jowl drumstick.
   </p>
 <p class="desc">
-    Check out this video. It's about milk and minimum wage doing something interesting.
+    The monthly average cost of a gallon of whole milk in the U.S. in 2014 scaled against the Federal minimum wage, $7.25.
   <video src="/assets/milkminimumwage.mp4" class="soundviz" controls></video>
 </p>
 
 <p class="desc">
-  Also check out THIS video, in which gas and minimum wage are thoroughly sonified - 100% for sure.
+  The monthly average cost of a gallon of gas in urban southern areas in 2014 scaled against the Federal minimum wage, $7.25.
   <video src="/assets/gasminimumwage.mp4" class="soundviz" controls></video>
 </p>
 <p class="desc">
-  What's this we have here? Another one! And this time it's gas and an anesthesiologist hourly-waging out the cost of gas for a year. And now I need to fill up this space more to see if my margins work properly. Woohoo!
-  <video src="/assets/gasmwanesth.mp4" class="soundviz" controls></videos>
+  The number of working hours for anesthesiologists ($118.40/hr) and those earning the minimum wage ($7.25/hr) to buy approximately 52 gallons of whole milk in 2014.
+  <video src="/assets/milkmwanesth.mp4" class="soundviz" controls></videos>
 </p>
 <p class="desc">
-  My goodness, it's another one! The fourth of four sonifications!!
-  <video src="/assets/milkmwanesth.mp4" class="soundviz" controls></video>
+  The number of working hours for anesthesiologists ($118.40/hr) and those earning the minimum wage ($7.25/hr) to buy $2,500 worth of gas in 2014.
+  <video src="/assets/gasmwanesth.mp4" class="soundviz" controls></video>
 </p>
 
 <p>
