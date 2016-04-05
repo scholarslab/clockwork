@@ -78,6 +78,10 @@
 
 .desc {
   text-align: center;
+  font-style: italic;
+  background-color: rgba(0, 0, 0, 0.08);
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 #banner {
