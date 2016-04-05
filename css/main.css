@@ -1,6 +1,8 @@
   body {
     margin: 0;
     font-family: "Droid Sans", sans-serif;
+    line-height: 1.8;
+    word-spacing: 0.75px;
   }
     h1 {
     padding: 5px 20px 0 5px;
@@ -68,6 +70,10 @@
 
 .soundviz {
   display: block;
+  margin: auto;
+  width: 320;
+  height: 240;
+  text-align: center;
 }
 
 #banner {
