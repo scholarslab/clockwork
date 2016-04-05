@@ -71,6 +71,7 @@
 .soundviz {
   display: block;
   margin: auto;
+  padding-top: 10px;
   width: 320;
   height: 240;
   text-align: center;
@@ -78,6 +79,7 @@
 
 .desc {
   font-style: italic;
+  line-height: 1.5;
   background-color: rgba(0, 0, 0, 0.08);
   margin-left: 10%;
   margin-right: 10%;
