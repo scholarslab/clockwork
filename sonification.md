@@ -16,15 +16,25 @@ permalink: /sonification/
   <video src="/assets/milkminimumwage.mp4" class="soundviz" controls></video>
 </p>
 <p>
+  Check out this video. It's about milk and minimum wage doing something interesting.
+</p>
+<p>
   <video src="/assets/gasminimumwage.mp4" class="soundviz" controls></video>
+</p>
+<p>
+  Also check out THIS video, in which gas and minimum wage are thoroughly sonified - 100% for sure.
 </p>
 <p>
   <video src="/assets/gasmwanesth.mp4" class="soundviz" controls></videos>
 </p>
-
-
+<p>
+  What's this we have here? Another one! And this time it's gas and an anesthesiologist hourly-waging out the cost of gas for a year.
+</p>
 <p>
   <video src="/assets/milkmwanesth.mp4" class="soundviz" controls></video>
+</p>
+<p>
+  My goodness, it's another one! The fourth of four sonifications!!
 </p>
 <p>
     Salami kielbasa short ribs t-bone sirloin prosciutto tri-tip jerky strip steak meatloaf brisket fatback meatball. Sausage capicola swine pork belly filet mignon salami tenderloin flank fatback bresaola bacon drumstick strip steak. Capicola shank pork belly boudin. Hamburger sirloin ribeye, doner shank meatloaf salami turkey short ribs. Brisket shoulder kevin jowl, spare ribs shank jerky swine t-bone leberkas doner.
