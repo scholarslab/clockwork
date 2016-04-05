@@ -8,28 +8,19 @@ permalink: /sonification/
   </p>
 <p class="desc">
     Check out this video. It's about milk and minimum wage doing something interesting.
-</p>
-<p>
   <video src="/assets/milkminimumwage.mp4" class="soundviz" controls></video>
 </p>
 
 <p class="desc">
   Also check out THIS video, in which gas and minimum wage are thoroughly sonified - 100% for sure.
-</p>
-
-<p>
   <video src="/assets/gasminimumwage.mp4" class="soundviz" controls></video>
 </p>
 <p class="desc">
   What's this we have here? Another one! And this time it's gas and an anesthesiologist hourly-waging out the cost of gas for a year. And now I need to fill up this space more to see if my margins work properly. Woohoo!
-</p>
-<p>
   <video src="/assets/gasmwanesth.mp4" class="soundviz" controls></videos>
 </p>
 <p class="desc">
   My goodness, it's another one! The fourth of four sonifications!!
-</p>
-<p>
   <video src="/assets/milkmwanesth.mp4" class="soundviz" controls></video>
 </p>
 

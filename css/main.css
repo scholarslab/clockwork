@@ -77,11 +77,14 @@
 }
 
 .desc {
-  text-align: center;
   font-style: italic;
   background-color: rgba(0, 0, 0, 0.08);
   margin-left: 10%;
   margin-right: 10%;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 20px;
 }
 
 #banner {
