@@ -78,6 +78,7 @@
 }
 
 .desc {
+  text-align: center;
   font-style: italic;
   line-height: 1.5;
   background-color: rgba(0, 0, 0, 0.08);
