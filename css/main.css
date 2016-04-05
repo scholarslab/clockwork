@@ -76,6 +76,10 @@
   text-align: center;
 }
 
+.desc {
+  text-align: center;
+}
+
 #banner {
   /*z-index: 100;*/
   position:fixed;
