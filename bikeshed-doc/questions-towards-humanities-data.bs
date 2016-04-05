@@ -1,0 +1,209 @@
+<pre class='metadata'>
+Title: Questions To Ask Your Data if You Are a Humanist (or, Just a Human)
+Status: ED
+ED: https://github.com/cacology/humanities-data
+Shortname: hum-data-queries
+Level: 1
+Editor: Lydia Warren, University of Virginia Praxis Fellows, http://praxis.scholarslab.org
+Editor: James P. Ascher, University of Virginia Praxis Fellows, http://praxis.scholarslab.org
+Abstract: A series of questions developed to ask about data being used for a humanities based project, but that you might ask about data in general. The target audience consists of anyone building a web-based interpretation of data.
+Warning: Not Ready
+Date: 2016-03-30
+</pre>
+
+# Introduction
+
+During the academic year 2015 to 2016, the six Praxis Fellows
+developed a series of sonifications exploring the issues of the cost
+of consumer goods. The conversations leading to these representations
+discussed a number of issues, often touching on rhetoric and we
+decided that we should document the process of coming to consensus on
+data and representations.
+
+The editors formed a documentation team to produce this document. The
+role of the documentation team is to note the inquiries and decision
+making processes of the Praxis group as we move from concept to
+conclusion.  This information is an effort to make our trajectory and
+final project transparent, highlighting how and why we reached our
+deliverables. It allows others to model their projects after this
+one. It serves as a teaching tool, and offers a “behind the scenes”
+look at the nuts and bolts of creating a digital humanities project.
+
+This standard draws on the style and technique of
+[[security-privacy-questionnaire]] and [[SocialJusticeandDH]].
+
+# Questions
+
+## Issues in Picking a data set for sonification
+
+1. What can we represent using sound and how? What are we showing/highlighting/saying with what we sonic representations?
+
+2. Are we being journalistic? Editorializing? Making a point, or proving a thesis? Or, are we allowing a set of data to show us connections and information we did not know to look for?
+
+3. Do we want granular blips or static pitches that change in amplitude? Harmonies? Mimetic sounds?
+
+4. What lends itself to sonification in terms of scale? Do years, or decades, become minutes? How do we decide this, and what is the significance or these decisions?
+
+5. What is reliable data? Government? Corporate? Regarding our interest in prisons and prisoners- how do we acquire the data? What are the ethical implications of left out, non reported or under represented populations? How do we know what/whom we are missing?
+
+6. How do we make accessible our replication process for sonifying data? Can we teach this? Is the bar of entry too high if we are using supercollider/coding languages? How do we make sure it is model-able in Garage Band, Audacity, etc.?
+
+7. In terms of workflow to create a portal and online home for the sonifications, what are the groups we need to delineate among us, and who is in charge of them? Group member(s) need to gather the data for sonification, sonify, document, portal/website building, curriculum building- who does what, and why? What are the areas of intersection between groups?
+
+## Questions to Ask About the Dataset
+
+### Scope
+
+
+This document attempts to create a set of questions to ask when
+considering using a particular collection of data for a project. I don't
+imagine that all the questions need answers, but I expect that each will
+be considered and that any **lack** of knowledge about some aspect
+should be considered when assessing a dataset.
+
+### Method
+
+This first draft was written alone by James P. Ascher to share with the
+rest of the Praxis team in the afternoon. The form was inspired by the
+Posner article we read on the ethics of the database and the Quaker
+clearness process that asks someone a series of questions to meditate
+one. Another option would be to imagine a series of forms.
+
+### Questions
+
+#### Sources (where does the data come from?)
+
+1.  What does the data record? What does the data think that it records?
+2.  Who collected the data? What organization, if any, supported it? Who
+    paid for that work to be done? Or was it volunteer? How many people
+    collected the data? Who were they?
+3.  How was the data collected? Interviews? Counting? Notebooks? Was the
+    data aggregated in some system of computers?
+4.  How does the dataset differ from what was collected, both materially
+    and in content? Is it in an interface? Can it be downloaded? Do you
+    access it using an API?
+5.  Has the data been corrected, edited, updated, or revised? When? How
+    many times? What are the methods for doing that? Who did it?
+6.  Try to identify all the sources used and the network of people who
+    transcribe, edit, or otherwise acted on the data and make a
+    flow chart. Where are the gaps in what you know? Why don't you know
+    that about the data?
+7.  Is there a manual or documentation about how the data was, or is to
+    be, acquired? Edited? Is there a user manual? What is the
+    relationship between the documentation? Is it accurate?
+8.  If the data considers humans, what role did they have in the
+    collection of data from their bodies or lives? Did they approve?
+    Voluntarily grant it? Were they informed? If they knew, would they
+    approve?
+9.  If the data considers something that isn't human, are there
+    cultural, ethical, philosophical, ways in which the subject can lay
+    claim to the material? (animals? texts?)
+
+#### Infrastructure
+
+1.  How does the mechanism of access to the data work? Do you query it?
+    Download it and process it (with tools you have?)? Print it out?
+2.  What laws apply to using the data? Is it public domain? Proprietary?
+    Is it possible that someone may claim that you agreed to their
+    license or that they own your results if you use the data?
+3.  What cultures would regard using the data? Does some community have
+    a claim on the data? What is the nature of the claim? (ethnic,
+    spiritual, etc. etc.) What sort of voice does that community have in
+    using the data? Have you informed them? Should you?
+4.  Who else can access the data? What special skills would they need?
+    Institutional alliances? Legal or cultural capital?
+5.  Can your use of the data be duplicated? Will it continue to be
+    available in the way that you're using it? In a few years? In a
+    decade? In a century? Will people understand your assumptions in how
+    you use the data?
+6.  Are you documenting your data use practices in any way? Is your
+    practice standard within a certain community? Has that community
+    documented its process? Do you differ in your use?
+7.  Where are you storing the data? Are you making it available in the
+    form you acquired it? Or some other form? How long will it be
+    available?
+
+#### Processing Methods
+
+1.  How are you processing the data? Are you cleaning it? Changing it?
+    Restructuring it? Changing the format? Extracting from it?
+2.  Is the way you're processing the data anticipated by the people who
+    collected it? Does it harmonize with their assumptions about how the
+    data will be used? Alter it? Does that change what the data seems to
+    say?
+3.  What tools are you use to process the data? Who can use those tools?
+    What effect do those tools have on the people who collected,
+    provided, stored, or are the subjects of the data?
+4.  How are you documenting how you are processing the data? Does it
+    reflect the standard approach of some community? Do they document
+    their process and do you differ? Would someone finding the data know
+    that?
+5.  If the data reflects humans, can you trace your actions on the data
+    onto the people that it reflects? Symbolically, what would your
+    processing be doing to the people? How would they feel about that?
+    Have you informed them?
+6.  What claims would the group represented in the data have to ask for
+    fair treatment? (animals? plants?) Does the way you process the data
+    obscure these claims? Enhance them?
+7.  Is the processing truthful? Done toward greater understanding? Or a
+    matter of convenience? Are there sacrifices in truthfulness being
+    made for convenience?
+8.  Would someone stumbling across your data, with no prior knowledge,
+    understand what you are doing? What would the data seem like to
+    them? How would they think about the issues raised so far? Who might
+    stumble across your data in one year, ten years, a century?
+
+#### Representation Methods
+
+1.  How do you plan to represent the data? What senses, patterns,
+    techniques, etc. do you plan to use?
+2.  How does the representation alter what is prominent in the data?
+    Does it bring attention to something that was unclear in the earlier
+    forms? What does it bring attention to? How would the subjects,
+    collectors, processors, licensers, cultural custodians, scholars, or
+    other people think about that use?
+3.  Do you plan to inform people of your representation? Who? How? Are
+    some of these people reflected in the subjects of the data? Why or
+    why not?
+4.  If you assume that your project has the largest impact you imagine,
+    what effect will your representation have in the world? If you
+    assume that your project has the least impact you can imagine, what
+    effect will your representation have in the world? Next year? Ten
+    years? In a century?
+5.  What tools do you plan to use? What community feels ownership in
+    that tool? Does it cost money? What does the money support? Who can
+    access those tools and do they need special affiliations or
+    expertise to use them? Can they adjust the tool?
+6.  What implied argument are you making about yourself by representing
+    the data? (story-breaking investigative journalist?
+    truth-telling historian?) How would the subjects reflected in the
+    data see you? How would people working on similar projects see you?
+    How would the community that might lay a claim to the data see you?
+7.  How legible will your representation be to people? Will they require
+    special training or tools to view it? (such as laptops, VR headsets,
+    or training in music theory?) Will they require special training to
+    understand it? If they misunderstand it, what will they think? If
+    they're disabled in some way, how will that change your
+    representation?
+8.  What questions will your representation help people to ask? What
+    questions will it prevent people from asking?
+9.  Are your tools and techniques part of a particular community? Does
+    that community document its practice? Do you? What would that
+    community think of your use of their tools or techniques?
+10. Can your project be seen as purely aesthetic by someone who doesn't
+    understand what you're doing? Is that okay? What would the subjects
+    reflected in the data feel? How would you feel? How would the people
+    involved in collecting, processing, managing, etc. the data feel?
+11. How do you explain what your doing? Would someone be able to
+    reproduce what you did? How much knowledge, tools, or access would
+    they need? Does that weaken or strengthen your argument?
+
+<pre class="biblio">
+{ "SocialJusticeandDH": {
+      "href": "http://criticaldh.roopikarisam.com",
+      "title": "Social Justice and the Digital Humanities",
+      "publisher": "Social Justice and the Digital Humanities",
+      "authors": [ "Roopika Risam", "micha cardenas", "Jeremy Boggs", "Ashley Byock", "Vinamarata Kaur", "Joan Lubin", "Emily Sessions", "Danica Savonick", "Sveta Stoytcheva" ]
+  }
+}
+</pre>
