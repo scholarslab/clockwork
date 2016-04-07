@@ -44,6 +44,7 @@ h2 {
     color: #000;
     padding: 10px 20px 10px 10px;
     text-decoration: none;
+    text-transform: lowercase;
   }
 
 
@@ -89,6 +90,11 @@ h2 {
   height: 80vh;
   max-height: 800px;
   font-weight: bold;
+  text-transform: uppercase;
+}
+
+.homepage {
+  background-color: pink;
   text-transform: uppercase;
 }
 
