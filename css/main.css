@@ -1,3 +1,10 @@
+*{
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 body {
   margin-left: 5%;
   margin-right: 5%;
@@ -21,19 +28,54 @@ h2 {
     height: 100%;
     overflow: auto;
     right: 0;
+    background-color: rgba(0,0,0,.125);
   }
+
+.home nav {
+  position: inherit;
+  height: inherit;
+  overflow: inherit;
+  width: auto;
+  background-color: transparent;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1000px;
+}
+
+
+
   nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 120px;
     /*background-color: #ccffff;*/
   }
-nav li a {
+
+.home nav li {
+    display: inline-block;
+    width: 24%;
+    float:left;
+    margin-right: 1%;
+  }
+
+.home nav li:last-of-type {
+  margin-right: 0;
+}
+
+nav li a{
+  display: block;
+  padding: 10px 20px 10px 10px;
+  text-decoration: none;
+}
+
+.home nav li a {
   display: block;
   color: #000;
   padding: 10px 20px 10px 10px;
   text-decoration: none;
+  background: green;
+  height: 80vh;
+  max-height: 800px;
 }
 
 nav li a:active {
@@ -45,6 +87,21 @@ nav li a:hover:not(.active) {
   color: white;
 }
 
+home.sonification a {
+  background-color: purple;
+}
+
+home.curriculum a {
+  background-color: pink;
+}
+
+home.about a{
+  background-color: aqua;
+}
+
+home.documentation a{
+  background-color: red;
+}
   /*.Sonification {*/
     /*background-color: #b3b3cc;*/
   /*}*/
@@ -111,10 +168,6 @@ float:right;
 text-align:right;
 }
 
-nav {
-/*z-index: 10;*/
-background-color: rgba(0,0,0,.125);
-}
 
 #main {
 margin-right: 140px;
