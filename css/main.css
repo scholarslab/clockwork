@@ -36,7 +36,6 @@ h2 {
   height: inherit;
   overflow: inherit;
   width: auto;
-  background-color: transparent;
   margin-left: auto;
   margin-right: auto;
   max-width: 1000px;
@@ -65,6 +64,7 @@ h2 {
 
 nav li a{
   display: block;
+  color: #000;
   padding: 10px 20px 10px 10px;
   text-decoration: none;
 }
@@ -76,9 +76,9 @@ nav li a{
   font-size: 25px;
   text-align: center;
   text-decoration: none;
-  background: rgba(0, 0, 1, 0.115);
   height: 80vh;
   max-height: 800px;
+  background-color: rgba(0, 0, 0, 0.15);
 }
 
 nav li a:active {
