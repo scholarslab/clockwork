@@ -12,10 +12,26 @@
 
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+      <link rel="stylesheet" href="/flipclock.css">
+      <link rel="stylesheet" href="/clockstyle.css">
+
+
+
+
 </head>
 
+      <div class="your-clock">
+
+      </div>
 
   <body class="{{ page.bodyclass }}">
+
+
+      <div class="your-clock">
+
+      </div>
+
 
     <header role="banner" id="banner">
       <h1>Praxis: Time &#38; Sound</h1>
@@ -34,6 +50,31 @@
     <main id="main" role="main">
         {{ content }}
     </main>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+       <script src="/flipclock.js"></script>
+       <script type="/text/javascript">
+         $(document).ready(function(){
+           var clock = $(".your-clock").FlipClock({
+             "autoStart": false
+           });
+
+           if (sessionStorage.getItem("clockTime")){
+             var savedTime = parseInt(sessionStorage.getItem("clockTime"));
+             clock.setTime(savedTime);
+             clock.start();
+           } else {
+             clock.start();
+           }
+
+           $(window).on('beforeunload', function(){
+             var currentTime = clock.getTime();
+             sessionStorage.setItem("clockTime", currentTime.time);
+           });
+
+         });
+       </script>
+
   </body>
 
 </html>

@@ -99,7 +99,7 @@ h2 {
 }
 
 .home .sonification a {
-  background-color: purple;
+  background-color: plum;
 }
 
 .home .curriculum a {
@@ -107,11 +107,11 @@ h2 {
 }
 
 .home .about a{
-  background-color: aqua;
+  background-color: turquoise;
 }
 
 .home .documentation a{
-  background-color: red;
+  background-color: seashell;
 }
   /*.Sonification {*/
     /*background-color: #b3b3cc;*/
