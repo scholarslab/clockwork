@@ -98,19 +98,19 @@ h2 {
   text-transform: uppercase;
 }
 
-home.sonification a {
+.home .sonification a {
   background-color: purple;
 }
 
-home.curriculum a {
+.home .curriculum a {
   background-color: pink;
 }
 
-home.about a{
+.home .about a{
   background-color: aqua;
 }
 
-home.documentation a{
+.home .documentation a{
   background-color: red;
 }
   /*.Sonification {*/
