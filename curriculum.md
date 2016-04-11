@@ -3,11 +3,43 @@ layout: page
 title: Curriculum
 permalink: /curriculum/
 ---
-**Curriculum Sample Page**
 
 Updated: 11 April 2016
 
-**Question 1: What is this?**
+**Table of Contents**
+
+<div id="TOC">
+  <ul>
+    <li>
+      <a href="#introduction">Introduction to Curriculum</a>
+    </li>
+    <li>
+      <a href="#tutorial"> Sonification Tutorial</a>
+        <ul>
+          <li>
+            <a href="#lessonone"> Lesson One: Install SuperCollider and Make It Beep </a>
+          </li>
+          <li>
+            <a href="#lessontwo"> Lesson Two: Repeated Beeps</a>
+          </li>
+          <li>
+            <a href="#lessonthree"> Lesson Three: Pitches of Beeps</a>
+          </li>
+        </ul>
+    </li>
+
+  </ul>
+</div>
+
+<div id="introduction">
+  <!-- <h2>
+    <a href="#TOC">Introduction</a>
+  </h2> -->
+</div>
+
+#Curriculum Sample Page
+
+##Question 1: What is this?
 
 Elevator pitch: “Learning, we want you to do it” -Gillet
 
@@ -44,6 +76,12 @@ Care more about CSS/HTML? Check out these links and this link and that link and 
   *	Relating the documentation meaningfully to the final project you present
 
 
+<div id="tutorial">
+  <!-- <h2>
+    <a href="#TOC">Sonification Tutorial</a>
+  </h2> -->
+</div>
+
 # Tutorial for Sonification in SuperCollider
 
   This document will introduce you to producing audio representations of
@@ -54,6 +92,12 @@ Care more about CSS/HTML? Check out these links and this link and that link and 
 
   It's broken up into lessons which you can complete in one sitting,
   either as part of a class, or by yourself.
+
+<div id="lessonone">
+    <!-- <h2>
+      <a href="#TOC">Lesson One</a>
+    </h2> -->
+  </div>
 
 ## Lesson 1: Install SuperCollider and Make It Beep
 
@@ -93,11 +137,11 @@ Care more about CSS/HTML? Check out these links and this link and that link and 
   server status and select "Boot Server." Do that now. You should be
   able to tell it's booting if you see some new lines in the log in the
   lower right. It should end with something like:
-
+<div class="codequote">
        SuperCollider 3 server ready.
        Receiving notification messages from server localhost
        Shared memory server interface initialized
-
+</div>
   (Note that there's a tutorial you can do in the upper-right
   documentation window, but we don't need everything it covers for our
   sonification. However, if you're doing this in class and want to work
@@ -106,9 +150,9 @@ Care more about CSS/HTML? Check out these links and this link and that link and 
 
   Now that the server is started, let's make a sound. In the big blank
   space on the left type the following:
-
+<div class="codequote">
        { [SinOsc.ar(440, 0, 0.2), SinOsc.ar(442, 0, 0.2)] }.play;
-
+</div>
   Nothing is happening because you haven't told the interpreter to
   interpret it and send the messages to the server to make
   sounds. We're going to do that shortly, but first you need to know how
@@ -143,7 +187,9 @@ Care more about CSS/HTML? Check out these links and this link and that link and 
   that it is a function and functions know how to "play" so something
   like:
 
+<div class="codequote">
        { 0 }.play;
+</div>
 
   Makes a function who has the value of zero and tells the server to
   start playing it. It won't make a sound, since nothing is happening,
@@ -184,6 +230,19 @@ Care more about CSS/HTML? Check out these links and this link and that link and 
   442 to 444 and listen. Change the mult from 0.2 to 0.8. Go on, I'll be
   here when you get back.
 
+  <div id="lessontwo">
+    <!-- <h2>
+      <a href="#TOC">Lesson Two: Repeated Beeps</a>
+    </h2> -->
+  </div>
+
 ## Lesson 2: Repeated Beeps
+
+
+  <div id="lessonthree">
+  <!-- <h2>
+    <a href="#TOC">Lesson Three: Pitches of Beeps</a>
+  </h2> -->
+  </div>
 
 ## Lesson 3: Pitches of Beeps

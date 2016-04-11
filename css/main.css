@@ -20,6 +20,9 @@ h2 {
   text-align: center;
 }
 
+a:link {
+  text-decoration: none;
+}
 
   nav {
     display: block;
@@ -135,6 +138,13 @@ width: 150px;
 background: blanchedalmond;
 border: 5px solid burlywood;
 padding: 15px;
+}
+
+.codequote {
+  font-family: monospace;
+  font-size: 16px;
+  background: rgba(0, 0, 0, 0.05);
+  padding: 15px;
 }
 
 .soundviz {
