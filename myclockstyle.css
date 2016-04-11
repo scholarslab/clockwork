@@ -1,0 +1,52 @@
+/*Positioning of clock slots*/
+
+.flip-clock-wrapper ul {
+  margin: 2px;
+  width: 30px;
+  height:45px;
+}
+
+/*
+positions height of numbers inside clock slots*/
+.flip-clock-wrapper ul li {
+  line-height:48px;
+}
+
+/*Size of numbers inside clock slots*/
+.flip-clock-wrapper ul li a div div.inn {
+    font-size: 35px;
+}
+
+/*the distance between clock slots*/
+.flip-clock-divider {
+  width: 10px;
+  height: 100px;
+}
+
+/*positioning bottom dot between hours/minutes/seconds*/
+.flip-clock-dot {
+  width: 10px;
+  height: 10px;
+  left: 0px;
+}
+
+.flip-clock-dot.top{
+  top: 5px;
+}
+
+.flip-clock-dot.bottom {
+  bottom: 60px;
+}
+
+/*following three are positioning the text above hours minutes and seconds*/
+.flip-clock-divider .flip-clock-label{
+  right: -86px;
+}
+
+.flip-clock-divider.minutes .flip-clock-label {
+  right: -88px;
+}
+
+.flip-clock-divider.seconds .flip-clock-label {
+  right: -91px;
+}
