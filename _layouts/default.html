@@ -14,29 +14,18 @@
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
       <link rel="stylesheet" href="/flipclock.css">
-      <link rel="stylesheet" href="/clockstyle.css">
-
-
 
 
 </head>
 
-      <div class="your-clock">
-
-      </div>
-
   <body class="{{ page.bodyclass }}">
 
-
-      <div class="your-clock">
-
-      </div>
 
 
     <header role="banner" id="banner">
       <h1>Praxis: Time &#38; Sound</h1>
-      <p class="provocation"><time>00:00:00</time>: $000.00 (<a
-      href="#">?</a>)</p>
+      <p class="provocation">  <div class="your-clock">
+        </div></p>
     </header>
     <nav>
       <ul class="{{page.title}}">
@@ -49,13 +38,16 @@
     </nav>
     <main id="main" role="main">
         {{ content }}
+
     </main>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-       <script src="/flipclock.js"></script>
-       <script type="/text/javascript">
+       <script src="/flipclock.js/"></script>
+       <script>
          $(document).ready(function(){
+           console.log("hello");
            var clock = $(".your-clock").FlipClock({
+
              "autoStart": false
            });
 
