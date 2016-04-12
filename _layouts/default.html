@@ -31,7 +31,9 @@
     </header>
     <nav>
       <ul class="{{page.title}}">
-        <li class="homepage"><a href="/"> Home </a></li>
+        {% if page.bodyclass != 'home' %}
+          <li class="homepage"><a href="/"> Home </a></li>
+        {% endif %}
         <li class="sonification"><a href="/sonification/"> Sonification </a></li>
         <li class="about"><a href="/about/"> About </a></li>
         <li class="curriculum"><a href="/curriculum/"> Curriculum </a></li>
