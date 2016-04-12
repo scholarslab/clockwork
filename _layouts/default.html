@@ -47,7 +47,6 @@
        <script src="/flipclock.js"></script>
        <script>
          $(document).ready(function(){
-           console.log("hello");
            var clock = $(".your-clock").FlipClock({
 
              "autoStart": false
@@ -71,7 +70,6 @@
                     var minimumWagePerSecond = 0.001986111;
                     var currentCost = parseInt(currentTime) * minimumWagePerSecond;
                     $('#cost').text("The current cost is: $" + currentCost);
-                    console.log("seconds: ", currentTime, currentCost);
                   }, 1000);
 
 
