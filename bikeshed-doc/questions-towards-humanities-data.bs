@@ -34,6 +34,76 @@ This standard draws on the style and technique of
 
 # Questions
 
+## Data Set Issues
+
+1. Issues we encountered with data sets from the Bureau of Labor Statistics: what is the difference between size A and B cities? Should we use the US Southern Average City? Why do professions in which workers make over $200,000 per year not show up on BLS data?
+
+2. What can we represent using sound and how? What are we showing/highlighting/saying with what we sonic representations? 
+
+3. Are we being journalistic? Editorializing? Making a point, or proving a thesis? Or, are we allowing a set of data to show us connections and information we did not know to look for?
+
+4. Do we want granular blips or static pitches that change in amplitude? Harmonies? Mimetic sounds?
+
+5. What lends itself to sonification in terms of scale? Do years, or decades, become minutes? How do we decide this, and what is the significance or these decisions?
+
+6. What is reliable data? Government? Corporate? Regarding our interest in prisons and prisoners- how do we acquire the data? What are the ethical implications of left out, non reported or under represented populations? How do we know what/whom we are missing?
+
+## Sonifying Data
+
+Sonifying Data:
+
+1. What has to happen to sonify BLS data on milk, oil, and wages (US City: Southern Urban)? Rachel needs spreadsheets of the data. James investigates how one might automate the process of generating these spreadsheets- can we use TXR for data munching to create spreadsheet?
+
+2. If the cost of milk fluctuates, how does the sonification show those thresholds? What other sonic/aesthetic considerations will arise? Rachel will make a mockup and we will comment on it.
+
+3. Do we want commodity prices and a musical scale, or commodity price as stable sound (do) up a little (re)- then note (do) can be combined…? Are we making music?
+
+4. Do we care more about how different incomes relate to commodities or how different incomes relate to each other? Can we try them different ways?
+
+## Questions After Hearing Initial Sonification Mockup
+
+1. how easy is it for you to manipulate which variables? 
+
+2. how did you decide the timbre?
+
+3. scaled lowest / highest price of milk to note range available, starts at 26-128… why?
+
+4. what do we like and not like about this sonification so far? Topics discussed include pitch/frequency scale, accessibly and speaker range, overlapping sounds, midi vs. frequency, need for preamble/explanation, pretty/palatable vs. harshness, what sound lends itself to information dissemination?
+
+5. how would this sonification be seen within academic electronic music conferences?
+
+6. how long did it take you to make this one?
+
+7. how much of this can you reuse to make something slightly different?
+
+8. how many versions to we want on our website/portal? 
+
+9. can we do this signification for the recession, 2009 or 2010, and use gas, which was high? 
+
+10. for accessibility- can we make a visualization of the sound? there’s a plugin for that!
+
+11. is the take away from the data that poor people have a harder time buying milk? how do we make sure that is not the (only) takeaway? 
+
+12. what are the 3 sonifications going to be? and what is our argument and what to these do to it?  and how do these relate to time? are we doing a beep beep beep and a booooooop for each of the 3 examples? can we do the recession? 
+
+13. how are our sonification examples connected? what is the deliberate choice? do we always have min wage as a baseline, then we add other variables? how do the examples relate to one another? 
+
+14. to make our sonification with “beep beep beep” over the course of a year:
+
+    1. how do we know how many gallons of gas is used by average person in a year? HR Block data, EIA stats? What stats do we use? 300-500 gallons per person per year in various online statistics- EIA chart shows $2500 per year spend on gas in 2014, US used 140 billions gallons in 2015, but what is commercial/private/etc use? 
+	
+    2. $2500 spent in gas per household in 2014 and 1 gallon of milk per week 
+
+    3. https://www.eia.gov/todayinenergy/detail.cfm?id=19211#
+	
+	4. are we assuming a single wage earner in a family? 
+	
+	5. census measures things in terms of households- do households consume 1 gallon of milk? or is that individual? 
+
+	6. per capita milk consumption is ~20 gallons in 2014 
+
+    7. http://www.ers.usda.gov/data-products/dairy-data.aspx
+
 ## Issues in Picking a data set for sonification
 
 1. What can we represent using sound and how? What are we showing/highlighting/saying with what we sonic representations?
@@ -49,6 +119,169 @@ This standard draws on the style and technique of
 6. How do we make accessible our replication process for sonifying data? Can we teach this? Is the bar of entry too high if we are using supercollider/coding languages? How do we make sure it is model-able in Garage Band, Audacity, etc.?
 
 7. In terms of workflow to create a portal and online home for the sonifications, what are the groups we need to delineate among us, and who is in charge of them? Group member(s) need to gather the data for sonification, sonify, document, portal/website building, curriculum building- who does what, and why? What are the areas of intersection between groups?
+
+## Team Organization and Planning
+
+1. If we are doing sonification in March, when do can we create a website/portal to display, explain, etc. the sonification? Do we want a visual element with it?  
+
+2. how do we move ahead with the other tasks, e.g. how does curriculum move ahead without the sonification? can teams work in isolation? what exactly do we want to do with this thing if we had the perfect tool? what does a successful deliverable look like?
+
+3. How do we make accessible our replication process for sonifying data? Can we teach this? Is the bar of entry too high if we are using supercollider/coding languages? How do we make sure it is model-able in Garage Band, Audacity, etc.?
+
+## Curriculum
+
+1. who are we teaching? the smart college freshman? resources, research tools- envision access- adult- make things for differently abled? 
+
+2. what are the things we are trying to teach people how to do? who? how? 
+
+3. Can we make the supercollider in a way that that people could input their own data? 
+
+4. how can we make curriculum sexy? Bremen imagines curriculum be accessible for all— activists, community college students, etc. 
+
+5. How would this speak to the DH community? how do we frame/present the teaching side of our portal? tool for student age people? do we use jargon to “brand” or target the DH community? can we do this in a way to situate ourselves in the context of other work? language to use on the site itself 
+
+6. how do we make a curriculum without knowing who it is for? 
+
+7. do you just pick an audience and design a curriculum for the imagined people? how would you use this in a class in your discipline? what could this show your class? 
+
+8. what would we need in order to use this tool in your discipline with your style of instructing?
+
+9. How do we make a curriculum when we don’t have the things done?
+
+10. What do we prioritize/want in the curriculum? coding, theoretical resources, finding data, learning about documentation— primary spheres, considerations of ethics are embedded into entire curriculum
+
+11. what are the constraints of the project? 
+
+12. will anybody look at this curriculum? 
+
+13. the digital element is clear here, but where is the humanist element? what does the humanities offer sonification?
+14. how do we make the humanities aspect relevant? this is a social science project as it stands- how do we make it a humanities project? 
+
+15. how do we take humanities aspect of this project to the next level?
+
+16. where are our earlier conversations about time now? Are they present in this project? 
+
+17. how does this connect to the digital humanities? 
+
+18. how do we connect theories on time to this project on a website? how do we plot this journey? 
+
+19. what are the technical skills we want to teach with the curriculum? e.g. supercollider online tutorials 
+
+20. gendered learning? how can we present curriculum items with an explicitly feminist bent? how are women coding?
+
+21. are there specific people/citations about supercollider/coding as misogynistic? supercollider debate? what is the entry level accessibility like for women and girls?
+
+22. what are the barriers to entry for women and non white men in terms of coding and DH?
+
+23. what can we do to make an entry level humanities undergrad woman comfortable coding, accessing our portal and using our curriculum? 
+
+24. what are the areas of curriculum?  technical skills, theoretical conversations, finding data and contextualizing data, and process of documentation itself (ethics overarching theme)
+
+## General
+
+1. In terms of workflow to create a portal and online home for the sonifications, what are the groups we need to delineate among us, and who is in charge of them? Group member(s) need to gather the data for sonification, sonify, document, portal/website building, curriculum building- who does what, and why? What are the areas of intersection between groups?
+
+2. When do need help from the coders and Praxis team?
+
+3. how helpful is it to be able to point out the flaws of the project in a generative way? 
+
+4. how do you take something complex and put it in an accessible form without damaging/essentializing/perpetuating privileging of data and numbers over everything else? 
+
+5. our choices inform this- why did we use government data? that essentialized data is how we construct the world, and we are doing a second order representation 
+
+6. how will this project transform a conversation?
+
+7. how to we overcome/work within the “spirit of critique” embedded in humanities?
+
+## Portal
+
+1. what do we want the “portal” to look like? 
+
+2. why use the word portal (and not digital exhibit)? 
+
+3. do we want tabs that say “curriculum” etc, or something more integrated/complicated 
+
+4. before knowing how it looks- to whom and what are we communicating?
+
+5. if we are targeting the DH community, what is our project responding to in DH?
+
+6. do we want 3d printed, tactile representation? yes- but secondary to sonification/visualization 
+
+7. twitter, snapchat, tumblr-what if our portal was one of these?
+
+8. question to developers- how often do you/should you target a specific user group with your web tool? —is this something you would use? does this solve a problem for you or someone you know? is it more helpful to have a user story than an imagined audience?
+
+9. instead of audience, ask what questions this asks/answers? what are our feature requests? what do we want out of it? what format do we need to let someone ingest and/or adjust the tool/project? 
+
+10. should ethan come in with examples, or should we team brainstorm ideas for a website/portal?
+
+11. do we know what we don’t want/do what? websites we like/dislike? 
+
+12. is there a set of kinds of websites? e.g. a classic parallax scrolling website? (css zen garden, pattern tap, media query)
+
+13. what about artificial constraints on website? no scrolling, time-based/forced waiting- do we make it “usable” or do we use the presentation to “make people think?”
+
+14. website without navigation? 
+
+15. why do we want a “frustrating” user experience? 
+
+16. where/how do we want to share data for documentation team? 
+
+17. do we want a private, site specific web element? 
+
+18. how accessible is our web portal? do we need a presentation layer and accessible layer? who can use this? 
+
+19. how do we make it clear to people who are coming to the website what the purpose of the design is? 
+
+20. are there websites that have game-ification? 
+
+21. why are “longform” websites cool?
+
+22. what is the feasibility of weird web designs?
+
+23. what are the minimum features that need to be on the site? what do we need in order to make a website “wireframe?”
+
+24. can we put the code on GitHub/into Jekyll so it can be group annotated?
+
+25. for web design- how do we integrate curriculum informational items- margins? glorified hyperlink? DID YOU KNOW boxes to click on?
+
+26. what words do we want to use for documentation, curriculum? 
+
+27. what is the actual content we are creating? then, how are we labeling it? how are we formatting it into a website? 
+
+28. Jeremy re: questions to answer regarding our website —what is this? —what can I do with it? how do I use it? —How have others used it? —how can I help? —how can I get help? (if the documentation is not enough- email? forum?
+
+29. how will our website handle tangents? 
+
+30. memory/design your own curriculum? 
+
+31. what is bare min we need to get done? 
+
+32. instead of answering 6 questions - if this were a plain text site- if we had to make a site tomorrow what would your team want on there?
+
+33. are there fonts that are more/less accessible for people with dyslexia, etc.?
+
+## Documentation
+
+1. what is the process of getting documentation accepted by standardizing body? what is the appeal of having a standard? how long does it take for W3C approval/acceptance? 
+
+2. what do we mean when we talk about standards in documentation? 
+
+3. what reaches the audience we want to reach? how do we bridge mainstream web and DH communities? 
+
+4. what questions are people asking when doing their work? 
+
+5. are standards intimidating? 
+
+6. what does access mean?
+
+7. do we want answers to the questions we are proposing that are essentially references, a bibliography? 
+
+8. structuring documentation- organize issues in the order of when the came up? or structure them into categories (portal? data collection? sonification?)
+
+9. Where is the overlap in documentation and curriculum regarding resources?
+
+10. How do we implement our documentation page into our web portal? Do we want the whole web portal to be in the same format as the documentation page? Do we want a link, an imbedded page?
 
 ## Questions to Ask About the Dataset
 
