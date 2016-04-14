@@ -34,10 +34,24 @@
         {% if page.bodyclass != 'home' %}
           <li class="homepage"><a href="/"> Home </a></li>
         {% endif %}
-        <li class="sonification"><a href="/sonification/"> Sonification </a></li>
-        <li class="about"><a href="/about/"> About </a></li>
-        <li class="curriculum"><a href="/curriculum/"> Curriculum </a></li>
+        {% if page.bodyclass == "sonificationpage" %}
+          <li class="sonification active"><a href="/sonification/"> Sonification </a></li>
+        {% else %}
+          <li class="sonification"><a href="/sonification/"> Sonification </a></li>
+        {% endif %}
+        {% if page.bodyclass == "aboutpage" %}
+          <li class="about active"><a href="/about/"> About </a></li>
+        {% else %}
+          <li class="about"><a href="/about/"> About </a></li>
+        {% endif %}
+        {% if page.bodyclass == "curriculumpage" %}
+          <li class="curriculum active"><a href="/curriculum/"> Curriculum </a></li>
+        {% else %}
+          <li class="curriculum"><a href="/curriculum/"> Curriculum </a></li>
+        {% endif %}
         <li class="documentation"><a href="/bikeshed-doc/questions-towards-humanities-data/" target="_blank"> Documentation </a></li>
+
+
       </ul>
     </nav>
     <main id="main" role="main">

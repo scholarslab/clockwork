@@ -51,7 +51,7 @@ a:link {
   }
 
 
-  nav li a:active {
+  .active {
     background-color: #4CAF50;
     color: white;
   }

@@ -2,6 +2,7 @@
 layout: page
 title: Curriculum
 permalink: /curriculum/
+bodyclass: curriculumpage
 ---
 
 Updated: 11 April 2016

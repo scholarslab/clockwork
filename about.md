@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about/
+bodyclass: aboutpage
 ---
 
 Bacon ipsum dolor amet strip steak biltong pastrami doner hamburger bresaola. Corned beef tenderloin meatball beef ribs jerky ribeye beef. Bacon filet mignon tri-tip, beef capicola pig cow pork belly. Chicken corned beef rump pig boudin. Jowl filet mignon sausage jerky. Rump beef boudin sausage, beef ribs turducken spare ribs meatloaf bacon.

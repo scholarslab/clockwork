@@ -2,6 +2,7 @@
 layout: page
 title: Sonification
 permalink: /sonification/
+bodyclass: sonificationpage
 ---
   <p>
     Bacon ipsum dolor amet jerky tongue tri-tip cow. Rump pig pancetta filet mignon. Corned beef kielbasa flank boudin t-bone pork loin alcatra ball tip fatback ribeye bacon. Hamburger porchetta bacon cow, ham hock strip steak shoulder flank pastrami picanha filet mignon corned beef short ribs jowl drumstick.
