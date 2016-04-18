@@ -71,7 +71,7 @@ nav li a:hover:not(.active) {
 }
 
 .sonificationpage nav {
-  background-color: rgba (0,0,0,.125);
+  background-color: rgba (0,0,0,.125)
 }
 
 .sonificationpage nav ul {
@@ -88,6 +88,54 @@ nav li a:hover:not(.active) {
 }
 
 .sonificationpage nav li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.aboutpage nav {
+  background-color: rgba (0,0,0,.125)
+}
+
+.aboutpage nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(0,0,0,.125);
+
+}
+
+.aboutpage nav li {
+  float:left;
+}
+
+.aboutpage nav li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.curriculumpage nav {
+  background-color: rgba (0,0,0,.125)
+}
+
+.curriculumpage nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(0,0,0,.125);
+
+}
+
+.curriculumpage nav li {
+  float:left;
+}
+
+.curriculumpage nav li a {
   display: block;
   text-align: center;
   padding: 14px 16px;
