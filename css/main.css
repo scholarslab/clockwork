@@ -70,6 +70,30 @@ nav li a:hover:not(.active) {
   background-color: seashell;
 }
 
+.sonificationpage nav {
+  background-color: rgba (0,0,0,.125);
+}
+
+.sonificationpage nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(0,0,0,.125);
+
+}
+
+.sonificationpage nav li {
+  float:left;
+}
+
+.sonificationpage nav li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
 /**
  * Primary navigation if at least 800px wide.
  *
