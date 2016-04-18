@@ -280,7 +280,15 @@ text-align:right;
 
 
 #main {
-margin-right: 140px;
+margin-right: 20px;
 margin-left: 20px;
 padding-bottom: 200px;
+}
+
+@media screen and (min-width: 800px) {
+  #main {
+  margin-right: 140px;
+  margin-left: 20px;
+  padding-bottom: 200px;
+  }
 }
