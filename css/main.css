@@ -32,12 +32,24 @@ nav ul {
   /*background-color: #ccffff;*/
 }
 
+
 nav li a{
   display: block;
   color: #000;
   padding: 10px 20px 10px 10px;
   text-decoration: none;
   text-transform: lowercase;
+}
+
+.home nav li a{
+  display: block;
+  color: #000;
+  padding: 40px 20px 40px 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
 }
 
 .active {
