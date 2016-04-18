@@ -124,6 +124,9 @@ nav li a:hover:not(.active) {
   }
 }
 
+@media screen and (min-width: 1200px) {
+
+}
 
   /*.Sonification {*/
     /*background-color: #b3b3cc;*/
@@ -179,12 +182,17 @@ padding-bottom: 20px;
 }
 
 #banner {
-/*z-index: 100;*/
-position:fixed;
-bottom: 0;
-right:0;
-left:0;
-background-color: rgba(0,0,0,0.10);
+  background-color: rgba(0,0,0,0.10);
+}
+
+@media screen and (min-width: 800px) {
+  #banner {
+    /*z-index: 100;*/
+    position:fixed;
+    bottom: 0;
+    right:0;
+    left:0;
+  }
 }
 
 #banner h1 {
