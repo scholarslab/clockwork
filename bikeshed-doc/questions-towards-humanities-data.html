@@ -1311,7 +1311,7 @@ Possible extra rowspan handling
      <dt>This version:
      <dd><a class="u-url" href="https://github.com/cacology/humanities-data">https://github.com/cacology/humanities-data</a>
      <dt>Issue Tracking:
-     <dd><a href="https://github.com/cacology/humanities-data/issues/">GitHub</a>
+     <dd><a href="https://github.com/scholarslab/wormhole/issues/">GitHub</a>
      <dt class="editor">Editors:
      <dd class="editor p-author h-card vcard"><a class="p-name fn u-url url" href="http://praxis.scholarslab.org">Lydia Warren</a> (<span class="p-org org">University of Virginia Praxis Fellows</span>)
      <dd class="editor p-author h-card vcard"><a class="p-name fn u-url url" href="http://praxis.scholarslab.org">James P. Ascher</a> (<span class="p-org org">University of Virginia Praxis Fellows</span>)
@@ -1346,28 +1346,27 @@ Parts of this work may be from another specification document.  If so, those par
     <li>
      <a href="#questions"><span class="secno">2</span> <span class="content">Questions</span></a>
      <ol class="toc">
-      <li><a href="#data-set-issues"><span class="secno">2.1</span> <span class="content">Data Set Issues</span></a>
-      <li><a href="#sonifying-data"><span class="secno">2.2</span> <span class="content">Sonifying Data</span></a>
-      <li><a href="#questions-after-hearing-initial-sonification-mockup"><span class="secno">2.3</span> <span class="content">Questions After Hearing Initial Sonification Mockup</span></a>
-      <li><a href="#issues-in-picking-a-data-set-for-sonification"><span class="secno">2.4</span> <span class="content">Issues in Picking a data set for sonification</span></a>
-      <li><a href="#team-organization-and-planning"><span class="secno">2.5</span> <span class="content">Team Organization and Planning</span></a>
-      <li><a href="#curriculum"><span class="secno">2.6</span> <span class="content">Curriculum</span></a>
-      <li><a href="#general"><span class="secno">2.7</span> <span class="content">General</span></a>
-      <li><a href="#portal"><span class="secno">2.8</span> <span class="content">Portal</span></a>
-      <li><a href="#documentation"><span class="secno">2.9</span> <span class="content">Documentation</span></a>
+      <li><a href="#sonifying-data"><span class="secno">2.1</span> <span class="content">Sonifying Data</span></a>
+      <li><a href="#questions-after-hearing-initial-sonification-mockup"><span class="secno">2.2</span> <span class="content">Questions After Hearing Initial Sonification Mockup</span></a>
+      <li><a href="#issues-in-picking-a-data-set-for-sonification"><span class="secno">2.3</span> <span class="content">Issues in Picking a data set for sonification</span></a>
+      <li><a href="#team-organization-and-planning"><span class="secno">2.4</span> <span class="content">Team Organization and Planning</span></a>
       <li>
-       <a href="#questions-to-ask-about-the-dataset"><span class="secno">2.10</span> <span class="content">Questions to Ask About the Dataset</span></a>
+       <a href="#creating-a-curriculum"><span class="secno">2.5</span> <span class="content">Creating A Curriculum</span></a>
        <ol class="toc">
-        <li><a href="#scope"><span class="secno">2.10.1</span> <span class="content">Scope</span></a>
-        <li><a href="#method"><span class="secno">2.10.2</span> <span class="content">Method</span></a>
-        <li>
-         <a href="#questions0"><span class="secno">2.10.3</span> <span class="content">Questions</span></a>
-         <ol class="toc">
-          <li><a href="#sources-where-does-the-data-come-from"><span class="secno">2.10.3.1</span> <span class="content">Sources (where does the data come from?)</span></a>
-          <li><a href="#infrastructure"><span class="secno">2.10.3.2</span> <span class="content">Infrastructure</span></a>
-          <li><a href="#processing-methods"><span class="secno">2.10.3.3</span> <span class="content">Processing Methods</span></a>
-          <li><a href="#representation-methods"><span class="secno">2.10.3.4</span> <span class="content">Representation Methods</span></a>
-         </ol>
+        <li><a href="#scope"><span class="secno">2.5.1</span> <span class="content">Scope</span></a>
+        <li><a href="#general-questions"><span class="secno">2.5.2</span> <span class="content">General Questions</span></a>
+       </ol>
+      <li>
+       <a href="#preparing-a-portal"><span class="secno">2.6</span> <span class="content">Preparing A Portal</span></a>
+       <ol class="toc">
+        <li><a href="#scope0"><span class="secno">2.6.1</span> <span class="content">Scope</span></a>
+        <li><a href="#general-questions0"><span class="secno">2.6.2</span> <span class="content">General Questions</span></a>
+       </ol>
+      <li><a href="#documentation"><span class="secno">2.7</span> <span class="content">Documentation</span></a>
+      <li>
+       <a href="#data-set-details"><span class="secno">2.8</span> <span class="content">Data Set Details</span></a>
+       <ol class="toc">
+        <li><a href="#scope1"><span class="secno">2.8.1</span> <span class="content">Scope</span></a>
        </ol>
      </ol>
     <li><a href="#conformance"><span class="secno"></span> <span class="content"> Conformance</span></a>
@@ -1397,22 +1396,7 @@ one. It serves as a teaching tool, and offers a “behind the scenes”
 look at the nuts and bolts of creating a digital humanities project.</p>
    <p>This standard draws on the style and technique of <a data-link-type="biblio" href="#biblio-security-privacy-questionnaire">[security-privacy-questionnaire]</a> and <a data-link-type="biblio" href="#biblio-socialjusticeanddh">[SocialJusticeandDH]</a>.</p>
    <h2 class="heading settled" data-level="2" id="questions"><span class="secno">2. </span><span class="content">Questions</span><a class="self-link" href="#questions"></a></h2>
-   <h3 class="heading settled" data-level="2.1" id="data-set-issues"><span class="secno">2.1. </span><span class="content">Data Set Issues</span><a class="self-link" href="#data-set-issues"></a></h3>
-   <ol>
-    <li data-md="">
-     <p>Issues we encountered with data sets from the Bureau of Labor Statistics: what is the difference between size A and B cities? Should we use the US Southern Average City? Why do professions in which workers make over $200,000 per year not show up on BLS data?</p>
-    <li data-md="">
-     <p>What can we represent using sound and how? What are we showing/highlighting/saying with what we sonic representations?</p>
-    <li data-md="">
-     <p>Are we being journalistic? Editorializing? Making a point, or proving a thesis? Or, are we allowing a set of data to show us connections and information we did not know to look for?</p>
-    <li data-md="">
-     <p>Do we want granular blips or static pitches that change in amplitude? Harmonies? Mimetic sounds?</p>
-    <li data-md="">
-     <p>What lends itself to sonification in terms of scale? Do years, or decades, become minutes? How do we decide this, and what is the significance or these decisions?</p>
-    <li data-md="">
-     <p>What is reliable data? Government? Corporate? Regarding our interest in prisons and prisoners- how do we acquire the data? What are the ethical implications of left out, non reported or under represented populations? How do we know what/whom we are missing?</p>
-   </ol>
-   <h3 class="heading settled" data-level="2.2" id="sonifying-data"><span class="secno">2.2. </span><span class="content">Sonifying Data</span><a class="self-link" href="#sonifying-data"></a></h3>
+   <h3 class="heading settled" data-level="2.1" id="sonifying-data"><span class="secno">2.1. </span><span class="content">Sonifying Data</span><a class="self-link" href="#sonifying-data"></a></h3>
    <p>Sonifying Data:</p>
    <ol>
     <li data-md="">
@@ -1424,7 +1408,7 @@ look at the nuts and bolts of creating a digital humanities project.</p>
     <li data-md="">
      <p>Do we care more about how different incomes relate to commodities or how different incomes relate to each other? Can we try them different ways?</p>
    </ol>
-   <h3 class="heading settled" data-level="2.3" id="questions-after-hearing-initial-sonification-mockup"><span class="secno">2.3. </span><span class="content">Questions After Hearing Initial Sonification Mockup</span><a class="self-link" href="#questions-after-hearing-initial-sonification-mockup"></a></h3>
+   <h3 class="heading settled" data-level="2.2" id="questions-after-hearing-initial-sonification-mockup"><span class="secno">2.2. </span><span class="content">Questions After Hearing Initial Sonification Mockup</span><a class="self-link" href="#questions-after-hearing-initial-sonification-mockup"></a></h3>
    <ol>
     <li data-md="">
      <p>how easy is it for you to manipulate which variables?</p>
@@ -1471,7 +1455,7 @@ look at the nuts and bolts of creating a digital humanities project.</p>
        <p>http://www.ers.usda.gov/data-products/dairy-data.aspx</p>
      </ol>
    </ol>
-   <h3 class="heading settled" data-level="2.4" id="issues-in-picking-a-data-set-for-sonification"><span class="secno">2.4. </span><span class="content">Issues in Picking a data set for sonification</span><a class="self-link" href="#issues-in-picking-a-data-set-for-sonification"></a></h3>
+   <h3 class="heading settled" data-level="2.3" id="issues-in-picking-a-data-set-for-sonification"><span class="secno">2.3. </span><span class="content">Issues in Picking a data set for sonification</span><a class="self-link" href="#issues-in-picking-a-data-set-for-sonification"></a></h3>
    <ol>
     <li data-md="">
      <p>What can we represent using sound and how? What are we showing/highlighting/saying with what we sonic representations?</p>
@@ -1488,7 +1472,7 @@ look at the nuts and bolts of creating a digital humanities project.</p>
     <li data-md="">
      <p>In terms of workflow to create a portal and online home for the sonifications, what are the groups we need to delineate among us, and who is in charge of them? Group member(s) need to gather the data for sonification, sonify, document, portal/website building, curriculum building- who does what, and why? What are the areas of intersection between groups?</p>
    </ol>
-   <h3 class="heading settled" data-level="2.5" id="team-organization-and-planning"><span class="secno">2.5. </span><span class="content">Team Organization and Planning</span><a class="self-link" href="#team-organization-and-planning"></a></h3>
+   <h3 class="heading settled" data-level="2.4" id="team-organization-and-planning"><span class="secno">2.4. </span><span class="content">Team Organization and Planning</span><a class="self-link" href="#team-organization-and-planning"></a></h3>
    <ol>
     <li data-md="">
      <p>If we are doing sonification in March, when do can we create a website/portal to display, explain, etc. the sonification? Do we want a visual element with it?</p>
@@ -1497,144 +1481,115 @@ look at the nuts and bolts of creating a digital humanities project.</p>
     <li data-md="">
      <p>How do we make accessible our replication process for sonifying data? Can we teach this? Is the bar of entry too high if we are using supercollider/coding languages? How do we make sure it is model-able in Garage Band, Audacity, etc.?</p>
    </ol>
-   <h3 class="heading settled" data-level="2.6" id="curriculum"><span class="secno">2.6. </span><span class="content">Curriculum</span><a class="self-link" href="#curriculum"></a></h3>
+   <h3 class="heading settled" data-level="2.5" id="creating-a-curriculum"><span class="secno">2.5. </span><span class="content">Creating A Curriculum</span><a class="self-link" href="#creating-a-curriculum"></a></h3>
+   <h4 class="heading settled" data-level="2.5.1" id="scope"><span class="secno">2.5.1. </span><span class="content">Scope</span><a class="self-link" href="#scope"></a></h4>
+   <p>This document attempts to create a set of questions to ask when
+creating a curriculum, teaching tool, or method to convey how one
+might replicate any portion of our sonification project, should they
+desire. The general questions below apply to all humanists creating a curriculum,
+and the more specific, nested questions reveal situations and issues
+we worked through in our own project.</p>
+   <h4 class="heading settled" data-level="2.5.2" id="general-questions"><span class="secno">2.5.2. </span><span class="content">General Questions</span><a class="self-link" href="#general-questions"></a></h4>
    <ol>
     <li data-md="">
-     <p>who are we teaching? the smart college freshman? resources, research tools- envision access- adult- make things for differently abled?</p>
+     <p>Who are we teaching? Who are the anticipated, desired, and possible audiences? How does this shape our curriculum building? Can we begin creating a curriculum without knowing who the user is?</p>
+     <ol>
+      <li data-md="">
+       <p>Are we interested in speaking to the digital humanities community with our curriculum?</p>
+      <li data-md="">
+       <p>What tools and skills do we expect curriculum users to have? How do these tools and skills relate to age, gender, race, privilege, access to education and technology, etc.?</p>
+     </ol>
     <li data-md="">
-     <p>what are the things we are trying to teach people how to do? who? how?</p>
+     <p>Does our anticipated audience shape our design and functionality?</p>
+     <ol>
+      <li data-md="">
+       <p>What resources do we need to include to make our curriculum accessible for all anticipated users?</p>
+      <li data-md="">
+       <p>What resources do we expect users to have?</p>
+      <li data-md="">
+       <p>Can we address systematic biases through our curriculum design? Does linking to outside resources reinforce or combat, for instance, gender bias in coding? How do we create an environment for everyone to feel empowered and comfortable coding?</p>
+     </ol>
     <li data-md="">
-     <p>Can we make the supercollider in a way that that people could input their own data?</p>
+     <p>What are we trying to teach, and why?</p>
     <li data-md="">
-     <p>how can we make curriculum sexy? Bremen imagines curriculum be accessible for all— activists, community college students, etc.</p>
+     <p>Broadly, what are the primary spheres of our project, and our curriculum? Which aspects of our project are we explaining, teaching, and contextualizing?</p>
     <li data-md="">
-     <p>How would this speak to the DH community? how do we frame/present the teaching side of our portal? tool for student age people? do we use jargon to “brand” or target the DH community? can we do this in a way to situate ourselves in the context of other work? language to use on the site itself</p>
+     <p>What is implicitly prioritized or left out in our curriculum, and what are the implications of this?</p>
     <li data-md="">
-     <p>how do we make a curriculum without knowing who it is for?</p>
+     <p>How specific should our instructions be? For instance, do we make the Supercollider sonification tutorial so that that people can input their own data? Or do we simply show them how we created our project?</p>
     <li data-md="">
-     <p>do you just pick an audience and design a curriculum for the imagined people? how would you use this in a class in your discipline? what could this show your class?</p>
+     <p>How do we create a curriculum that is interesting and alluring? Will anybody even look at it?</p>
+     <ol>
+      <li data-md="">
+       <p>Will people want to learn how to recreate projects like this one? Are we providing new ways of representing and understanding data?</p>
+     </ol>
     <li data-md="">
-     <p>what would we need in order to use this tool in your discipline with your style of instructing?</p>
-    <li data-md="">
-     <p>How do we make a curriculum when we don’t have the things done?</p>
-    <li data-md="">
-     <p>What do we prioritize/want in the curriculum? coding, theoretical resources, finding data, learning about documentation— primary spheres, considerations of ethics are embedded into entire curriculum</p>
-    <li data-md="">
-     <p>what are the constraints of the project?</p>
-    <li data-md="">
-     <p>will anybody look at this curriculum?</p>
-    <li data-md="">
-     <p>the digital element is clear here, but where is the humanist element? what does the humanities offer sonification?</p>
-    <li data-md="">
-     <p>how do we make the humanities aspect relevant? this is a social science project as it stands- how do we make it a humanities project?</p>
-    <li data-md="">
-     <p>how do we take humanities aspect of this project to the next level?</p>
-    <li data-md="">
-     <p>where are our earlier conversations about time now? Are they present in this project?</p>
-    <li data-md="">
-     <p>how does this connect to the digital humanities?</p>
-    <li data-md="">
-     <p>how do we connect theories on time to this project on a website? how do we plot this journey?</p>
-    <li data-md="">
-     <p>what are the technical skills we want to teach with the curriculum? e.g. supercollider online tutorials</p>
-    <li data-md="">
-     <p>gendered learning? how can we present curriculum items with an explicitly feminist bent? how are women coding?</p>
-    <li data-md="">
-     <p>are there specific people/citations about supercollider/coding as misogynistic? supercollider debate? what is the entry level accessibility like for women and girls?</p>
-    <li data-md="">
-     <p>what are the barriers to entry for women and non white men in terms of coding and DH?</p>
-    <li data-md="">
-     <p>what can we do to make an entry level humanities undergrad woman comfortable coding, accessing our portal and using our curriculum?</p>
-    <li data-md="">
-     <p>what are the areas of curriculum?  technical skills, theoretical conversations, finding data and contextualizing data, and process of documentation itself (ethics overarching theme)</p>
+     <p>Where is the humanist element in our curriculum? How do we create a curriculum that marries technical tutorials and the humanities?</p>
+     <ol>
+      <li data-md="">
+       <p>How do we ensure that the humanities-based conversations regarding time, ethics, and representation that undergird our project are embedded in our curriculum?</p>
+      <li data-md="">
+       <p>How is this project situated in digital humanities, as opposed to social science?</p>
+      <li data-md="">
+       <p>How to we overcome/utilize the “spirit of critique” embedded in humanities scholarship?</p>
+     </ol>
    </ol>
-   <h3 class="heading settled" data-level="2.7" id="general"><span class="secno">2.7. </span><span class="content">General</span><a class="self-link" href="#general"></a></h3>
+   <h3 class="heading settled" data-level="2.6" id="preparing-a-portal"><span class="secno">2.6. </span><span class="content">Preparing A Portal</span><a class="self-link" href="#preparing-a-portal"></a></h3>
+   <h4 class="heading settled" data-level="2.6.1" id="scope0"><span class="secno">2.6.1. </span><span class="content">Scope</span><a class="self-link" href="#scope0"></a></h4>
+   <p>This document attempts to create a set of questions to ask when
+designing a web-based portal for a project. The general questions
+are broadly applicable to websites and digital projects. The nested
+questions offer a view into our conversations and debates.</p>
+   <h4 class="heading settled" data-level="2.6.2" id="general-questions0"><span class="secno">2.6.2. </span><span class="content">General Questions</span><a class="self-link" href="#general-questions0"></a></h4>
    <ol>
     <li data-md="">
-     <p>In terms of workflow to create a portal and online home for the sonifications, what are the groups we need to delineate among us, and who is in charge of them? Group member(s) need to gather the data for sonification, sonify, document, portal/website building, curriculum building- who does what, and why? What are the areas of intersection between groups?</p>
+     <p>What questions are we asking or answering with this portal?</p>
+     <ol>
+      <li data-md="">
+       <p>How will the information and the way it is presented transform a conversation?</p>
+      <li data-md="">
+       <p>Is it fruitful to design by targeting an imagined audience, like the digital humanities community? Is it fruitful to work instead on representations of data in time and space, imaging a user story instead of a user?</p>
+     </ol>
     <li data-md="">
-     <p>When do need help from the coders and Praxis team?</p>
+     <p>What functionality do we want/need from our portal?</p>
+     <ol>
+      <li data-md="">
+       <p>What are the minimum features we need to present our information?</p>
+      <li data-md="">
+       <p>What is our reason for designing a web portal? Could we use Twitter, Tumblr, or another extant platform to display our information?</p>
+      <li data-md="">
+       <p>Will our portal have artificial constrains, like no scrolling, no navigation, or a frustrating user experience? Why? Is there a benefit to these, or to a private, site specific web element? Will these inhibit access? Is this purposeful inhibition provocative in a useful way?</p>
+      <li data-md="">
+       <p>How do we make the purpose of our design choices clear to users?</p>
+     </ol>
     <li data-md="">
-     <p>how helpful is it to be able to point out the flaws of the project in a generative way?</p>
+     <p>What is our content, and how do we label it? Who is in charge of what content, and where is the overlap?</p>
+     <ol>
+      <li data-md="">
+       <p>Do we offer our curriculum, sonification, and documentation data via a traditional menu? Do we incorporate curriculum information throughout the site? Is this information embedded, or does it open another window?</p>
+     </ol>
     <li data-md="">
-     <p>how do you take something complex and put it in an accessible form without damaging/essentializing/perpetuating privileging of data and numbers over everything else?</p>
+     <p>How do we make our portal accessible?</p>
+     <ol>
+      <li data-md="">
+       <p>Should we create a tactile, 3D printed version and visualizations to accompany our sonifications? Does built in frustrating user experience make the portal unfeasible for too many people?</p>
+      <li data-md="">
+       <p>Are there fonts, colors, etc. that are poor design choices for accessibility?</p>
+     </ol>
     <li data-md="">
-     <p>our choices inform this- why did we use government data? that essentialized data is how we construct the world, and we are doing a second order representation</p>
-    <li data-md="">
-     <p>how will this project transform a conversation?</p>
-    <li data-md="">
-     <p>how to we overcome/work within the “spirit of critique” embedded in humanities?</p>
+     <p>What is the design process and workflow like?</p>
+     <ol>
+      <li data-md="">
+       <p>Should we look through websites we like, or don’t like? Should we use drawings? What non-content information do we need to work on usability and functionality, creating a wire-frame prototype?</p>
+      <li data-md="">
+       <p>What do we want the portal to look and feel like? Where and how do we share our information?</p>
+      <li data-md="">
+       <p>What types of websites are there? Are longform websites or game-ifications feasible with our current skills?</p>
+      <li data-md="">
+       <p>Can we put the code on GitHub and into Jekyll so it can be group annotated?</p>
+     </ol>
    </ol>
-   <h3 class="heading settled" data-level="2.8" id="portal"><span class="secno">2.8. </span><span class="content">Portal</span><a class="self-link" href="#portal"></a></h3>
-   <ol>
-    <li data-md="">
-     <p>what do we want the “portal” to look like?</p>
-    <li data-md="">
-     <p>why use the word portal (and not digital exhibit)?</p>
-    <li data-md="">
-     <p>do we want tabs that say “curriculum” etc, or something more integrated/complicated</p>
-    <li data-md="">
-     <p>before knowing how it looks- to whom and what are we communicating?</p>
-    <li data-md="">
-     <p>if we are targeting the DH community, what is our project responding to in DH?</p>
-    <li data-md="">
-     <p>do we want 3d printed, tactile representation? yes- but secondary to sonification/visualization</p>
-    <li data-md="">
-     <p>twitter, snapchat, tumblr-what if our portal was one of these?</p>
-    <li data-md="">
-     <p>question to developers- how often do you/should you target a specific user group with your web tool? —is this something you would use? does this solve a problem for you or someone you know? is it more helpful to have a user story than an imagined audience?</p>
-    <li data-md="">
-     <p>instead of audience, ask what questions this asks/answers? what are our feature requests? what do we want out of it? what format do we need to let someone ingest and/or adjust the tool/project?</p>
-    <li data-md="">
-     <p>should ethan come in with examples, or should we team brainstorm ideas for a website/portal?</p>
-    <li data-md="">
-     <p>do we know what we don’t want/do what? websites we like/dislike?</p>
-    <li data-md="">
-     <p>is there a set of kinds of websites? e.g. a classic parallax scrolling website? (css zen garden, pattern tap, media query)</p>
-    <li data-md="">
-     <p>what about artificial constraints on website? no scrolling, time-based/forced waiting- do we make it “usable” or do we use the presentation to “make people think?”</p>
-    <li data-md="">
-     <p>website without navigation?</p>
-    <li data-md="">
-     <p>why do we want a “frustrating” user experience?</p>
-    <li data-md="">
-     <p>where/how do we want to share data for documentation team?</p>
-    <li data-md="">
-     <p>do we want a private, site specific web element?</p>
-    <li data-md="">
-     <p>how accessible is our web portal? do we need a presentation layer and accessible layer? who can use this?</p>
-    <li data-md="">
-     <p>how do we make it clear to people who are coming to the website what the purpose of the design is?</p>
-    <li data-md="">
-     <p>are there websites that have game-ification?</p>
-    <li data-md="">
-     <p>why are “longform” websites cool?</p>
-    <li data-md="">
-     <p>what is the feasibility of weird web designs?</p>
-    <li data-md="">
-     <p>what are the minimum features that need to be on the site? what do we need in order to make a website “wireframe?”</p>
-    <li data-md="">
-     <p>can we put the code on GitHub/into Jekyll so it can be group annotated?</p>
-    <li data-md="">
-     <p>for web design- how do we integrate curriculum informational items- margins? glorified hyperlink? DID YOU KNOW boxes to click on?</p>
-    <li data-md="">
-     <p>what words do we want to use for documentation, curriculum?</p>
-    <li data-md="">
-     <p>what is the actual content we are creating? then, how are we labeling it? how are we formatting it into a website?</p>
-    <li data-md="">
-     <p>Jeremy re: questions to answer regarding our website —what is this? —what can I do with it? how do I use it? —How have others used it? —how can I help? —how can I get help? (if the documentation is not enough- email? forum?</p>
-    <li data-md="">
-     <p>how will our website handle tangents?</p>
-    <li data-md="">
-     <p>memory/design your own curriculum?</p>
-    <li data-md="">
-     <p>what is bare min we need to get done?</p>
-    <li data-md="">
-     <p>instead of answering 6 questions - if this were a plain text site- if we had to make a site tomorrow what would your team want on there?</p>
-    <li data-md="">
-     <p>are there fonts that are more/less accessible for people with dyslexia, etc.?</p>
-   </ol>
-   <h3 class="heading settled" data-level="2.9" id="documentation"><span class="secno">2.9. </span><span class="content">Documentation</span><a class="self-link" href="#documentation"></a></h3>
+   <h3 class="heading settled" data-level="2.7" id="documentation"><span class="secno">2.7. </span><span class="content">Documentation</span><a class="self-link" href="#documentation"></a></h3>
    <ol>
     <li data-md="">
      <p>what is the process of getting documentation accepted by standardizing body? what is the appeal of having a standard? how long does it take for W3C approval/acceptance?</p>
@@ -1657,181 +1612,108 @@ look at the nuts and bolts of creating a digital humanities project.</p>
     <li data-md="">
      <p>How do we implement our documentation page into our web portal? Do we want the whole web portal to be in the same format as the documentation page? Do we want a link, an imbedded page?</p>
    </ol>
-   <h3 class="heading settled" data-level="2.10" id="questions-to-ask-about-the-dataset"><span class="secno">2.10. </span><span class="content">Questions to Ask About the Dataset</span><a class="self-link" href="#questions-to-ask-about-the-dataset"></a></h3>
-   <h4 class="heading settled" data-level="2.10.1" id="scope"><span class="secno">2.10.1. </span><span class="content">Scope</span><a class="self-link" href="#scope"></a></h4>
-   <p>This document attempts to create a set of questions to ask when
-considering using a particular collection of data for a project. I don’t
-imagine that all the questions need answers, but I expect that each will
-be considered and that any **lack** of knowledge about some aspect
-should be considered when assessing a dataset.</p>
-   <h4 class="heading settled" data-level="2.10.2" id="method"><span class="secno">2.10.2. </span><span class="content">Method</span><a class="self-link" href="#method"></a></h4>
-   <p>This first draft was written alone by James P. Ascher to share with the
-rest of the Praxis team in the afternoon. The form was inspired by the
-Posner article we read on the ethics of the database and the Quaker
-clearness process that asks someone a series of questions to meditate
-one. Another option would be to imagine a series of forms.</p>
-   <h4 class="heading settled" data-level="2.10.3" id="questions0"><span class="secno">2.10.3. </span><span class="content">Questions</span><a class="self-link" href="#questions0"></a></h4>
-   <h5 class="heading settled" data-level="2.10.3.1" id="sources-where-does-the-data-come-from"><span class="secno">2.10.3.1. </span><span class="content">Sources (where does the data come from?)</span><a class="self-link" href="#sources-where-does-the-data-come-from"></a></h5>
+   <h3 class="heading settled" data-level="2.8" id="data-set-details"><span class="secno">2.8. </span><span class="content">Data Set Details</span><a class="self-link" href="#data-set-details"></a></h3>
+   <h4 class="heading settled" data-level="2.8.1" id="scope1"><span class="secno">2.8.1. </span><span class="content">Scope</span><a class="self-link" href="#scope1"></a></h4>
+   <p>This section attempts to create a set of questions to ask when
+considering using a particular collection of data for a project. Not
+all the questions need answers, but each will be considered and that
+any **lack** of knowledge about some aspect should be considered when
+assessing a data set.</p>
    <ol>
     <li data-md="">
-     <p>What does the data record? What does the data think that it records?</p>
+     <p>Where does the data come from?</p>
+     <ol>
+      <li data-md="">
+       <p>What do we understand to be reliable data? How are we acquiring this data, and how was this data initially acquired?</p>
+      <li data-md="">
+       <p>What are we doing when we use government data? How do we account for under-represented and non-reported information? How do we know what/whom we are missing?</p>
+      <li data-md="">
+       <p>How transparent is the data? Are there undefined terms and unclear words? For instance, concerning BLS data, what is the difference between size A and B cities? What is meant by a “US Southern Average City?” Why are professions in which workers make over $200,000 per year not listed?</p>
+      <li data-md="">
+       <p>What are ethics of data, data collection, and data usage as it pertains to our project?</p>
+     </ol>
     <li data-md="">
-     <p>Who collected the data? What organization, if any, supported it? Who
-paid for that work to be done? Or was it volunteer? How many people
-collected the data? Who were they?</p>
+     <p>How does the mechanism of access to the data work? Can it be queried, downloaded, processed?</p>
+     <ol>
+      <li data-md="">
+       <p>Who else can access the data? What special skills would the need? Institutional alliances? Legal or cultural capital?</p>
+     </ol>
     <li data-md="">
-     <p>How was the data collected? Interviews? Counting? Notebooks? Was the
-data aggregated in some system of computers?</p>
+     <p>What laws, rules, or taboos apply to using the data?</p>
+     <ol>
+      <li data-md="">
+       <p>Is it public domain? Proprietary?</p>
+      <li data-md="">
+       <p>Is it possible that someone may claim that you agreed to their license or that they own your results if you use the data?</p>
+      <li data-md="">
+       <p>What cultures would regard using the data? Does some community
+have a claim on the data? What is the nature of the claim?
+(ethnic, spiritual, etc. etc.) What sort of voice does that
+community have in using the data? Have you informed them?
+Should you?</p>
+     </ol>
     <li data-md="">
-     <p>How does the dataset differ from what was collected, both materially
-and in content? Is it in an interface? Can it be downloaded? Do you
-access it using an API?</p>
-    <li data-md="">
-     <p>Has the data been corrected, edited, updated, or revised? When? How
-many times? What are the methods for doing that? Who did it?</p>
-    <li data-md="">
-     <p>Try to identify all the sources used and the network of people who
-transcribe, edit, or otherwise acted on the data and make a
-flow chart. Where are the gaps in what you know? Why don’t you know
-that about the data?</p>
-    <li data-md="">
-     <p>Is there a manual or documentation about how the data was, or is to
-be, acquired? Edited? Is there a user manual? What is the
-relationship between the documentation? Is it accurate?</p>
-    <li data-md="">
-     <p>If the data considers humans, what role did they have in the
-collection of data from their bodies or lives? Did they approve?
-Voluntarily grant it? Were they informed? If they knew, would they
-approve?</p>
-    <li data-md="">
-     <p>If the data considers something that isn’t human, are there
-cultural, ethical, philosophical, ways in which the subject can lay
-claim to the material? (animals? texts?)</p>
-   </ol>
-   <h5 class="heading settled" data-level="2.10.3.2" id="infrastructure"><span class="secno">2.10.3.2. </span><span class="content">Infrastructure</span><a class="self-link" href="#infrastructure"></a></h5>
-   <ol>
-    <li data-md="">
-     <p>How does the mechanism of access to the data work? Do you query it?
-Download it and process it (with tools you have?)? Print it out?</p>
-    <li data-md="">
-     <p>What laws apply to using the data? Is it public domain? Proprietary?
-Is it possible that someone may claim that you agreed to their
-license or that they own your results if you use the data?</p>
-    <li data-md="">
-     <p>What cultures would regard using the data? Does some community have
-a claim on the data? What is the nature of the claim? (ethnic,
-spiritual, etc. etc.) What sort of voice does that community have in
-using the data? Have you informed them? Should you?</p>
-    <li data-md="">
-     <p>Who else can access the data? What special skills would they need?
-Institutional alliances? Legal or cultural capital?</p>
-    <li data-md="">
-     <p>Can your use of the data be duplicated? Will it continue to be
-available in the way that you’re using it? In a few years? In a
-decade? In a century? Will people understand your assumptions in how
-you use the data?</p>
-    <li data-md="">
-     <p>Are you documenting your data use practices in any way? Is your
-practice standard within a certain community? Has that community
-documented its process? Do you differ in your use?</p>
-    <li data-md="">
-     <p>Where are you storing the data? Are you making it available in the
-form you acquired it? Or some other form? How long will it be
+     <p>How is the use, storage, and accessibility of this data being documented?</p>
+     <ol>
+      <li data-md="">
+       <p>Is your practice standard within a certain community?</p>
+      <li data-md="">
+       <p>Where are you storing the data? Are you making it available in
+the form you acquired it? Or some other form? How long will it be
 available?</p>
-   </ol>
-   <h5 class="heading settled" data-level="2.10.3.3" id="processing-methods"><span class="secno">2.10.3.3. </span><span class="content">Processing Methods</span><a class="self-link" href="#processing-methods"></a></h5>
-   <ol>
+     </ol>
     <li data-md="">
-     <p>How are you processing the data? Are you cleaning it? Changing it?
-Restructuring it? Changing the format? Extracting from it?</p>
-    <li data-md="">
-     <p>Is the way you’re processing the data anticipated by the people who
-collected it? Does it harmonize with their assumptions about how the
-data will be used? Alter it? Does that change what the data seems to
-say?</p>
-    <li data-md="">
-     <p>What tools are you use to process the data? Who can use those tools?
-What effect do those tools have on the people who collected,
-provided, stored, or are the subjects of the data?</p>
-    <li data-md="">
-     <p>How are you documenting how you are processing the data? Does it
+     <p>How are you processing the data?</p>
+     <ol>
+      <li data-md="">
+       <p>Are you cleaning it? Changing it? Restructuring it? Changing the format? Extracting from it?</p>
+      <li data-md="">
+       <p>Is the way you’re processing the data anticipated by the people
+who collected it? Does it harmonize with their assumptions about
+how the data will be used? Alter it? Does that change what the
+data seems to say?</p>
+      <li data-md="">
+       <p>Are you documenting how you are processing the data? Does it
 reflect the standard approach of some community? Do they document
-their process and do you differ? Would someone finding the data know
-that?</p>
+their process and do you differ? Would someone finding the data
+know that?</p>
+     </ol>
     <li data-md="">
-     <p>If the data reflects humans, can you trace your actions on the data
-onto the people that it reflects? Symbolically, what would your
-processing be doing to the people? How would they feel about that?
-Have you informed them?</p>
+     <p>What tools are you using to process the data?</p>
+     <ol>
+      <li data-md="">
+       <p>Who can use those tools?</p>
+      <li data-md="">
+       <p>What effect do those tools have on the people who collected,
+provided, stored, or are the subjects of the data?</p>
+     </ol>
     <li data-md="">
-     <p>What claims would the group represented in the data have to ask for
-fair treatment? (animals? plants?) Does the way you process the data
-obscure these claims? Enhance them?</p>
+     <p>How is the data represented?</p>
+     <ol>
+      <li data-md="">
+       <p>Is the representation journalistic, editorializing, making a point, or proving a thesis?</p>
+      <li data-md="">
+       <p>How does the representation alter what is prominent in the
+data?  Does it bring attention to something that was unclear in
+the earlier forms? What does it bring attention to? How would the
+subjects, collectors, processors, licensers, cultural custodians,
+scholars, or other people think about that use?</p>
+     </ol>
     <li data-md="">
-     <p>Is the processing truthful? Done toward greater understanding? Or a
-matter of convenience? Are there sacrifices in truthfulness being
-made for convenience?</p>
-    <li data-md="">
-     <p>Would someone stumbling across your data, with no prior knowledge,
-understand what you are doing? What would the data seem like to
-them? How would they think about the issues raised so far? Who might
-stumble across your data in one year, ten years, a century?</p>
-   </ol>
-   <h5 class="heading settled" data-level="2.10.3.4" id="representation-methods"><span class="secno">2.10.3.4. </span><span class="content">Representation Methods</span><a class="self-link" href="#representation-methods"></a></h5>
-   <ol>
-    <li data-md="">
-     <p>How do you plan to represent the data? What senses, patterns,
-techniques, etc. do you plan to use?</p>
-    <li data-md="">
-     <p>How does the representation alter what is prominent in the data?
-Does it bring attention to something that was unclear in the earlier
-forms? What does it bring attention to? How would the subjects,
-collectors, processors, licensers, cultural custodians, scholars, or
-other people think about that use?</p>
-    <li data-md="">
-     <p>Do you plan to inform people of your representation? Who? How? Are
-some of these people reflected in the subjects of the data? Why or
-why not?</p>
-    <li data-md="">
-     <p>If you assume that your project has the largest impact you imagine,
-what effect will your representation have in the world? If you
-assume that your project has the least impact you can imagine, what
-effect will your representation have in the world? Next year? Ten
-years? In a century?</p>
-    <li data-md="">
-     <p>What tools do you plan to use? What community feels ownership in
-that tool? Does it cost money? What does the money support? Who can
-access those tools and do they need special affiliations or
-expertise to use them? Can they adjust the tool?</p>
-    <li data-md="">
-     <p>What implied argument are you making about yourself by representing
-the data? (story-breaking investigative journalist?
-truth-telling historian?) How would the subjects reflected in the
-data see you? How would people working on similar projects see you?
-How would the community that might lay a claim to the data see you?</p>
-    <li data-md="">
-     <p>How legible will your representation be to people? Will they require
-special training or tools to view it? (such as laptops, VR headsets,
-or training in music theory?) Will they require special training to
-understand it? If they misunderstand it, what will they think? If
-they’re disabled in some way, how will that change your
-representation?</p>
-    <li data-md="">
-     <p>What questions will your representation help people to ask? What
-questions will it prevent people from asking?</p>
-    <li data-md="">
-     <p>Are your tools and techniques part of a particular community? Does
-that community document its practice? Do you? What would that
-community think of your use of their tools or techniques?</p>
-    <li data-md="">
-     <p>Can your project be seen as purely aesthetic by someone who doesn’t
-understand what you’re doing? Is that okay? What would the subjects
-reflected in the data feel? How would you feel? How would the people
-involved in collecting, processing, managing, etc. the data feel?</p>
-    <li data-md="">
-     <p>How do you explain what your doing? Would someone be able to
-reproduce what you did? How much knowledge, tools, or access would
-they need? Does that weaken or strengthen your argument?</p>
+     <p>How will the data representation be put forth? Do you plan to inform people of your representation? Who? How? When? Where?</p>
+     <ol>
+      <li data-md="">
+       <p>What is the imagined impact of your data representation on people, organizations, etc. once it is public?</p>
+      <li data-md="">
+       <p>What tools will be uses to publicize this data representation? Are these tools free? If not, what does the money support? Who has access to these tools?</p>
+      <li data-md="">
+       <p>How accessible is the data representation?</p>
+      <li data-md="">
+       <p>Can your project be seen as purely aesthetic by someone who doesn’t
+understand what you’re doing?</p>
+      <li data-md="">
+       <p>What explanation or contextualization accompanies your data representation?</p>
+     </ol>
    </ol>
   </main>
   <div data-fill-with="conformance">
