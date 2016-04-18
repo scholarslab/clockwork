@@ -38,9 +38,9 @@ Updated: 11 April 2016
   </h2> -->
 </div>
 
-#Curriculum Sample Page
+# Curriculum Sample Page
 
-##Question 1: What is this?
+## Question 1: What is this?
 
 Elevator pitch: “Learning, we want you to do it” -Gillet
 
