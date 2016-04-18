@@ -24,82 +24,36 @@ a:link {
   text-decoration: none;
 }
 
-  nav {
-    display: block;
-    width: 125px;
-    position: fixed;
-    height: 100%;
-    overflow: auto;
-    right: 0;
-    background-color: rgba(0,0,0,.125);
-  }
-
-  nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    /*background-color: #ccffff;*/
-  }
-
-
-  nav li a{
-    display: block;
-    color: #000;
-    padding: 10px 20px 10px 10px;
-    text-decoration: none;
-    text-transform: lowercase;
-  }
-
-
-  .active {
-    background-color: #4CAF50;
-    color: white;
-  }
-  nav li a:hover:not(.active) {
-    background-color: #00b3b3;
-    color: white;
-  }
-
-
-  .home nav {
-    position: inherit;
-    height: inherit;
-    overflow: inherit;
-    width: auto;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 1000px;
-    min-width: 1000px;
-  }
-
-
-.home nav li {
-    display: inline-block;
-    width: 24%;
-    float:left;
-    margin-right: 1%;
-  }
-
-.home nav li:last-of-type {
-  margin-right: 0;
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  /*background-color: #ccffff;*/
 }
-.home nav li a {
+
+nav li a{
   display: block;
   color: #000;
-  padding: 150% 20px 10px 10px;
-  font-size: 25px;
-  text-align: center;
+  padding: 10px 20px 10px 10px;
   text-decoration: none;
-  height: 80vh;
-  max-height: 800px;
-  font-weight: bold;
-  text-transform: uppercase;
+  text-transform: lowercase;
+}
+
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+nav li a:hover:not(.active) {
+  background-color: #00b3b3;
+  color: white;
 }
 
 .homepage {
   text-transform: uppercase;
 }
 
+/* Nav colors */
 .home .sonification a {
   background-color: plum;
 }
@@ -115,6 +69,62 @@ a:link {
 .home .documentation a{
   background-color: seashell;
 }
+
+/**
+ * Primary navigation if at least 800px wide.
+ *
+ *  - Use four columns for navigation on home page.
+ *  - Fixed position for navigation on interior pages.
+ *
+ * */
+@media screen and (min-width: 800px) {
+  nav {
+    display: block;
+    width: 125px;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    right: 0;
+    background-color: rgba(0,0,0,.125);
+  }
+
+  .home nav {
+    position: inherit;
+    height: inherit;
+    overflow: inherit;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+  }
+
+
+  .home nav li {
+    display: inline-block;
+    width: 24%;
+    float:left;
+    margin-right: 1%;
+  }
+
+  .home nav li:last-of-type {
+    margin-right: 0;
+  }
+
+  .home nav li a {
+    display: block;
+    color: #000;
+    padding: 150% 20px 10px 10px;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+    height: 80vh;
+    max-height: 800px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+}
+
+
   /*.Sonification {*/
     /*background-color: #b3b3cc;*/
   /*}*/
