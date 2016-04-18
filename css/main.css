@@ -6,10 +6,10 @@
 }
 
 body {
-  margin-left: 2px;
-  margin-right: 2px;
+  margin-left: 1px;
+  margin-right: 1px;
   font-family: "Droid Sans", sans-serif;
-  line-height: 1.35;
+  line-height: 1.45;
   word-spacing: .1px;
 }
   h1 {
