@@ -175,6 +175,11 @@ nav li a:hover:not(.active) {
     word-spacing: 0.75px;
   }
 
+  body.home {
+    margin-left:0;
+    margin-right:0;
+  }
+
     h1 {
     padding: 5px 20px 0 5px;
   }
@@ -204,14 +209,14 @@ nav li a:hover:not(.active) {
     width: auto;
     margin-left: auto;
     margin-right: auto;
-    width: 1000px;
+    text-align: center;
+    background-color: transparent;
   }
 
 
   .home nav li {
     display: inline-block;
     width: 186px;
-    float:left;
     margin-left: .5%;
     margin-right: .5%;
   }
