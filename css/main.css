@@ -53,12 +53,12 @@ nav li a{
 }
 
 .active {
-  background-color: #4CAF50;
+  background-color: cornflowerblue;
   color: white;
 }
 
 nav li a:hover:not(.active) {
-  background-color: #00b3b3;
+  background-color: coral;
   color: white;
 }
 
@@ -72,15 +72,15 @@ nav li a:hover:not(.active) {
 }
 
 .home .curriculum a {
-  background-color: pink;
+  background-color: royalblue;
 }
 
 .home .about a{
-  background-color: turquoise;
+  background-color: cyan;
 }
 
 .home .documentation a{
-  background-color: seashell;
+  background-color: lightseagreen;
 }
 
 .sonificationpage nav {
