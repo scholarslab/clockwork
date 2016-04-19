@@ -55,24 +55,24 @@ the next version.
 ### Planning Questions
 
 1. How will the data be extracted, organized, and edited to make it
-   work within the representation system? Can the process be
-   automated? Can you use off-the-shelf tools?
+    work within the representation system? Can the process be
+    automated? Can you use off-the-shelf tools?
 
 2. If the value fluctuates, how does the sonification/representation
-   show those different values? What other sonic/aesthetic
-   considerations will arise?
+    show those different values? What other sonic/aesthetic
+    considerations will arise?
 
 3. Should this produce something pretty or aesthetically appealing?
-   For example: do we want commodity prices and a musical scale, or
-   commodity price as stable sound (do) up a little (re)- then note
-   (do) can be combined…? Are we making music?
+    For example: do we want commodity prices and a musical scale, or
+    commodity price as stable sound (do) up a little (re)- then note
+    (do) can be combined…? Are we making music?
 
 4. How do the different changing values relate to each other in the
-   sonification/representation? Which are linked in sound and which
-   are not linked? Can we experiment with different linkages? For
-   example: Do we care more about how different incomes relate to
-   commodities or how different incomes relate to each other? Can we
-   try them different ways?
+    sonification/representation? Which are linked in sound and which
+    are not linked? Can we experiment with different linkages? For
+    example: Do we care more about how different incomes relate to
+    commodities or how different incomes relate to each other? Can we
+    try them different ways?
 
 ### Assessment Questions
 
@@ -81,13 +81,13 @@ the next version.
 2. How did you decide the timbre? Color? Pitch?
 
 3. What do we like and not like about this sonification so far? Topics
-   discussed include pitch/frequency scale, accessibly and speaker
-   range, overlapping sounds, midi vs. frequency, need for
-   preamble/explanation, pretty/palatable vs. harshness, what sound
-   lends itself to information dissemination?
+    discussed include pitch/frequency scale, accessibly and speaker
+    range, overlapping sounds, midi vs. frequency, need for
+    preamble/explanation, pretty/palatable vs. harshness, what sound
+    lends itself to information dissemination?
 
 5. How would this sonification be seen within academic electronic
-   music conferences? Or if a visualization to electronic art audiences?
+    music conferences? Or if a visualization to electronic art audiences?
 
 6. How long did it take you to make each one?
 
@@ -96,19 +96,19 @@ the next version.
 8. How many versions to we want to present to make point?
 
 10. If sonic, can we make a visual version for accessibility? If
-    visual, can we make a sonic version for accessibility?
+        visual, can we make a sonic version for accessibility?
 
 11. What does this particular sonification/representation of data
-    argue? For example: is the take away from the data that poor
-    people have a harder time buying milk? how do we make sure that is
-    not the (only) takeaway?
+        argue? For example: is the take away from the data that poor
+        people have a harder time buying milk? how do we make sure that is
+        not the (only) takeaway?
 
 12. What is the range of time and activities that our
-    sonifications/representations will represent?
+        sonifications/representations will represent?
 
 13. How are our sonification/representation examples connected? What
-    is the deliberate choice? For example: do we always have min wage as a
-    baseline, then we add other variables?
+        is the deliberate choice? For example: do we always have min wage as a
+        baseline, then we add other variables?
 
 ## Issues in Picking a data set for sonification
 
@@ -205,25 +205,48 @@ questions offer a view into our conversations and debates.
 
 ## Documentation
 
-1. what is the process of getting documentation accepted by standardizing body? what is the appeal of having a standard? how long does it take for W3C approval/acceptance?
+### Scope
 
-2. what do we mean when we talk about standards in documentation?
+Documenting a project makes your work reusable but also holds you
+accountable to understanding your assumptions and challenging
+unhelpful approaches. We vision a continuous process of documentation
+where one or multiple members collect the materials of discussion and
+decisions. This section helps ask questions to the group about the
+form that the documentation itself will take.
 
-3. what reaches the audience we want to reach? how do we bridge mainstream web and DH communities?
+### Question
 
-4. what questions are people asking when doing their work?
+1. What is the process of getting documentation accepted by
+    standardizing body that might be interested in this project? What
+    is the appeal of having a standard? What is the process to submit
+    the standard and how long does it take?
 
-5. are standards intimidating?
+2. What do we mean when we talk about standards in documentation?
+    Should the process be made standard at all?
 
-6. what does access mean?
+3. What reaches the audience we want to reach? For example: how do we
+    bridge mainstream web and DH communities?
 
-7. do we want answers to the questions we are proposing that are essentially references, a bibliography?
+4. What questions are people asking when doing their daily work that
+    we're thinking about?
 
-8. structuring documentation- organize issues in the order of when the came up? or structure them into categories (portal? data collection? sonification?)
+5. Is the form we're considering intimidating?
+
+6. What exactly does access mean? What resources does someone need?
+
+7. Do we want answers to the questions we are proposing that are
+    essentially references, a bibliography? How does what we're
+    proposing improve on a simple bibliography?
+
+8. How do we structure the documentation? For example: organize issues
+    in the order of when the came up? Or, structure them into categories?
+    (portal? data collection? sonification?)
 
 9. Where is the overlap in documentation and curriculum regarding resources?
 
-10. How do we implement our documentation page into our web portal? Do we want the whole web portal to be in the same format as the documentation page? Do we want a link, an imbedded page?
+10. How do we implement our documentation page into our web portal? Do
+     we want the whole web portal to be in the same format as the
+     documentation page? Do we want a link, an imbedded page?
 
 ## Data Set Details
 
