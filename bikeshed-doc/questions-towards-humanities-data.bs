@@ -34,61 +34,81 @@ This standard draws on the style and technique of
 
 # Questions
 
-## Sonifying Data
+## Representations of Data
 
-Sonifying Data:
+### Scope
 
-1. What has to happen to sonify BLS data on milk, oil, and wages (US City: Southern Urban)? Rachel needs spreadsheets of the data. James investigates how one might automate the process of generating these spreadsheets- can we use TXR for data munching to create spreadsheet?
+This section asks a series of questions about the representation of
+data in any way. It was developed as questions regarding the
+sonification---representation by sound---of data, so sees all
+representation through this lens first, but has been generalized to
+suggest humanistic questions about the representation of data in
+general.
 
-2. If the cost of milk fluctuates, how does the sonification show those thresholds? What other sonic/aesthetic considerations will arise? Rachel will make a mockup and we will comment on it.
+The process we found useful in doing the work was to make a very quick
+draft and present the rough version to the group to guide each
+revision. The questions are divided into planning and assessment. The
+planning are questions we found useful to ask *befoe* creating a draft
+the *assessment* questions were useful to ask of each draft to guide
+the next version.
 
-3. Do we want commodity prices and a musical scale, or commodity price as stable sound (do) up a little (re)- then note (do) can be combined…? Are we making music?
+### Planning Questions
 
-4. Do we care more about how different incomes relate to commodities or how different incomes relate to each other? Can we try them different ways?
+1. How will the data be extracted, organized, and edited to make it
+   work within the representation system? Can the process be
+   automated? Can you use off-the-shelf tools?
 
-## Questions After Hearing Initial Sonification Mockup
+2. If the value fluctuates, how does the sonification/representation
+   show those different values? What other sonic/aesthetic
+   considerations will arise?
 
-1. how easy is it for you to manipulate which variables?
+3. Should this produce something pretty or aesthetically appealing?
+   For example: do we want commodity prices and a musical scale, or
+   commodity price as stable sound (do) up a little (re)- then note
+   (do) can be combined…? Are we making music?
 
-2. how did you decide the timbre?
+4. How do the different changing values relate to each other in the
+   sonification/representation? Which are linked in sound and which
+   are not linked? Can we experiment with different linkages? For
+   example: Do we care more about how different incomes relate to
+   commodities or how different incomes relate to each other? Can we
+   try them different ways?
 
-3. scaled lowest / highest price of milk to note range available, starts at 26-128… why?
+### Assessment Questions
 
-4. what do we like and not like about this sonification so far? Topics discussed include pitch/frequency scale, accessibly and speaker range, overlapping sounds, midi vs. frequency, need for preamble/explanation, pretty/palatable vs. harshness, what sound lends itself to information dissemination?
+1. How easy is it for you to manipulate which variables?
 
-5. how would this sonification be seen within academic electronic music conferences?
+2. How did you decide the timbre? Color? Pitch?
 
-6. how long did it take you to make this one?
+3. What do we like and not like about this sonification so far? Topics
+   discussed include pitch/frequency scale, accessibly and speaker
+   range, overlapping sounds, midi vs. frequency, need for
+   preamble/explanation, pretty/palatable vs. harshness, what sound
+   lends itself to information dissemination?
 
-7. how much of this can you reuse to make something slightly different?
+5. How would this sonification be seen within academic electronic
+   music conferences? Or if a visualization to electronic art audiences?
 
-8. how many versions to we want on our website/portal?
+6. How long did it take you to make each one?
 
-9. can we do this signification for the recession, 2009 or 2010, and use gas, which was high?
+7. How much of this can you reuse to make something slightly different?
 
-10. for accessibility- can we make a visualization of the sound? there’s a plugin for that!
+8. How many versions to we want to present to make point?
 
-11. is the take away from the data that poor people have a harder time buying milk? how do we make sure that is not the (only) takeaway?
+10. If sonic, can we make a visual version for accessibility? If
+    visual, can we make a sonic version for accessibility?
 
-12. what are the 3 sonifications going to be? and what is our argument and what to these do to it?  and how do these relate to time? are we doing a beep beep beep and a booooooop for each of the 3 examples? can we do the recession?
+11. What does this particular sonification/representation of data
+    argue? For example: is the take away from the data that poor
+    people have a harder time buying milk? how do we make sure that is
+    not the (only) takeaway?
 
-13. how are our sonification examples connected? what is the deliberate choice? do we always have min wage as a baseline, then we add other variables? how do the examples relate to one another?
+12. What is the range of time and activities that our
+    sonifications/representations will represent?
 
-14. to make our sonification with “beep beep beep” over the course of a year:
-
-    1. how do we know how many gallons of gas is used by average person in a year? HR Block data, EIA stats? What stats do we use? 300-500 gallons per person per year in various online statistics- EIA chart shows $2500 per year spend on gas in 2014, US used 140 billions gallons in 2015, but what is commercial/private/etc use?
-
-    2. $2500 spent in gas per household in 2014 and 1 gallon of milk per week
-
-    3. https://www.eia.gov/todayinenergy/detail.cfm?id=19211#
-
-    4. are we assuming a single wage earner in a family?
-
-    5. census measures things in terms of households- do households consume 1 gallon of milk? or is that individual?
-
-    6. per capita milk consumption is ~20 gallons in 2014
-
-    7. http://www.ers.usda.gov/data-products/dairy-data.aspx
+13. How are our sonification/representation examples connected? What
+    is the deliberate choice? For example: do we always have min wage as a
+    baseline, then we add other variables?
 
 ## Issues in Picking a data set for sonification
 
