@@ -337,3 +337,38 @@ padding-bottom: 200px;
   padding-bottom: 200px;
   }
 }
+
+
+/* stuff that has to do with flipclock*/
+.flip-clock-wrapper ul {
+  list-style: none;
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+.flip-clock-wrapper li, .flip-clock-wrapper div {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+.flip-clock-wrapper .flip-clock-before{
+  display: none;
+}
+
+.flip-clock-wrapper .up {
+  display: none;
+}
+
+.flip-clock-divider .flip-clock-label{
+  display: none;
+}
+
+.flip-clock-divider.minutes .flip-clock-label {
+  display: none;
+}
+
+.flip-clock-divider.seconds .flip-clock-label {
+  display: none;
+}
