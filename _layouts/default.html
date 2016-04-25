@@ -22,7 +22,7 @@
 
 
     <header role="banner" id="banner">
-      <h1>Praxis: Time &#38; Sound</h1>
+      <h1>Praxis: ClockWork</h1>
       <p class="provocation">
         <div class="your-clock"></div>
         <div id="cost"></div>
@@ -139,7 +139,7 @@
                     var currentTime = clock.getTime().time;
                     var minimumWagePerSecond = 0.001986111;
                     var currentCost = Math.round10(parseInt(currentTime) * minimumWagePerSecond, -2);
-                    $('#cost').text("The current cost is: $" + currentCost);
+                    $('#cost').text("$" + currentCost);
                   }, 1000);
 
 
