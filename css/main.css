@@ -312,17 +312,12 @@ padding-bottom: 20px;
   }
 }
 
-#banner h1 {
-font-size: 16px;
-float:left;
-}
-
+#banner h1,
 #banner .provocation {
-color: red;
-float:right;
-text-align:right;
+font-size: 16px;
+line-height: 50px;
+display:inline;
 }
-
 
 #main {
 margin-right: 20px;
