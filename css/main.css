@@ -25,11 +25,14 @@ a:link {
   text-decoration: none;
 }
 
+nav {
+  background-color: rgba(0,0,0,0.10);
+}
+
 nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  /*background-color: #ccffff;*/
 }
 
 
@@ -84,17 +87,12 @@ nav li a:hover:not(.active) {
   background-color: lightseagreen;
 }
 
-.sonificationpage nav {
-  background-color: rgba (0,0,0,.125)
-}
 
 .sonificationpage nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: rgba(0,0,0,.125);
-
 }
 
 .sonificationpage nav li {
@@ -109,17 +107,11 @@ nav li a:hover:not(.active) {
   text-decoration: none;
 }
 
-.aboutpage nav {
-  background-color: rgba (0,0,0,.125)
-}
-
 .aboutpage nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: rgba(0,0,0,.125);
-
 }
 
 .aboutpage nav li {
@@ -134,17 +126,11 @@ nav li a:hover:not(.active) {
   text-decoration: none;
 }
 
-.curriculumpage nav {
-  background-color: rgba (0,0,0,.125)
-}
-
 .curriculumpage nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: rgba(0,0,0,.125);
-
 }
 
 .curriculumpage nav li {
@@ -190,7 +176,7 @@ nav li a:hover:not(.active) {
     height: 100%;
     overflow: auto;
     right: 0;
-    background-color: rgba(0,0,0,.125);
+    background-color: rgba(0,0,0,.10);
   }
 
   .sonificationpage nav li a {
@@ -245,19 +231,6 @@ nav li a:hover:not(.active) {
 
 }
 
-  /*.Sonification {*/
-    /*background-color: #b3b3cc;*/
-  /*}*/
-
-  /*.Documentation {*/
-    /*background-color: #80ffdf;*/
-  /*}*/
-  /*.Curriculum {*/
-    /*background-color: #f2f2f2;*/
-  /*}*/
-  /*.About {*/
-    /*background-color: #d9b3ff;*/
-  /*}*/
 
 .marginalia {
 font-family: "Droid Sans", sans-serif;
@@ -317,6 +290,10 @@ padding-bottom: 20px;
 font-size: 16px;
 line-height: 50px;
 display:inline;
+}
+
+#cost:before {
+  content: "= ";
 }
 
 #main {
