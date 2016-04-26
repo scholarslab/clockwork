@@ -365,10 +365,7 @@ padding-bottom: 200px;
   display: none;
 }
 
-.flip-clock-divider.minutes .flip-clock-label {
-  display: none;
-}
-
-.flip-clock-divider.seconds .flip-clock-label {
-  display: none;
+.flip-clock-divider.minutes:before,
+.flip-clock-divider.seconds:before {
+  content: ":";
 }
