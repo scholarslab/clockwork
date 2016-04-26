@@ -13,12 +13,15 @@ Date: 2016-03-30
 
 # Introduction
 
-During the academic year 2015 to 2016, the six Praxis Fellows
-developed a series of sonifications exploring the issues of the cost
-of consumer goods. The conversations leading to these representations
-discussed a number of issues, often touching on rhetoric and we
-decided that we should document the process of coming to consensus on
-data and representations.
+During the academic year 2015 to 2016, the six Praxis Fellows developed
+ClockWork, a series of sonifications exploring the issues of the cost of
+consumer goods and wages. We chose to use documentation as a way to record
+our inquiries and decision making process as we moved from an abstract,
+time-related concept to a completed project. Instead of a traditional and
+specific explanation of exactly what we asked and answered as a group to
+create ClockWork, this documents our journey, foregrounding the questions
+we faced, which are edited to be broadly applicable to any group working
+with and on humanities, data, and the digital world.
 
 The editors formed a documentation team to produce this document. The
 role of the documentation team is to note the inquiries and decision
