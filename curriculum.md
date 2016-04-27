@@ -7,7 +7,7 @@ bodyclass: curriculumpage
 
 Updated: 11 April 2016
 
-**Table of Contents**
+### Table of Contents
 
 <div id="TOC">
   <ul>
@@ -15,235 +15,366 @@ Updated: 11 April 2016
       <a href="#introduction">Introduction to Curriculum</a>
     </li>
     <li>
-      <a href="#tutorial"> Sonification Tutorial</a>
-        <ul>
-          <li>
-            <a href="#lessonone"> Lesson One: Install SuperCollider and Make It Beep </a>
+      <a href="#whytime"> Why Time?</a>
           </li>
           <li>
-            <a href="#lessontwo"> Lesson Two: Repeated Beeps</a>
+            <a href="#digitalofferings"> What does the digital offer?</a>
           </li>
           <li>
-            <a href="#lessonthree"> Lesson Three: Pitches of Beeps</a>
+            <a href="#Ethos"> Guiding Ethos</a>
           </li>
-        </ul>
-    </li>
+          <li>
+          <a href="#sonification"> Why Sonifications?</a>
+          </li>
+          <li>
+            <a href="#information"> What Constitutes Information?</a>
+          </li>
+          <li>
+            <a href="#Data"> How Did We Select Our Data?</a>
+          </li>
+          <li>
+          <a href="#skills"> Technical Skills</a>
+        </li>
 
+          <li>
+            <a href="#critique"> Critique of Our Own Work</a>
+          </li>
+          <li>
+            <a href="#otherprojects"> Other Rad Projects</a>
+          </li>
+          <li>
+            <a href="#annotatedbib"> Annotated Bibliography</a>
+          </li>
+          <li>
+            <a href="#resources"> Outside Resources</a>
+          </li>
   </ul>
 </div>
 
 <div id="introduction">
-  <!-- <h2>
-    <a href="#TOC">Introduction</a>
-  </h2> -->
+
 </div>
-
-# Curriculum Sample Page
-
-## Question 1: What is this?
-
-Elevator pitch: “Learning, we want you to do it” -Gillet
-
-“Curriculum” refers to the interrelated learning aspects of this project, it does not necessarily mean a concrete *curriculum* as such. In other words, the Curriculum Team is an internal team whose effort have to do with determining what we want people to learn, how we can best help them to learn it. This team is also responsible for coordinating with the other teams to make the wormhole an integrated and holistic learning experience.
 
 <div class="marginalia">
-
-Care more about CSS/HTML? Check out these links and this link and that link and those links.
-
+blah blah
 </div>
 
-1. Technical Skills:
-  * How to do sonifications of relatively basic data sets using Super Collider, in order to make arguments by comparison. For the time being, we will show people how to work with CSV files. We will do this ourselves. Starring Rachel and James.
-	* Javascript
-  *	CSS/HTML
-  *	Thinking about data as a skill: as in, working with data is a skill that we’re helping people build. We are introducing a holistic approach to working with data.
+### Introduction
 
-2.	Data (finding data and asking productive critical questions about it):
-  *	Researching data: finding sources, who is funding the data collection, who is choosing the questions that the data is supposed to answer
-  *	Making sense of the data itself, and making sense of the data in broader context (e.g. once we understand what the data means, why do we care about it outside of itself)
-  *	Manipulating and presenting data
-	* Addressing data shortcomings/limitations and tensions/contradictions that arise; imagining productive possibilities for data use
-*	Access to resources like computers and wi-fi, librarians, mentors, learning environments (online, local groups/organizations)
+The project is about time, the way we value time, and how people experience time differently. We want people to grapple with the value of time for people in different sectors of the economy and at different income levels. We attempted to represent economic frustration through sound (and try to express an aesthetics of experience somehow).
 
-3.	Theoretical Resources and Conversations (aka linky dinks):
-	* Annotated bibliographies (thoughts + guiding questions/provocations + other related things to read)
-*	Ethics, Time, Digital Humanities, Race, Gender, Class
-*	Avoiding reproducing problematic stuff (re: race, gender, class, etc.). For example, see Miriam Posner article/blog post about how we structure building archives or digital humanities projects and how that can structure the inequalities in our daily lives and thoughts. Taking into account, for example, how much minimum wage time goes into looking at a website like the one we are building.
-
-4.	Documentation (treating documentation as a corollary process that is integral to any sort of digital humanities project including hopefully the one you make)
-  *	Why documentation is important to the other parts of the project: documentation sets you up for a more meaningful and rigorous project
-  *	Formatting—literally, how do you take effective notes during the process of making a project (insights from DH, different disciplines represented by Praxis)
-  *	Determining what is important to document
-  *	Relating the documentation meaningfully to the final project you present
+We arrived at the sonifications after months of very engaging and provocative conversations related to time. For the purposes of expediency as the praxis year was coming to a close, and with a commitment to doing something with a social justice component, we chose to do a sonification as our final project. The sonifications are is simple. The project is stark in its simplicity. Our intention is that this project is “good to think”. Let’s think about it together. We’d like to link to projects that are doing cool related tangents. We’d like to show you how to do some of this stuff on your own if you want.
 
 
-<div id="tutorial">
-  <!-- <h2>
-    <a href="#TOC">Sonification Tutorial</a>
-  </h2> -->
+BIG QUESTION AT THE BEGINNING OF PRAXIS: How could we think about time in a nonlinear/non-timeline fashion?
+
+ClockWork: we’re working within the time systems that we know and use everyday (e.g. hourly/monthly/yearly); we’re doing linear, but we’re doing linear slant. Still, at the core, <a href="http://earthzine.org/2013/07/23/sonification-data-like-youve-never-heard-before/" target="_blank"> it's linear.</a> We offer this as a productive starting point.
+
+Our project, in using higher pitch and louder volume to represent greater effort during a particular time period, pulls attention to the ways in which time is experienced and valued differently across income levels. Thus, even linear time is not linear in the same way for all people--a minute is more arduous (and perhaps feels longer?) for those working minimum wage jobs than for high-earning careerists. [link here to childhood/poverty stress and the brain/body?]
+
+
+<div id="whytime">
 </div>
 
-# Tutorial for Sonification in SuperCollider
+### Why Time?
 
-  This document will introduce you to producing audio representations of
-  data. In our example, the data will be about the cost of consumer
-  goods and average hourly pay, but your data can be about anything you
-  want. The tutorial should be quick to go through, so we encourage you
-  to complete it first and then use the code to make your own version.
 
-  It's broken up into lessons which you can complete in one sitting,
-  either as part of a class, or by yourself.
+Time is an important subject to interrogate and theorize because we make all kinds of assumptions about what time means, how we experience time, and how we should represent time. Each of our disciplines offer rich perspectives on what time means and how we might imagine it conceptually. Questions of causality, etc. (we can’t make arguments about time between people who don’t understand or experience time in the same way--or at least it’s very difficult to make those arguments--and so we often impose a [dominant] conceptualization of time onto every question). This is why time is an important prompt for a digital humanities project. There are endless possibilities.
 
-<div id="lessonone">
-    <!-- <h2>
-      <a href="#TOC">Lesson One</a>
-    </h2> -->
-  </div>
+A little thought experiment: <br>
+In the first several weeks of Praxis, everyone brought in a written piece from their discipline that grappled with time in an interesting and provocative manner.  All pieces offer much more than the reasons which drew us to use them as our case studies, but in their musings on time, the provided helpful entrés into varying disciplinary understandings of time.
 
-## Lesson 1: Install SuperCollider and Make It Beep
+**Ethan** encouraged us to engage with Wai Chee Dimock’s concept of “deep time,” in which she “propose[s] a more extended duration for American literary studies, planetary in scope… the force of historical depth is such as to suggest a world that predates the adjective American.” Dimock suggests that by doing so, scholars of American literature would have to re-periodize the works they study and re-interpret American texts and linguistics through large-scale analysis that allows us to question: “How does a literary text sound when it is read twenty years, two hundred years, or two thousand years after it was written?” What are/what is the significance of “the traveling frequencies of literary texts”? For Ethan, these provided a helpful entré into how scholars of American literature have and could conceptualize time in relation to their discipline.
 
-  SuperCollider provides an integrated development environment for doing
-  real time audio synthesis. It's a fairly complete system with a long
-  history and has been released under the GNU General Public
-  License. So, time you spend time learning to use it won't be
-  wasted. You should be able to continue to use it in the future. We
-  will begin by downloading and installing it.
+**Gillet** wanted to include historical work that questioned the relationship of time to the present and future, as well as interrogated Western ideologies of time. In his chapter “The past as future,” Bain Attwood discusses the dangers of both (Western) historical and archaeological epistemologies which posit that the past is completely separate from the present, and thus able to be analyzed to learn objective “truths” about the past. Attwood further warns of the potential for the act and product of history to function as a colonizing device, in which telling a particular version of history in fact creates a past, a present, and a future. Thus, history can function as a means of time-making rather than or in addition to the representation and analysis of time past.
 
-  Point your browser to
-  [supercollider.github.io](http://supercollider.github.io) and click
-  download, select your platform, and run the installer. For this
-  tutorial, we're using 3.6.6, but newer versions should be that
-  different.
+**Lydia** brought Charles Keil’s “Participatory Discrepancies and the Power of Music” to our conversation. As Lydia writes, “Keil’s concept of participatory discrepancy relates to our time discussion in that musics that are ‘out of time’ (often in ways that are too small to notate conventionally) display evidence of humanity, and therefore, are relatable and meaningful in human ways. He uses a modern-ish example (Bo Diddley), which I like because it highlights the awesome role of technology in participatory democracies. It’s similar-is to DW Griffith’s notion of film being meaningful only if it captures ‘the beauty of the moving wind in the trees.’”
 
-  After installing SuperCollider, you should be able to run the program
-  and after a few things run, your screen should look something like:
+**Rachel** brought us a canonical article by Karl Stockhausen called “How Time Passes.” In the article, Stockhausen argues that “music is a series of events in time.” Duration and pitch occur in “different areas in one time scale.” [I’m not sure I fully get this… will have to pay more attention and come back]
 
-  <img src="/assets/Start-up-screen.png/" alt="SuperCollider IDE" style="width:800px;height:500px;">
+**James** introduced us to Kari Kraus, who looks in this article at the long history of the study of textual transmission and places speculative computer-based reconstruction of texts into historical relationship to other forms of speculating on the text, specifically recension editing, divination, and Biblical hermeneutics. In particular, Kraus is interested in “the role of conjecture in textual scholarship,” which she argues “is thus concerned with issues of transmission, transformation, and prediction.”
 
-  This is the integrated development environment, or IDE, for the whole
-  system that gives you access to a help browser in the upper right,
-  logs of activity in the lower right, and the programs on the left. If
-  it seems more complicated than what you're used to, don't
-  worry. SuperCollider has a somewhat different approach than a
-  conventional compiler or a word-processor. It uses a client-server
-  model that is organized by the IDE. This means that the "interpreter",
-  the client program, reads what you wrote and tells tells the server
-  program what sounds to make and then the server makes those sounds.
 
-  You can see the status of the interpreter in the lower right. It says
-  active. The server isn't started by default and there are a few ways
-  you can do it. On a Mac you hit command-B to "boot" the server
-  (control-B on Windows or Linux) or you can click on "Boot server" in
-  the Language menu. Alternatively, you can simply right click on the
-  server status and select "Boot Server." Do that now. You should be
-  able to tell it's booting if you see some new lines in the log in the
-  lower right. It should end with something like:
-<div class="codequote">
-       SuperCollider 3 server ready.
-       Receiving notification messages from server localhost
-       Shared memory server interface initialized
-</div>
-  (Note that there's a tutorial you can do in the upper-right
-  documentation window, but we don't need everything it covers for our
-  sonification. However, if you're doing this in class and want to work
-  ahead, go for it, but it's probably better to come back to the
-  tutorial after you've finished this one.)
+**Bremen** Vigh
 
-  Now that the server is started, let's make a sound. In the big blank
-  space on the left type the following:
-<div class="codequote">
-       { [SinOsc.ar(440, 0, 0.2), SinOsc.ar(442, 0, 0.2)] }.play;
-</div>
-  Nothing is happening because you haven't told the interpreter to
-  interpret it and send the messages to the server to make
-  sounds. We're going to do that shortly, but first you need to know how
-  to make it stop. Memorize this keystroke: command-. (that's period) or
-  control-. (if you're on Windows or Linux). If you forget, you can find
-  it in the Language menu under "Stop." When you get into trouble, you
-  can *always* hit this keystroke to tell the server to stop
-  everything. As you experiment, you'll find this very useful.
-
-  Now, put your cursor on the line of code and hit command-return on Mac
-  or control-return on Windows or Linux (or select Evaluate from the
-  Language menu). It should start a nice beep. When you're tired of
-  hearing it, stop it by choosing that menu item or the keystroke you
-  memorized from before.
-
-  Let's try to understand the code. The developers use an
-  object-oriented style for the SuperCollider language which means that
-  each bit of code has a collection of other bits of code or data
-  associated with it. This is useful because certain bits of code only
-  work with other bits of code, but each command only needs to know it's
-  own business. It's like having a chef rather than cooking for
-  yourself. If you need to make a hard-boiled egg on your own, then you
-  have to get a pot, put water in the pot, turn on the stove, put the
-  egg in the water, and so on. If you're working with a chef, you just ask
-  them to make you a hard-boiled egg and wait. The chef knows how to get
-  the pot, fill it with water, turn on the stove, put the egg in the
-  water, and so on. You just need to know how to tell the chef what you
-  want.
-
-  This is what the dot notation is doing with the line of code you typed
-  earlier. Putting curly-brackets around something tells the interpreter
-  that it is a function and functions know how to "play" so something
-  like:
-
-<div class="codequote">
-       { 0 }.play;
+<div id="digitalofferings">
 </div>
 
-  Makes a function who has the value of zero and tells the server to
-  start playing it. It won't make a sound, since nothing is happening,
-  but it's valid code. The semicolon at the end tells the interpreter
-  that this is the end of one statement. They're easy to forget, so keep
-  an eye out for semicolons.
-
-  Yet, our code does a bit more. Within the curly-brackets you can see
-  square-brackets that signal an array to the interpreter. An array is
-  just a list of other things, in this case `SinOsc.ar` which is another
-  function. A `SinOsc` is a class generator, which means that it knows
-  how to make objects. If you like the chef metaphor, it's like a
-  culinary school that can produce chefs. You still have to tell it what
-  sort of chef you want, but once you do that, it will make one for you
-  who can cook. Just to get used to the documentation, try clicking on
-  the Search button in the Help Browser in the upper right. Type in
-  SinOsc and click on it. The documentation is pretty details, but
-  it's good to get in the habit of glancing over it because it tells you
-  what the class can do.
-
-  In this case, you can see `ar` is a class method which does the same
-  thing as in an `Osc` class. You can click on that word and see what it
-  does, but I'll save you the time: it stands for audio rate, which
-  tells the oscillator you want it to be high quality enough to listen
-  to. (kr stands for control rate, which takes less computer power to
-  generate, but work for sound. If you want, try changing `ar` to
-  `kr` in the code and see what it does, or doesn't do.)
-
-  If you look at the documentation for SinOsc, you'll also see that the
-  `ar` method takes freq---i.e. frequency---phase, and
-  mul---i.e. multiplier. Thus, our oscillators are at a frequency of 440
-  Hz and 442 Hz, with a phase of 0, multiplied by 0.2. Notice that the
-  frequencies are slightly different? Play the sound again and you'll
-  hear a subtle beating between the pitches that happens twice a second,
-  that is at 2 Hz, the difference between the two oscillators.
-
-  Now that you know what the numbers mean, try playing with them. Change
-  442 to 444 and listen. Change the mult from 0.2 to 0.8. Go on, I'll be
-  here when you get back.
-
-  <div id="lessontwo">
-    <!-- <h2>
-      <a href="#TOC">Lesson Two: Repeated Beeps</a>
-    </h2> -->
-  </div>
-
-## Lesson 2: Repeated Beeps
+### What does the digital offer?
 
 
-  <div id="lessonthree">
-  <!-- <h2>
-    <a href="#TOC">Lesson Three: Pitches of Beeps</a>
-  </h2> -->
-  </div>
+What is exciting about digital humanities is the ways in which digital tools can help us to understand things differently, and therefore, to explore new conceptual possibilities and make new arguments.  How can digital tools, then, help us to provoke further contributions to understandings of time?
 
-## Lesson 3: Pitches of Beeps
+This project started theoretically (e.g. through theoretical brainstorming sessions over the course of the Fall 2015 semester) as the digital interpreting the humanities. In practice, the project has become the humanities interpreting the digital. Ultimately, our desire is to work simultaneously--and seamlessly--in both modes).
+
+To carry the initial question forward: How can digital tools help us to further interpret theoretical contributions about time?
+
+Brainstorm time! Some broad categories/girdles for thinking about/with time/temporality:  
+
+**Experience.** How do we experience time? How do the ways we conceptualize time in the abstract influence the ways we experience it in real life? What happens when people understand time in different ways?
+
+**Space and Geography** (as in human/cultural geography)
+
+**Senses, Sensory, Sensation. hearing, feeling, smelling, seeing, taste (e.g the Western 5) + [...]**
+
+**Embodied Time and Affect.** rhizomatic, looping (human experience beyond the level of consciousness)
+
+**Race, Gender, Sexuality, Class, Age/Generation**
+
+**Politics.** Time in terms of the space during/between legislative, Congressional, Senatorial, and Presidential electoral cycles. The time during which a political regime is in place, and how that time is felt by varying political subjects and policymakers. For example, Jim Crow. On a more specific level, the time in which a policy is the law of the land--e.g., the time in which the Voting Rights Act was enacted and implemented, before the Supreme Court of the United States eviscerated meaningful aspects/teeth of the law. The fundraising cycles now mandatory for national political offices, as well as, to a lesser extent, local and statewide elected positions.
+
+**Legal.** Related to above, but also, the doctrinal periods of law in relation to: contract; free speech; rights of assembly; vagrancy; voting; citizenship; etc.
+
+**Narrative.** (Labov)
+
+**Geological.**
+Fernand Braudel lays out his philosophy of time, which he posits occurs along three planes, all moving at different speeds and with corresponding differences in the level of impact on people and history. The first (and to Braudel, the most significant) is geographic time--which is cyclical, almost imperceptible, and shapes all events major and minor. This time does not work the same across the globe; in other words, it is a geologic time that varies across regional geographies, such as, in this case, the Mediterranean. The second is political/economic or social time, from which we can learn the history of groups and groupings. And finally there is the time in which individuals’ daily cycles and interpersonal interactions occur. This, for Braudel, is the most superficial level of history, the least impactful, and the fastest passage of time.
+
+**Cyclical** (but that goes across many of these categories)
+**Illness (ask Scott--Maybe just incorporate into Experience??)**
+
+<div id="Ethos">
+</div>
+
+### Ethos
+
+What is our driving ethos? What are the ethical considerations that undergirded our thought process/work throughout the year? (Feminist DH, Postcolonial DH, etc infuse/inform the whole ethical project).
+
+**Social Justice.** One commonality that tied us all together was/is our commitment to social justice. Engaging with and learning DH tools/platforms can provide a means of furthering social justice ends, and this was something we all hoped to accomplish with our final output. Our commitment informed our conversations on time before we began to conceptualize a project (see the annotated bibliography, as well as our categories of time/temporality). When we began to scope out our project, this commitment remained in the background of all of our conversations and project pitches.
+
+Concrete subject areas such as: <br>
+-Labor that doesn’t get counted; <br>
+-Categories of analysis used in polling;<br>
+-Affective experience.
+
+Stuff for which there is not adequate data for various reasons: <br>
+-Prison labor; <br>
+-Domestic/gendered labor (we cannot find stats for this stuff); <br>
+-Trans/cis; <br>
+-Formerly incarcerated with full voting rights restored; <br>
+-Non-quantifiable (stuff that can’t be numerically expressed).
+
+<div id="sonification">
+</div>
+
+### Why Sonifications?
+
+Rationale
+We chose sonification because: We wanted to work with a mode of representation that was different from the visual modes that dominate the digital/internet sphere (e.g. boom in “data visualization” over the past five years). It’s not just the medium being different that makes the experience of time different, or somehow more true. What was key to us is that sonification does some of the same work that a regular visualization would do, but it also does more than that. We want this project to engage with both questions (loosely): 1) How does sonification do what visualization does? And 2) How does sonification do more (or do differently) than visualization? And how? E.g. What are the affordances of sonification? As opposed to visual representations of data? Or a written paper?
+
+**Possible critiques** <br>
+Would it be fair to suggest that sonifications are mostly quite linear, and in effect reproduce the same structures of understanding that are embedded in standard visual representations like graphs, charts. [i.e. the relationships you are representing are the same, the data source is the same, you may have more latitude in terms of pitch, sound quality, and so forth, but effectively, the decision-making process--about ratios/scaling and such--are the same as they would be with a graph]. By this logic, sonifications are, in a Foucauldian sense, simply a different technology for enforcing the same interpretive frames we take for granted. Sonifications are serving the same ends by sexier (or indeed, more sophisticated) means.
+
+**Questions of Representation** <br>
+Rendering data aurally may seem to offer a more true experience with the data--true if we are seeking engagement beyond the visual, true if we are captured by sound more than by looking. Sound offers a different affective experience. But both renderings shepard us to the same logical conclusion (people who earn less need to work more in order to afford basic commodities--this is a simple argument, yes; we chose a simple data set with a simple argument on purpose as a starting point for engaging bigger questions).
+
+Our logic in choosing sonification is case in point: it had partly to do with wanting visitors to the wormhole to feel the pressure of struggling to pay for basic commodities like milk. We didn’t just want them to see that anesthesiologists make more than minimum wage workers and therefore spend less of a percentage of their salary on basic food; we wanted them to feel that pressure. In other words, we wanted them to experience somehow the qualitative aspects of not earning enough--the stress of it, the urgency of it. Of course, this is impossible. A representation cannot recreate the experience it is representing. It can perhaps imitate. But a secondary affective experience (like data rendered in sound) simply cannot be a direct translation of one person’s qualitative experience to another person (need to explain what this means)[b. VAR piece on Leviathan].
+
+Sonification is a political argument like any other form of representation. Moreover, our ability to be affected by sonification relies on particular trainings (eg how we appreciate music, certain kinds of sound. For example, some people were disturbed by first version, they experienced the sounds as harsh. Rachel said that’s normal in academic sound studies communities). We cannot assume that sound (or other senses) are somehow universal. We are all American PhD students who share certain aesthetic and ontological premises (for example, about the ways pressure is represented, about what is too loud, about what constitutes a representation of the data at hand).  
+
+Of course, the other obvious problem here is that we are working with generalized governmental data: people’s experiences rendered in numbers according to a hyper-specific focus: how much they earn per hour. We have no idea what else is going on in these people’s lives, who they are, where (specifically) they live, what other resources they may or may not have that are not legible according to quantitative methods [Note: This is the critique of sociological methods: see recent This American Life called “For Your Reconsideration”]. This is a key point: our decision to do sonifications meant that we could only use a very specific kind of data (see below, “Sonifications” section). So what the implications of that choice?
+
+This raises a variety of questions, some of them ethical. What does it mean to induce an affective experience in someone (assuming this is possible)? Other questions?
+
+Rachel: feminist critique of sonification?
+Atlantic article about how data disproportionately affects certain communities.
+
+[question: is interpretive soundscape to illustration as sonification is to bar graph?]
+
+<div id="information">
+</div>
+
+### What Constitutes Information?
+
+"Data” versus field research (which relates to time…-e.g. You need time to do responsible research)
+Breakdown of binary between humanist and developer(?)
+
+<div id="Data">
+</div>
+
+### How Did We Select Our Data?
+
+We made a collective decision to represent time through sonifications before we selected a data set. Choosing to do sonifications meant that we could only work with a particular type of information, or data. As  <a href="http://earthzine.org/2013/07/23/sonification-data-like-youve-never-heard-before/" target="_blank"> this website</a>  writes, “sonification… [is] the process of turning scientific data into sound, including music.” Choosing sonification as an approach meant we had to choose clean, numerical data, and we had to be sure that the data was sourced consistently. In other words, we wanted to make sure that we were working with apples and apples, not apples and oranges. So, for example, although we found compelling data about prison labor embedded in narrative pieces (journalism, annual reports), we could not use it to do sonifications because data from the same source including our three categorical parameters--measurable time, earned wages, and commodity cost--were not available. We found one source that offered average prisoner earnings in a particular place. We found another source that investigated the kinds of commodities that have been produced by prisoner labor over the past decade (check it out: you may not know your underpants were the product of slave labor in the U.S. [link]). But we had no way of correlating this data according to the parameters (working time-rate of pay-commodity cost) that we needed to make the sonifications work.
+
+We ended up selected data exclusively from government sources: the Bureau of Labor Statistics, the X, Y. In the process of selecting our data, we thought to ourselves, hey, actually this process might be useful to other people. Why don’t we pick something super simple so we can explore all the considerations involved even in the simplest data representation. That’s what this website[curriculum] is about!
+
+To recap: our choice to build a series of sonifications means that there still many exciting discussions to be had about how to integrate humanities ideas into digital praxis. Many (most) of the ideas we brainstormed during the first several months of the fellowship cannot be neatly represented through a sonification, since sonifications (as defined above) cannot, by definition, emerge from qualitative research.
+
+With these constraints in mind, we revisited our earlier interests in relation to time to see how we could select a data set that both resonated with our guiding ethos and stimulated an intellectually engaging conversation about time. With our selection of data and use of sonification, we aimed to have you, the visitors to our site/portal/wormhole (aka ClockWork), use our method and inquiry as a springboard to further explore time theories, develop technical skills, and perhaps make your own sonifications, time-related or not, about data that’s interesting to you.  
+
+With all this in mind, we cycled back to earlier conversations about time in order to see what discussions could possibly correspond to clean, numerical data that would help us to make a sonification. We landed on our conversations regarding the connections between labor, consumption, and time. During these conversations, we had discussed such questions as: How is time embodied in a physical item available for purchase/consumption? How do our relationships to “things” vary based on the valuations of our time by our employers and/or governmental entities and institutions? How does one’s experience of time working differ when their time is valued differently? How do race, gender, age, sexuality impact the experience of laboring time?
+
+Thinking along these lines led us (Ethan, in particular) to find governmental data from the Bureau of Labor Statistics (BLS) on the average price of milk and gasoline during the months of 2014, as well as the BLS average and median incomes for a range of professions in the same year. Once having landed on this dataset, we thought about the problems embedded within the selection of governmental data; e.g., this data doesn’t reflect hidden labor such as prison and domestic labor; nor does it include “black market” labor--both of which include important work that is valued at significantly lower hourly wages than the minimum wage. Yet, we could find no comprehensive information on such labor. Thus, this labor is hidden both in the sense of not being recognized by large swaths of the American public, or not being recognized as labor, but also, and perhaps more insidiously, the labor is “hidden” in the sense that the government does not include it in its data collection, rendering the labor and laborers invisible and/or nonexistent in the eyes of governmental institutions. Without having performed the data collection of hidden labor ourselves, culling together data on largely unrecognized labor from a variety of sources would be problematic because we don’t know exactly what was being measured or counted as labor, how the data was collected, etc. Because sonification requires neat, clean data, we then returned to the BLS statistics with awareness of the shortcomings of the dataset. Given that the BLS offers information on a variety of areas of employment as well as on consumptive activity, we knew that by selecting this data we could be sure we were comparing apples to apples, so to speak.
+
+-What are the advantages and limitations of the data we chose?
+-How can we critically engage data in general? [Insert James’ Queries for a Dataset here--but condense, add questions, and insert hyperlinks]
+
+<div id="skills">
+</div>
+
+### What Are the Technical Skills Required?
+
+We relied upon a variety of technical skills in the making of this project. Rachel and James used <a href="http://supercollider.github.io" target="_blank"> super collider </a> to make the sonifications and the sonification tutorial[link here]. In order to make the website, Ethan used <a href="https://www.codecademy.com/learn/javascript" target="_blank"> Javascript </a>, <a href="https://www.codecademy.com/learn/web" target="_blank"> HTML and CSS</a>. We also used web browsers, text editors including <a href="https://atom.io/" target="_blank"> atom</a>.
+
+-Sonification tutorial here (or link to bottom of page, or wherever we put tutorial).
+
+If you’ve been asking yourself, what the heck is DH anyway?! What use does it serve? Check out <a href="http://miriamposner.com/blog/how-did-they-make-that-the-video/" target="_blank"> this great video </a>by Miriam Posner.
+
+Interested in learning HTML/CSS? <a href="https://www.codecademy.com/learn/web" target="_blank"> Click here </a>to start working through code academy’s units and learn how to build your own website!
+
+Are you a woman who wants to learn about opportunities to do some more intensive coding? Think about attending a <a href="http://www.blackgirlscode.com/" target="_blank"> black girls code </a>workshop or enrolling in a <a href="https://hackbrightacademy.com/" target="_blank"> hackbright academy</a> course!
+
+
+<div id="critique">
+</div>
+
+### Critique of Our Own Work
+
+What are possible avenues going forward for improving upon this project? How could we make it better? (Who are we asking? What role do we expect these answers to play?)
+-What about sound that’s not sonification?
+
+<div id="otherprojects">
+</div>
+
+### Other Rad Projects
+
+1 2 3
+
+<div id="annotatedbib">
+</div>
+
+### Annotated Bibliography
+
+TBD.
+Do we want this to move into being crowdsourced? If so, how would we recruit people (e.g. why would people consider it to be in their interest to contribute)? Would we be able to moderate a crowdsourced process? Where should the annotated biblio page be located on the website.
+[note to the team--not sure if we should include people's names? I did for myself in the writing/collecting to make sure I had representative material from errybody but... food for thought.]
+Gillet:
+
+Leora Auslander, “Coming Home? Jews in Postwar Paris” Journal of Contemporary History, Vol. 40, No. 2, Domestic Dreamworlds: Notions of Home in Post-1945 Europe (Apr., 2005) pp.237-259
+Auslander argues that historians should expand their understanding of sources to include material culture. She writes, “Experiences come to be lodged in things; loss of the object-companion of an experience, therefore, threatens the loss of the memory itself.” (239) To me, this article is helpful in furthering our exploration of the connection between time and things. (See Ethan’s blog posts and visualizations for a look at some of these inquiries.) For instance: How can particular times be experienced/reexperienced through physical things and spaces? How do domestic workers’ (both professional and unprofessional) laboring time “animate” the objects with which people interact in their homes? How are temporal experiences written throughout the physical spaces of one’s home, school, workplace, etc?
+
+Attwood, Bain, ed. In the Age of Mabo: History, Aborigines and Australia. St. Leonards, Australia: Allen & Unwin, 1996.
+In his chapter, “The Past as Future: Aborigines, Australia and the (dis)course of History,” Attwood discusses the dangers of both (Western) historical and archaeological epistemologies which posit that the past is completely separate from the present, and thus able to be analyzed to learn objective “truths” about the past. Attwood further warns of the potential for the act and product of history to function as a colonizing device, in which telling a particular version of history in fact creates a past, a present, and a future. Thus, history can function as a means of time-making rather than or in addition to the representation and analysis of time past. He does many other important and interesting things with this article, but this is what I was drawn to in terms of thinking about the relationship between epistemologies of time and of history.
+
+Braudel, Fernand. The Mediterranean and the Mediterranean World in the Age of Philip II, Vol. I. New York: Harper and Row Publishers, 1972.
+Here, Braudel lays out his philosophy of time, which he posits occur along three planes, all moving at different speeds and with differing levels of influence on history/people's lives. The first (and to Braudel, the most significant) is geographic time--which is cyclical, almost imperceptible, and shapes all events major and minor. The second is political/economic or social time, from which we can learn the history of groups and groupings. And the finally there is the time in which individuals'  daily cycles and interpersonal interactions occur. This, for Braudel, is the most superficial sense of history and the fastest passage of time.  
+
+Bremen:
+
+
+Ethan:
+
+First: <a href="https://jwernimont.wordpress.com/current-courses/feminist-digital-humanities-dhsi/" target="_blank"> Fem DH </a>
+
+This is the syllabus for a course on Feminism and the Digital Humanities held almost every year (I think) at the Digital Humanities Summer Institute. They have a ton of articles in here, like 8 that are immediately linkable, but also a useful bibliography of things that people can find in print. They also have a sidebar with current research, grant projects, and recent posts. All around, something we should definitely link to I think!
+
+Second: Johanna Drucker, <a href="http://www.digitalhumanities.org/dhq/vol/5/1/000091/000091.html" target="_blank"> "Humanities Approaches to Graphical Display." </a> Digital Humanities Quarterly 5.1 (2011).
+
+An article that starts thinking through how humanists can start to use visualization tools in a way that aligns with humanistic methodology (and not just sciences from which it is usually borrows!). Also starts theorizing that all data is really capta when, in her words in the abstract, "rethought through a humanistic lens." Really cool stuff and something I was thinking about for sure in all our visualization/sonification stuff.
+
+Third: Ted Underwood, "Theorizing Research Practices We Forgot to Theorize Twenty Years Ago," Representations 127.1 (2014) pp 64-72
+
+He's writing about how algorithmic mining of big data sets is in many ways blackboxed, but he's critical of people not talking about how their searching, what for, and so on - all the stuff we're trying to make transparent. His words: (65) "The scholarly consequences of search practices are difficult to assess, since scholars tend to suppress descriptions of their own discovery process in published work."
+
+Fourth: Bethany Nowviskie, <a href="http://nowviskie.org/2014/anthropocene/" target="_blank"> "Digital Humanities in the Anthropocene"</a> (2014)
+
+This blog post of hers is amazing. It talks a lot about sustainability, and time when it comes to the production of dh projects and such. Also it's Bethany!
+
+Fifth: <a href="http://www.disruptingdh.com/" target="_blank"> Disrupting the Digital Humanities</a>
+
+Disrupting DH had a whole bunch of MLA position papers last year, and looks like this year too. There's an introductory paper on that main site linked above. All about how, quoting from that main page, "defining a discipline becomes more an exercise of exclusion than inclusion." Some of the position papers from 2015: >a href="http://www.disruptingdh.com/on-disruption-race-and-the-digital-humanities/" target="_blank"> "On Disruption, Race, and the Digital Humanities"</a> by Roopika Risam; <a href="http://www.disruptingdh.com/multilingualism-in-dh/" target="_blank"> "Multilingualism in DH" </a>by Elika Ortega. Some really good stuff in there.
+
+Dimock, Wai Chee. “Deep Time: American Literature and World History,” American Literary History. December 2001, Vol. 13, Issue 4, p.755-775.
+Dimock, Wai Chee. <a href="http://www.jstor.org/stable/463483" target="_blank"> “A Theory of Resonance,”</a> PMLA. October 1997, Vol. 112, No. 5, pp. 1060-1071.   
+Wai Chee Dimock’s concept of “deep time… propose[s] a more extended duration for American literary studies, planetary in scope…. the force of historical depth is such as to suggest a world that predates the adjective American.” Dimock suggests that by doing so, scholars of American literature would have to re-periodize the works they study and re-interpret American texts and linguistics through large-scale analysis that allows us to question: “How does a literary text sound when it is read twenty years, two hundred years, or two thousand years after it was written?” and what are/what is the significance of “the traveling frequencies of literary texts”? Her works go much further than these musings, but for Ethan, these provided a helpful entre into how scholars of American literature have and could conceptualize time in relation to their discipline.
+
+James:
+Todd Presner, "The Ethics of the Algorithm: Close and Distant Listening to the Shoah Foundation Visual History Archive," forthcoming in: History Unlimited: Probing the Ethics of Holocaust Culture(Cambridge: Harvard University Press, 2015), paired with Stephen Smith, “On the Ethics of Technology and Testimony: A response to Todd Presner.”
+A pre-publication argument about the ethics of databases and algorithms based on the experience of developing an audio-visual database of genocide survivor testimony.
+
+Kraus, Kari. <a href="http://digitalhumanities.org/dhq/vol/3/4/000069/000069.html" target="_blank"> "Conjectural Criticism: Computing Past and Future Texts."</a> DHQ: Digital Humanities Quarterly 3:4 (2009) 1-28.
+Looking at the long history of the study of textual transmission, this article places speculative computer-based reconstruction of texts into historical relationship to other forms of speculating on the text, specifically recension editing, divination, and Biblical hermeneutics.
+
+Yoan Chabot, Aurélie Bertaux, Christophe Nicolle, M-Tahar Kechadi. “A complete formalized knowledge representation model for advanced digital forensics timeline analysis” Digital Investigation  11 (2014) S95-S105
+
+Rachel:
+<a href="http://earthzine.org/2013/07/23/sonification-data-like-youve-never-heard-before/" target="_blank"> This article </a>explains sonifications in layman’s terms. The authors do not get into the nitty gritty of coding, but rather describe general methods of sonifying and provide examples of uses of sonification. The examples they give demonstrate the use sonifications for making large quantities of scientific data more easily digestible.  
+
+Check box for ethan--time & Consumption/commodification/labor?
+
+Lydia:
+Cohabiting in Time: <a href="http://journals.cambridge.org/abstract_S1355771811000045
+" target="_blank"> Towards an ecology of rhythm</a> - Peter Nelson
+This article is about ecologies of sounds in time and human experience.
+
+<a href="http://web.stanford.edu/dept/SUL/library/extra4/sloan/mousesite/Secondary/Whorfframe2.html" target="_blank"> THE RELATION OF HABITUAL THOUGHT AND BEHAVIOR TO LANGUAGE</a> - Whorf
+Whorf discusses Linguistic relativity, subjectivity in words and thoughts.
+
+
+Keil, C.. (1987). <a href="http://www.jstor.org/stable/656427" target="_blank"> Participatory Discrepancies and the Power of Music.</a> Cultural Anthropology, 2(3), 275–283.
+Keil writes about music that is personally involving and socially valuable is said to be "out of time" and "out of tune."
+
+<div id="resources">
+</div>
+
+### Outside Resources
+
+**Learn JavaScript:** <br>
+<a href="https://www.codecademy.com/learn/javascript" target="_blank"> Code Academy</a> <br>
+<a href="https://www.lynda.com/JavaScript-tutorials/JavaScript-Essential-Training/81266-2.html?srchtrk=index:1linktypeid:2q:javascriptpage:1s:relevancesa:trueproducttypeid:2" target="_blank"> Lynda.com</a>
+
+**Learn HTML/CSS:** <br>
+<a href="https://www.codecademy.com/learn/web" target="_blank"> Code Academy </a>
+
+**Learn Sonification:** <br>
+Praxis Tutorial (how to use SuperCollyder): <br>
+<a href="http://earthzine.org/2013/07/23/sonification-data-like-youve-never-heard-before/" target="_blank"> Sonification explanation</a>--not coding, but just general methods, use, etc.
+
+**Further Learning Opportunities:** <br>
+<a href="http://www.blackgirlscode.com/" target="_blank"> Black Girls Code</a>
+<a href="http://railsgirls.com/" target="_blank"> Rails Girls</a> <br>
+<a href="https://hackbrightacademy.com/" target="_blank"> Hackbright Academy</a> (software engineering school for women)<br>
+<a href="http://www.dhsi.org/courses.php" target="_blank"> Digital Humanities Summer Institute</a> <br>
+<a href="http://www.dhtraining.org/hilt/" target="_blank"> Humanities Intensive Learning and Teaching (HILT)</a> <br>
+<a href="http://dhsi.org/" target="_blank"> INKE (Implementing New Knowledge Environments)</a> <br>
+<a href="https://library.brown.edu/" target="_blank"> Center for Digital Scholarship at Brown University</a> <br>
+<a href="http://femtechnet.newschool.edu/" target="_blank"> FemTechNet, based at the New School</a> <br>
+<a href="https://library.brown.edu/cds/tag/tei/" target="_blank"> Text Encoding Initiative at Brown University Center for Digital Scholarship</a>
+
+**SYLLABI** <br>
+<a href="https://docs.google.com/document/d/1KzQZ5rV3hkPoiX2ZBMi-s2sfW8KuZKU0iRXGjiaTQV8/edit" target="_blank"> Postcolonial DH Course (instructors: Roopika Risam and Micha Cárdenas)</a> <br>
+Jacqueline Wernimont, Syllabus, <a href="https://jwernimont.wordpress.com/current-courses/feminist-digital-humanities-dhsi/" target="_blank">“Feminist Digital Humanities: Theoretical, Social, and Material Engagements around Making and Breaking Computational Media” </a>
+
+SELECTING, MANIPULATING, AND PRESENTING DATA
+
+TIME THEORY
+
+FEMINIST DIGITAL HUMANITIES (#femdh)
+<a href="https://twitter.com/hashtag/femdh" target=_blank"> #femdh</a> <br>
+<a href="http://smarterware.org/2011/03/designers-women-and-hostility-in-open-source/" target="_blank"> Gina Trapani and Open Source Community</a> <br>
+<a href="https://civic.mit.edu/feminist-data-visualization" target="_blank"> “What would feminist data visualization look like?” </a>
+
+POSTCOLONIAL DIGITAL HUMANITIES
+<a href="http://criticaldh.roopikarisam.com/" target="_blank"> Postcolonial DH </a>
+
+**Misc.** <br>
+ Jeri Wieringa and Celeste Sharpe did a <a href="http://railsgirls.com/digitalhumanities_fairfax" target="_blank"> Rails Girls DH</a> at CHNM a few years ago <br>
+Jeri and Celeste also did something similar called <a href="http://curriculum.dhbridge.org/" target="_blank"> DH Bridge</a>, with Python instead of RoR <br>
+From James’ March 5 email called <a href="https://w3ctag.github.io/security-questionnaire/" target="_blank"> “Genre for Documentation Team”</a> <br>
+The W3C supports two document languages for developing these:
+<a href="https://github.com/w3c/respec/" target="_blank"> https://w3ctag.github.io/security-questionnaire/ </a> <br>
+(and somewhat better) <a href="https://github.com/tabatkins/bikeshed" target="_blank"> Bikeshed </a> <br>
+And there is a open-source portal for <a href="http://www.specref.org/?q=questionnaire" target="_blank"> specifications </a> <br>
+<a href="https://www.w3.org/Guide/" target="_blank"> https://www.w3.org/Guide/ </a> <br>
+Anastasia Salter, <a href="http://selfloud.net/mla-17-special-session-cfp-thats-not-how-scholarship-works/" target="_blank"> “That’s Not How Scholarship Works” </a> <br>
+<a href="http://fivethirtyeight.com/datalab/introducing-censusamericans-a-twitter-bot-for-america/" target="_blank"> Census Americans (Twitter bot) </a> <br>
+<a href="https://datadrivendj.com/" target="_blank"> Data-Driven DJ </a> <br>
+<a href="http://www.digitalhumanities.org/dhq/vol/5/1/000091/000091.html" target="_blank"> Humanities Approaches to Graphical Display</a> <br>
+<a href="http://mappingpoliceviolence.org/" target="_blank"> Mapping Police Violence </a> <br>
+The man who rebuilt <a href="http://www.theatlantic.com/technology/archive/2015/06/the-man-who-rebuilt-1920s-harlem-in-virtual-reality/396089/" target="_blank"> 1920s Harlem </a>in virtual reality <br>
+<a href=" http://www.pervasiveplay.org/" target="_blank"> Pervasive Play</a> (CHI 2016 Workshop) <br>
+Guardian--<a href="http://www.theguardian.com/news/datablog/2015/dec/03/here-are-the-winners-of-the-kantar-information-is-beautiful-awards-2015?CMP=twt_gu" target="_blank"> Kantar Information is Beautiful Awards</a> <br>
+<a href="http://flowingdata.com/2015/11/30/most-common-use-of-time-by-age-and-sex/" target="_blank"> Most common use of time by age and sex</a> <br>
+<a href="http://blacktimetravel.com/" target="_blank"> BlackTimeTravel</a> <br>
+<a href="https://soundstudiesblog.com/cfp-digital-humanities-and-listening-due-41016/" target="_blank"> Sounding Out! Sound Studies Blog</a> <br>
+<a href="https://jwernimont.wordpress.com/2015/09/19/build-a-better-panel-women-in-dh/" target="_blank"> List of women in DH</a>
