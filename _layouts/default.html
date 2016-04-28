@@ -12,8 +12,16 @@
 
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+  <script src="{{ "/jquery-ui/jquery-ui.js" | prepend: site.baseurl }}"></script>
+  <link rel="stylesheet" href="{{ "/jquery-ui/jquery-ui.css" | prepend: site.baseurl }}">
+  <!-- <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css"> -->
+  <script>
+  $(function() {
+    $( "#accordion" ).accordion();
+  });
+  </script>
 
-      <!-- <link rel="stylesheet" href="/myclockstyle.css"> -->
 </head>
 
   <body class="{{ page.bodyclass }}">
@@ -56,8 +64,6 @@
         {{ content }}
 
     </main>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
        <script src="/flipclock.js"></script>
        <script>
          $(document).ready(function(){

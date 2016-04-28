@@ -7,7 +7,7 @@ bodyclass: curriculumpage
 
 Updated: 11 April 2016
 
-### Table of Contents
+<h3> Table of Contents </h3>
 
 <div id="TOC">
   <ul>
@@ -51,109 +51,109 @@ Updated: 11 April 2016
   </ul>
 </div>
 
-<div id="introduction">
+<div id="accordion">
+    <h3> Introduction </h3>
+      <div>
+      <p>
+        The project is about time, the way we value time, and how people    experience time differently. We want people to grapple with the value of time for people in different sectors of the economy and at different income levels. We attempted to represent economic frustration through sound (and try to express an aesthetics of experience somehow).
+        </p>
+      <p>
+        We arrived at the sonifications after months of very engaging and provocative conversations related to time. For the purposes of expediency as the praxis year was coming to a close, and with a commitment to doing something with a social justice component, we chose to do a sonification as our final project. The sonifications are is simple. The project is stark in its simplicity. Our intention is that this project is “good to think”. Let’s think about it together. We’d like to link to projects that are doing cool related tangents. We’d like to show you how to do some of this stuff on your own if you want.
+      </p> <p>
+    BIG QUESTION AT THE BEGINNING OF PRAXIS: How could we think about time in a nonlinear/non-timeline fashion?
+      </p>
+      <p>
+    ClockWork: we’re working within the time systems that we know and use everyday (e.g. hourly/monthly/yearly); we’re doing linear, but we’re doing linear slant. Still, at the core, <a href="http://earthzine.org/2013/07/23/sonification-data-like-youve-never-heard-before/" target="_blank"> it's linear.</a> We offer this as a productive starting point.
+      </p> <p>
+    Our project, in using higher pitch and louder volume to represent greater effort during a particular time period, pulls attention to the ways in which time is experienced and valued differently across income levels. Thus, even linear time is not linear in the same way for all people--a minute is more arduous (and perhaps feels longer?) for those working minimum wage jobs than for high-earning careerists. [link here to childhood/poverty stress and the brain/body?]
+    </p>
+  </div>
 
-</div>
+  <div id="whytime">
 
-
-### Introduction
-
-The project is about time, the way we value time, and how people experience time differently. We want people to grapple with the value of time for people in different sectors of the economy and at different income levels. We attempted to represent economic frustration through sound (and try to express an aesthetics of experience somehow).
-
-We arrived at the sonifications after months of very engaging and provocative conversations related to time. For the purposes of expediency as the praxis year was coming to a close, and with a commitment to doing something with a social justice component, we chose to do a sonification as our final project. The sonifications are is simple. The project is stark in its simplicity. Our intention is that this project is “good to think”. Let’s think about it together. We’d like to link to projects that are doing cool related tangents. We’d like to show you how to do some of this stuff on your own if you want.
-
-
-BIG QUESTION AT THE BEGINNING OF PRAXIS: How could we think about time in a nonlinear/non-timeline fashion?
-
-ClockWork: we’re working within the time systems that we know and use everyday (e.g. hourly/monthly/yearly); we’re doing linear, but we’re doing linear slant. Still, at the core, <a href="http://earthzine.org/2013/07/23/sonification-data-like-youve-never-heard-before/" target="_blank"> it's linear.</a> We offer this as a productive starting point.
-
-Our project, in using higher pitch and louder volume to represent greater effort during a particular time period, pulls attention to the ways in which time is experienced and valued differently across income levels. Thus, even linear time is not linear in the same way for all people--a minute is more arduous (and perhaps feels longer?) for those working minimum wage jobs than for high-earning careerists. [link here to childhood/poverty stress and the brain/body?]
-
-
-<div id="whytime">
-</div>
-
-### Why Time?
+    <h3> Why Time? </h3>
 
 
-Time is an important subject to interrogate and theorize because we make all kinds of assumptions about what time means, how we experience time, and how we should represent time. Each of our disciplines offer rich perspectives on what time means and how we might imagine it conceptually. Questions of causality, etc. (we can’t make arguments about time between people who don’t understand or experience time in the same way--or at least it’s very difficult to make those arguments--and so we often impose a [dominant] conceptualization of time onto every question). This is why time is an important prompt for a digital humanities project. There are endless possibilities.
+    Time is an important subject to interrogate and theorize because we make all kinds of assumptions about what time means, how we experience time, and how we should represent time. Each of our disciplines offer rich perspectives on what time means and how we might imagine it conceptually. Questions of causality, etc. (we can’t make arguments about time between people who don’t understand or experience time in the same way--or at least it’s very difficult to make those arguments--and so we often impose a [dominant] conceptualization of time onto every question). This is why time is an important prompt for a digital humanities project. There are endless possibilities.
 
-A little thought experiment: <br>
-In the first several weeks of Praxis, everyone brought in a written piece from their discipline that grappled with time in an interesting and provocative manner.  All pieces offer much more than the reasons which drew us to use them as our case studies, but in their musings on time, the provided helpful entrés into varying disciplinary understandings of time.
+    A little thought experiment: <br>
+    In the first several weeks of Praxis, everyone brought in a written piece from their discipline that grappled with time in an interesting and provocative manner.  All pieces offer much more than the reasons which drew us to use them as our case studies, but in their musings on time, the provided helpful entrés into varying disciplinary understandings of time.
 
-**Ethan** encouraged us to engage with Wai Chee Dimock’s concept of “deep time,” in which she “propose[s] a more extended duration for American literary studies, planetary in scope… the force of historical depth is such as to suggest a world that predates the adjective American.” Dimock suggests that by doing so, scholars of American literature would have to re-periodize the works they study and re-interpret American texts and linguistics through large-scale analysis that allows us to question: “How does a literary text sound when it is read twenty years, two hundred years, or two thousand years after it was written?” What are/what is the significance of “the traveling frequencies of literary texts”? For Ethan, these provided a helpful entré into how scholars of American literature have and could conceptualize time in relation to their discipline.
+    **Ethan** encouraged us to engage with Wai Chee Dimock’s concept of “deep time,” in which she “propose[s] a more extended duration for American literary studies, planetary in scope… the force of historical depth is such as to suggest a world that predates the adjective American.” Dimock suggests that by doing so, scholars of American literature would have to re-periodize the works they study and re-interpret American texts and linguistics through large-scale analysis that allows us to question: “How does a literary text sound when it is read twenty years, two hundred years, or two thousand years after it was written?” What are/what is the significance of “the traveling frequencies of literary texts”? For Ethan, these provided a helpful entré into how scholars of American literature have and could conceptualize time in relation to their discipline.
 
-**Gillet** wanted to include historical work that questioned the relationship of time to the present and future, as well as interrogated Western ideologies of time. In his chapter “The past as future,” Bain Attwood discusses the dangers of both (Western) historical and archaeological epistemologies which posit that the past is completely separate from the present, and thus able to be analyzed to learn objective “truths” about the past. Attwood further warns of the potential for the act and product of history to function as a colonizing device, in which telling a particular version of history in fact creates a past, a present, and a future. Thus, history can function as a means of time-making rather than or in addition to the representation and analysis of time past.
+    **Gillet** wanted to include historical work that questioned the relationship of time to the present and future, as well as interrogated Western ideologies of time. In his chapter “The past as future,” Bain Attwood discusses the dangers of both (Western) historical and archaeological epistemologies which posit that the past is completely separate from the present, and thus able to be analyzed to learn objective “truths” about the past. Attwood further warns of the potential for the act and product of history to function as a colonizing device, in which telling a particular version of history in fact creates a past, a present, and a future. Thus, history can function as a means of time-making rather than or in addition to the representation and analysis of time past.
 
-**Lydia** brought Charles Keil’s “Participatory Discrepancies and the Power of Music” to our conversation. As Lydia writes, “Keil’s concept of participatory discrepancy relates to our time discussion in that musics that are ‘out of time’ (often in ways that are too small to notate conventionally) display evidence of humanity, and therefore, are relatable and meaningful in human ways. He uses a modern-ish example (Bo Diddley), which I like because it highlights the awesome role of technology in participatory democracies. It’s similar-is to DW Griffith’s notion of film being meaningful only if it captures ‘the beauty of the moving wind in the trees.’”
+    **Lydia** brought Charles Keil’s “Participatory Discrepancies and the Power of Music” to our conversation. As Lydia writes, “Keil’s concept of participatory discrepancy relates to our time discussion in that musics that are ‘out of time’ (often in ways that are too small to notate conventionally) display evidence of humanity, and therefore, are relatable and meaningful in human ways. He uses a modern-ish example (Bo Diddley), which I like because it highlights the awesome role of technology in participatory democracies. It’s similar-is to DW Griffith’s notion of film being meaningful only if it captures ‘the beauty of the moving wind in the trees.’”
 
-**Rachel** brought us a canonical article by Karl Stockhausen called “How Time Passes.” In the article, Stockhausen argues that “music is a series of events in time.” Duration and pitch occur in “different areas in one time scale.” [I’m not sure I fully get this… will have to pay more attention and come back]
+    **Rachel** brought us a canonical article by Karl Stockhausen called “How Time Passes.” In the article, Stockhausen argues that “music is a series of events in time.” Duration and pitch occur in “different areas in one time scale.” [I’m not sure I fully get this… will have to pay more attention and come back]
 
-**James** introduced us to Kari Kraus, who looks in this article at the long history of the study of textual transmission and places speculative computer-based reconstruction of texts into historical relationship to other forms of speculating on the text, specifically recension editing, divination, and Biblical hermeneutics. In particular, Kraus is interested in “the role of conjecture in textual scholarship,” which she argues “is thus concerned with issues of transmission, transformation, and prediction.”
-
-
-**Bremen** Vigh
-
-<div id="digitalofferings">
-</div>
-
-### What does the digital offer?
+    **James** introduced us to Kari Kraus, who looks in this article at the long history of the study of textual transmission and places speculative computer-based reconstruction of texts into historical relationship to other forms of speculating on the text, specifically recension editing, divination, and Biblical hermeneutics. In particular, Kraus is interested in “the role of conjecture in textual scholarship,” which she argues “is thus concerned with issues of transmission, transformation, and prediction.”
 
 
-What is exciting about digital humanities is the ways in which digital tools can help us to understand things differently, and therefore, to explore new conceptual possibilities and make new arguments.  How can digital tools, then, help us to provoke further contributions to understandings of time?
+    **Bremen** Vigh
+    </div>
+  </div>
 
-<div class="marginalia">
-If you’ve been asking yourself, what the heck is DH anyway?! What use does it serve? Check out <a href="http://miriamposner.com/blog/how-did-they-make-that-the-video/" target="_blank"> this great video </a>by Miriam Posner.
-</div>
+    <div id="digitalofferings">
+    </div>
 
-This project started theoretically (e.g. through theoretical brainstorming sessions over the course of the Fall 2015 semester) as the digital interpreting the humanities. In practice, the project has become the humanities interpreting the digital. Ultimately, our desire is to work simultaneously--and seamlessly--in both modes).
+    ### What does the digital offer?
 
-To carry the initial question forward: How can digital tools help us to further interpret theoretical contributions about time?
 
-Brainstorm time! Some broad categories/girdles for thinking about/with time/temporality:  
+    What is exciting about digital humanities is the ways in which digital tools can help us to understand things differently, and therefore, to explore new conceptual possibilities and make new arguments.  How can digital tools, then, help us to provoke further contributions to understandings of time?
 
-**Experience.** How do we experience time? How do the ways we conceptualize time in the abstract influence the ways we experience it in real life? What happens when people understand time in different ways?
+    <div class="marginalia">
+    If you’ve been asking yourself, what the heck is DH anyway?! What use does it serve? Check out <a href="http://miriamposner.com/blog/how-did-they-make-that-the-video/" target="_blank"> this great video </a>by Miriam Posner.
+    </div>
 
-**Space and Geography** (as in human/cultural geography)
+    This project started theoretically (e.g. through theoretical brainstorming sessions over the course of the Fall 2015 semester) as the digital interpreting the humanities. In practice, the project has become the humanities interpreting the digital. Ultimately, our desire is to work simultaneously--and seamlessly--in both modes).
 
-**Senses, Sensory, Sensation. hearing, feeling, smelling, seeing, taste (e.g the Western 5) + [...]**
+    To carry the initial question forward: How can digital tools help us to further interpret theoretical contributions about time?
 
-**Embodied Time and Affect.** rhizomatic, looping (human experience beyond the level of consciousness)
+    Brainstorm time! Some broad categories/girdles for thinking about/with time/temporality:  
 
-**Race, Gender, Sexuality, Class, Age/Generation**
+    **Experience.** How do we experience time? How do the ways we conceptualize time in the abstract influence the ways we experience it in real life? What happens when people understand time in different ways?
 
-**Politics.** Time in terms of the space during/between legislative, Congressional, Senatorial, and Presidential electoral cycles. The time during which a political regime is in place, and how that time is felt by varying political subjects and policymakers. For example, Jim Crow. On a more specific level, the time in which a policy is the law of the land--e.g., the time in which the Voting Rights Act was enacted and implemented, before the Supreme Court of the United States eviscerated meaningful aspects/teeth of the law. The fundraising cycles now mandatory for national political offices, as well as, to a lesser extent, local and statewide elected positions.
+    **Space and Geography** (as in human/cultural geography)
 
-**Legal.** Related to above, but also, the doctrinal periods of law in relation to: contract; free speech; rights of assembly; vagrancy; voting; citizenship; etc.
+    **Senses, Sensory, Sensation. hearing, feeling, smelling, seeing, taste (e.g the Western 5) + [...]**
 
-**Narrative.** (Labov)
+    **Embodied Time and Affect.** rhizomatic, looping (human experience beyond the level of consciousness)
 
-**Geological.**
-Fernand Braudel lays out his philosophy of time, which he posits occurs along three planes, all moving at different speeds and with corresponding differences in the level of impact on people and history. The first (and to Braudel, the most significant) is geographic time--which is cyclical, almost imperceptible, and shapes all events major and minor. This time does not work the same across the globe; in other words, it is a geologic time that varies across regional geographies, such as, in this case, the Mediterranean. The second is political/economic or social time, from which we can learn the history of groups and groupings. And finally there is the time in which individuals’ daily cycles and interpersonal interactions occur. This, for Braudel, is the most superficial level of history, the least impactful, and the fastest passage of time.
+    **Race, Gender, Sexuality, Class, Age/Generation**
 
-**Cyclical** (but that goes across many of these categories)<br>
-**Illness (ask Scott--Maybe just incorporate into Experience??)**
+    **Politics.** Time in terms of the space during/between legislative, Congressional, Senatorial, and Presidential electoral cycles. The time during which a political regime is in place, and how that time is felt by varying political subjects and policymakers. For example, Jim Crow. On a more specific level, the time in which a policy is the law of the land--e.g., the time in which the Voting Rights Act was enacted and implemented, before the Supreme Court of the United States eviscerated meaningful aspects/teeth of the law. The fundraising cycles now mandatory for national political offices, as well as, to a lesser extent, local and statewide elected positions.
 
-<div id="Ethos">
-</div>
+    **Legal.** Related to above, but also, the doctrinal periods of law in relation to: contract; free speech; rights of assembly; vagrancy; voting; citizenship; etc.
 
-### Ethos
+    **Narrative.** (Labov)
 
-What is our driving ethos? What are the ethical considerations that undergirded our thought process/work throughout the year? (Feminist DH, Postcolonial DH, etc infuse/inform the whole ethical project).
+    **Geological.**
+    Fernand Braudel lays out his philosophy of time, which he posits occurs along three planes, all moving at different speeds and with corresponding differences in the level of impact on people and history. The first (and to Braudel, the most significant) is geographic time--which is cyclical, almost imperceptible, and shapes all events major and minor. This time does not work the same across the globe; in other words, it is a geologic time that varies across regional geographies, such as, in this case, the Mediterranean. The second is political/economic or social time, from which we can learn the history of groups and groupings. And finally there is the time in which individuals’ daily cycles and interpersonal interactions occur. This, for Braudel, is the most superficial level of history, the least impactful, and the fastest passage of time.
 
-**Social Justice.** One commonality that tied us all together was/is our commitment to social justice. Engaging with and learning DH tools/platforms can provide a means of furthering social justice ends, and this was something we all hoped to accomplish with our final output. Our commitment informed our conversations on time before we began to conceptualize a project (see the annotated bibliography, as well as our categories of time/temporality). When we began to scope out our project, this commitment remained in the background of all of our conversations and project pitches.
+    **Cyclical** (but that goes across many of these categories)<br>
+    **Illness (ask Scott--Maybe just incorporate into Experience??)**
 
-Concrete subject areas such as: <br>
--Labor that doesn’t get counted; <br>
--Categories of analysis used in polling;<br>
--Affective experience.
+    <div id="Ethos">
+    </div>
 
-Stuff for which there is not adequate data for various reasons: <br>
--Prison labor; <br>
--Domestic/gendered labor (we cannot find stats for this stuff); <br>
--Trans/cis; <br>
--Formerly incarcerated with full voting rights restored; <br>
--Non-quantifiable (stuff that can’t be numerically expressed).
+    ### Ethos
+
+    What is our driving ethos? What are the ethical considerations that undergirded our thought process/work throughout the year? (Feminist DH, Postcolonial DH, etc infuse/inform the whole ethical project).
+
+    **Social Justice.** One commonality that tied us all together was/is our commitment to social justice. Engaging with and learning DH tools/platforms can provide a means of furthering social justice ends, and this was something we all hoped to accomplish with our final output. Our commitment informed our conversations on time before we began to conceptualize a project (see the annotated bibliography, as well as our categories of time/temporality). When we began to scope out our project, this commitment remained in the background of all of our conversations and project pitches.
+
+    Concrete subject areas such as: <br>
+    -Labor that doesn’t get counted; <br>
+    -Categories of analysis used in polling;<br>
+    -Affective experience.
+
+    Stuff for which there is not adequate data for various reasons: <br>
+    -Prison labor; <br>
+    -Domestic/gendered labor (we cannot find stats for this stuff); <br>
+    -Trans/cis; <br>
+    -Formerly incarcerated with full voting rights restored; <br>
+    -Non-quantifiable (stuff that can’t be numerically expressed).
 
 <div id="sonification">
 </div>
