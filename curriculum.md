@@ -55,9 +55,6 @@ Updated: 11 April 2016
 
 </div>
 
-<div class="marginalia">
-blah blah
-</div>
 
 ### Introduction
 
@@ -105,6 +102,10 @@ In the first several weeks of Praxis, everyone brought in a written piece from t
 
 What is exciting about digital humanities is the ways in which digital tools can help us to understand things differently, and therefore, to explore new conceptual possibilities and make new arguments.  How can digital tools, then, help us to provoke further contributions to understandings of time?
 
+<div class="marginalia">
+If you’ve been asking yourself, what the heck is DH anyway?! What use does it serve? Check out <a href="http://miriamposner.com/blog/how-did-they-make-that-the-video/" target="_blank"> this great video </a>by Miriam Posner.
+</div>
+
 This project started theoretically (e.g. through theoretical brainstorming sessions over the course of the Fall 2015 semester) as the digital interpreting the humanities. In practice, the project has become the humanities interpreting the digital. Ultimately, our desire is to work simultaneously--and seamlessly--in both modes).
 
 To carry the initial question forward: How can digital tools help us to further interpret theoretical contributions about time?
@@ -130,7 +131,7 @@ Brainstorm time! Some broad categories/girdles for thinking about/with time/temp
 **Geological.**
 Fernand Braudel lays out his philosophy of time, which he posits occurs along three planes, all moving at different speeds and with corresponding differences in the level of impact on people and history. The first (and to Braudel, the most significant) is geographic time--which is cyclical, almost imperceptible, and shapes all events major and minor. This time does not work the same across the globe; in other words, it is a geologic time that varies across regional geographies, such as, in this case, the Mediterranean. The second is political/economic or social time, from which we can learn the history of groups and groupings. And finally there is the time in which individuals’ daily cycles and interpersonal interactions occur. This, for Braudel, is the most superficial level of history, the least impactful, and the fastest passage of time.
 
-**Cyclical** (but that goes across many of these categories)
+**Cyclical** (but that goes across many of these categories)<br>
 **Illness (ask Scott--Maybe just incorporate into Experience??)**
 
 <div id="Ethos">
@@ -161,6 +162,10 @@ Stuff for which there is not adequate data for various reasons: <br>
 
 Rationale
 We chose sonification because: We wanted to work with a mode of representation that was different from the visual modes that dominate the digital/internet sphere (e.g. boom in “data visualization” over the past five years). It’s not just the medium being different that makes the experience of time different, or somehow more true. What was key to us is that sonification does some of the same work that a regular visualization would do, but it also does more than that. We want this project to engage with both questions (loosely): 1) How does sonification do what visualization does? And 2) How does sonification do more (or do differently) than visualization? And how? E.g. What are the affordances of sonification? As opposed to visual representations of data? Or a written paper?
+
+<div class="marginalia">
+Interested in making your own sonification? Check out our tutorial [link here]!
+</div>
 
 **Possible critiques** <br>
 Would it be fair to suggest that sonifications are mostly quite linear, and in effect reproduce the same structures of understanding that are embedded in standard visual representations like graphs, charts. [i.e. the relationships you are representing are the same, the data source is the same, you may have more latitude in terms of pitch, sound quality, and so forth, but effectively, the decision-making process--about ratios/scaling and such--are the same as they would be with a graph]. By this logic, sonifications are, in a Foucauldian sense, simply a different technology for enforcing the same interpretive frames we take for granted. Sonifications are serving the same ends by sexier (or indeed, more sophisticated) means.
@@ -218,12 +223,11 @@ We relied upon a variety of technical skills in the making of this project. Rach
 
 -Sonification tutorial here (or link to bottom of page, or wherever we put tutorial).
 
-If you’ve been asking yourself, what the heck is DH anyway?! What use does it serve? Check out <a href="http://miriamposner.com/blog/how-did-they-make-that-the-video/" target="_blank"> this great video </a>by Miriam Posner.
-
 Interested in learning HTML/CSS? <a href="https://www.codecademy.com/learn/web" target="_blank"> Click here </a>to start working through code academy’s units and learn how to build your own website!
 
+<div class="marginalia">
 Are you a woman who wants to learn about opportunities to do some more intensive coding? Think about attending a <a href="http://www.blackgirlscode.com/" target="_blank"> black girls code </a>workshop or enrolling in a <a href="https://hackbrightacademy.com/" target="_blank"> hackbright academy</a> course!
-
+</div>
 
 <div id="critique">
 </div>
@@ -248,22 +252,21 @@ What are possible avenues going forward for improving upon this project? How cou
 TBD.
 Do we want this to move into being crowdsourced? If so, how would we recruit people (e.g. why would people consider it to be in their interest to contribute)? Would we be able to moderate a crowdsourced process? Where should the annotated biblio page be located on the website.
 [note to the team--not sure if we should include people's names? I did for myself in the writing/collecting to make sure I had representative material from errybody but... food for thought.]
-Gillet:
 
-Leora Auslander, “Coming Home? Jews in Postwar Paris” Journal of Contemporary History, Vol. 40, No. 2, Domestic Dreamworlds: Notions of Home in Post-1945 Europe (Apr., 2005) pp.237-259
+Gillet: <br>
+Leora Auslander, “Coming Home? Jews in Postwar Paris” _Journal of Contemporary History_, Vol. 40, No. 2, Domestic Dreamworlds: Notions of Home in Post-1945 Europe (Apr., 2005) pp.237-259
 Auslander argues that historians should expand their understanding of sources to include material culture. She writes, “Experiences come to be lodged in things; loss of the object-companion of an experience, therefore, threatens the loss of the memory itself.” (239) To me, this article is helpful in furthering our exploration of the connection between time and things. (See Ethan’s blog posts and visualizations for a look at some of these inquiries.) For instance: How can particular times be experienced/reexperienced through physical things and spaces? How do domestic workers’ (both professional and unprofessional) laboring time “animate” the objects with which people interact in their homes? How are temporal experiences written throughout the physical spaces of one’s home, school, workplace, etc?
 
-Attwood, Bain, ed. In the Age of Mabo: History, Aborigines and Australia. St. Leonards, Australia: Allen & Unwin, 1996.
+Attwood, Bain, ed. _In the Age of Mabo: History, Aborigines and Australia_. St. Leonards, Australia: Allen & Unwin, 1996.
 In his chapter, “The Past as Future: Aborigines, Australia and the (dis)course of History,” Attwood discusses the dangers of both (Western) historical and archaeological epistemologies which posit that the past is completely separate from the present, and thus able to be analyzed to learn objective “truths” about the past. Attwood further warns of the potential for the act and product of history to function as a colonizing device, in which telling a particular version of history in fact creates a past, a present, and a future. Thus, history can function as a means of time-making rather than or in addition to the representation and analysis of time past. He does many other important and interesting things with this article, but this is what I was drawn to in terms of thinking about the relationship between epistemologies of time and of history.
 
-Braudel, Fernand. The Mediterranean and the Mediterranean World in the Age of Philip II, Vol. I. New York: Harper and Row Publishers, 1972.
+Braudel, Fernand. _The Mediterranean and the Mediterranean World in the Age of Philip II_, Vol. I. New York: Harper and Row Publishers, 1972.
 Here, Braudel lays out his philosophy of time, which he posits occur along three planes, all moving at different speeds and with differing levels of influence on history/people's lives. The first (and to Braudel, the most significant) is geographic time--which is cyclical, almost imperceptible, and shapes all events major and minor. The second is political/economic or social time, from which we can learn the history of groups and groupings. And the finally there is the time in which individuals'  daily cycles and interpersonal interactions occur. This, for Braudel, is the most superficial sense of history and the fastest passage of time.  
 
 Bremen:
 
 
-Ethan:
-
+Ethan: <br>
 First: <a href="https://jwernimont.wordpress.com/current-courses/feminist-digital-humanities-dhsi/" target="_blank"> Fem DH </a>
 
 This is the syllabus for a course on Feminism and the Digital Humanities held almost every year (I think) at the Digital Humanities Summer Institute. They have a ton of articles in here, like 8 that are immediately linkable, but also a useful bibliography of things that people can find in print. They also have a sidebar with current research, grant projects, and recent posts. All around, something we should definitely link to I think!
@@ -272,7 +275,7 @@ Second: Johanna Drucker, <a href="http://www.digitalhumanities.org/dhq/vol/5/1/0
 
 An article that starts thinking through how humanists can start to use visualization tools in a way that aligns with humanistic methodology (and not just sciences from which it is usually borrows!). Also starts theorizing that all data is really capta when, in her words in the abstract, "rethought through a humanistic lens." Really cool stuff and something I was thinking about for sure in all our visualization/sonification stuff.
 
-Third: Ted Underwood, "Theorizing Research Practices We Forgot to Theorize Twenty Years Ago," Representations 127.1 (2014) pp 64-72
+Third: Ted Underwood, "Theorizing Research Practices We Forgot to Theorize Twenty Years Ago," _Representations_ 127.1 (2014) pp 64-72
 
 He's writing about how algorithmic mining of big data sets is in many ways blackboxed, but he's critical of people not talking about how their searching, what for, and so on - all the stuff we're trying to make transparent. His words: (65) "The scholarly consequences of search practices are difficult to assess, since scholars tend to suppress descriptions of their own discovery process in published work."
 
@@ -284,34 +287,34 @@ Fifth: <a href="http://www.disruptingdh.com/" target="_blank"> Disrupting the Di
 
 Disrupting DH had a whole bunch of MLA position papers last year, and looks like this year too. There's an introductory paper on that main site linked above. All about how, quoting from that main page, "defining a discipline becomes more an exercise of exclusion than inclusion." Some of the position papers from 2015: >a href="http://www.disruptingdh.com/on-disruption-race-and-the-digital-humanities/" target="_blank"> "On Disruption, Race, and the Digital Humanities"</a> by Roopika Risam; <a href="http://www.disruptingdh.com/multilingualism-in-dh/" target="_blank"> "Multilingualism in DH" </a>by Elika Ortega. Some really good stuff in there.
 
-Dimock, Wai Chee. “Deep Time: American Literature and World History,” American Literary History. December 2001, Vol. 13, Issue 4, p.755-775.
-Dimock, Wai Chee. <a href="http://www.jstor.org/stable/463483" target="_blank"> “A Theory of Resonance,”</a> PMLA. October 1997, Vol. 112, No. 5, pp. 1060-1071.   
+Dimock, Wai Chee. “Deep Time: American Literature and World History,” _American Literary History_. December 2001, Vol. 13, Issue 4, p.755-775.
+Dimock, Wai Chee. <a href="http://www.jstor.org/stable/463483" target="_blank"> “A Theory of Resonance,”</a> _PMLA_. October 1997, Vol. 112, No. 5, pp. 1060-1071.   
 Wai Chee Dimock’s concept of “deep time… propose[s] a more extended duration for American literary studies, planetary in scope…. the force of historical depth is such as to suggest a world that predates the adjective American.” Dimock suggests that by doing so, scholars of American literature would have to re-periodize the works they study and re-interpret American texts and linguistics through large-scale analysis that allows us to question: “How does a literary text sound when it is read twenty years, two hundred years, or two thousand years after it was written?” and what are/what is the significance of “the traveling frequencies of literary texts”? Her works go much further than these musings, but for Ethan, these provided a helpful entre into how scholars of American literature have and could conceptualize time in relation to their discipline.
 
-James:
-Todd Presner, "The Ethics of the Algorithm: Close and Distant Listening to the Shoah Foundation Visual History Archive," forthcoming in: History Unlimited: Probing the Ethics of Holocaust Culture(Cambridge: Harvard University Press, 2015), paired with Stephen Smith, “On the Ethics of Technology and Testimony: A response to Todd Presner.”
+James: <br>
+Todd Presner, "The Ethics of the Algorithm: Close and Distant Listening to the Shoah Foundation Visual History Archive," forthcoming in: _History Unlimited: Probing the Ethics of Holocaust Culture_. (Cambridge: Harvard University Press, 2015), paired with Stephen Smith, “On the Ethics of Technology and Testimony: A response to Todd Presner.”
 A pre-publication argument about the ethics of databases and algorithms based on the experience of developing an audio-visual database of genocide survivor testimony.
 
-Kraus, Kari. <a href="http://digitalhumanities.org/dhq/vol/3/4/000069/000069.html" target="_blank"> "Conjectural Criticism: Computing Past and Future Texts."</a> DHQ: Digital Humanities Quarterly 3:4 (2009) 1-28.
+Kraus, Kari. <a href="http://digitalhumanities.org/dhq/vol/3/4/000069/000069.html" target="_blank"> "Conjectural Criticism: Computing Past and Future Texts."</a> _DHQ: Digital Humanities Quarterly_ 3:4 (2009) 1-28.
 Looking at the long history of the study of textual transmission, this article places speculative computer-based reconstruction of texts into historical relationship to other forms of speculating on the text, specifically recension editing, divination, and Biblical hermeneutics.
 
-Yoan Chabot, Aurélie Bertaux, Christophe Nicolle, M-Tahar Kechadi. “A complete formalized knowledge representation model for advanced digital forensics timeline analysis” Digital Investigation  11 (2014) S95-S105
+Yoan Chabot, Aurélie Bertaux, Christophe Nicolle, M-Tahar Kechadi. “A complete formalized knowledge representation model for advanced digital forensics timeline analysis” _Digital Investigation_  11 (2014) S95-S105
 
-Rachel:
+Rachel: <br>
 <a href="http://earthzine.org/2013/07/23/sonification-data-like-youve-never-heard-before/" target="_blank"> This article </a>explains sonifications in layman’s terms. The authors do not get into the nitty gritty of coding, but rather describe general methods of sonifying and provide examples of uses of sonification. The examples they give demonstrate the use sonifications for making large quantities of scientific data more easily digestible.  
 
 Check box for ethan--time & Consumption/commodification/labor?
 
-Lydia:
+Lydia: <br>
 Cohabiting in Time: <a href="http://journals.cambridge.org/abstract_S1355771811000045
 " target="_blank"> Towards an ecology of rhythm</a> - Peter Nelson
 This article is about ecologies of sounds in time and human experience.
 
-<a href="http://web.stanford.edu/dept/SUL/library/extra4/sloan/mousesite/Secondary/Whorfframe2.html" target="_blank"> THE RELATION OF HABITUAL THOUGHT AND BEHAVIOR TO LANGUAGE</a> - Whorf
+<a href="http://web.stanford.edu/dept/SUL/library/extra4/sloan/mousesite/Secondary/Whorfframe2.html" target="_blank"> The Relation of Habitual Thought and Behavior to Language</a> - Whorf
 Whorf discusses Linguistic relativity, subjectivity in words and thoughts.
 
 
-Keil, C.. (1987). <a href="http://www.jstor.org/stable/656427" target="_blank"> Participatory Discrepancies and the Power of Music.</a> Cultural Anthropology, 2(3), 275–283.
+Keil, C.. (1987). <a href="http://www.jstor.org/stable/656427" target="_blank"> Participatory Discrepancies and the Power of Music.</a> _Cultural Anthropology_, 2(3), 275–283.
 Keil writes about music that is personally involving and socially valuable is said to be "out of time" and "out of tune."
 
 <div id="resources">
@@ -327,11 +330,11 @@ Keil writes about music that is personally involving and socially valuable is sa
 <a href="https://www.codecademy.com/learn/web" target="_blank"> Code Academy </a>
 
 **Learn Sonification:** <br>
-Praxis Tutorial (how to use SuperCollyder): <br>
+Praxis Tutorial (how to use SuperCollider): <br>
 <a href="http://earthzine.org/2013/07/23/sonification-data-like-youve-never-heard-before/" target="_blank"> Sonification explanation</a>--not coding, but just general methods, use, etc.
 
 **Further Learning Opportunities:** <br>
-<a href="http://www.blackgirlscode.com/" target="_blank"> Black Girls Code</a>
+<a href="http://www.blackgirlscode.com/" target="_blank"> Black Girls Code</a> <br>
 <a href="http://railsgirls.com/" target="_blank"> Rails Girls</a> <br>
 <a href="https://hackbrightacademy.com/" target="_blank"> Hackbright Academy</a> (software engineering school for women)<br>
 <a href="http://www.dhsi.org/courses.php" target="_blank"> Digital Humanities Summer Institute</a> <br>
