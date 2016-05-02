@@ -5,10 +5,10 @@ permalink: /sonification/
 bodyclass: sonificationpage
 ---
   <p>
-    <b>ClockWork</b> is a multidimensional method for representing the purchasing power of wages against commodities over time in sound using the programming language SuperCollider. Here are six example sonifications (with video representations of the sound) that demonstrate the output of our method for inspiration.
+    <b>ClockWork</b> is a multidimensional method for representing the purchasing power of wages against commodities over time in sound using the programming language SuperCollider. Here are four example sonifications (with video representations of the sound) that demonstrate the output of our method.
   </p>
   <p>
-    In the first two sonifications, we made use of two variables: pitch and volume. As the price of gasoline rises or falls, so does pitch. Correspondingly, the more of a given hour's work at minimum wage is required to purchase a gallon of gasoline, the louder the sound becomes.
+    In the first two sonifications, we made use of two variables: pitch and dynamic level. As the average price of a gallon of gasoline rises or falls each month, so does pitch. Correspondingly, the more of a given hour's work at minimum wage required to purchase that gallon of gasoline, the louder the sound becomes.
   </p>
 <p class="desc">
     The monthly average cost of a gallon of whole milk in the U.S. in 2014 scaled against the Federal minimum wage, $7.25.
@@ -21,7 +21,7 @@ bodyclass: sonificationpage
 </p>
 
   <p>
-  In these two sonifications, we look at the lowest hourly wage legally permissible in May of 2014, the highest hourly wage in May of 2014 (an anesthesiologist, according to the <a href="http://www.bls.gov/oes/2014/may/oes_nat.htm#00-0000">Bureau of Labor Statistics</a>), and the total cost of a year's worth of a commodity (gas or milk). There are two variables within the sonification: frequency of notes and pitch. The two pitches represent the hourly wage of the minimum wage worker and the anesthesiologist. Every note represents an hour worked. When the notes stop sounding, the year's worth of the commodity in question has been paid for.
+  In these second two sonifications, we look at the lowest hourly wage legally permissible in May of 2014, the highest hourly wage in May of 2014 (earned by an anesthesiologist, according to the <a href="http://www.bls.gov/oes/2014/may/oes_nat.htm#00-0000">Bureau of Labor Statistics</a>), and the total cost of a year's worth of a commodity (gas or milk). There are two variables within the sonification: pitch and iteration of pitch. The two pitches represent the purchasing power of the hourly wage of a minimum wage worker and the hourly wage of an anesthesiologist. Every pitch iteration represents an hour worked. When the notes stop sounding, the year's worth of the commodity in question has been paid for.
   </p>
 
 <p class="desc">
