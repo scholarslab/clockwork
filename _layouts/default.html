@@ -32,37 +32,36 @@
 
 
     <header role="banner" id="banner">
-      <h1>Praxis: ClockWork</h1>
+      <h1>ClockWork</h1>
+      <nav class="nav-collapse">
+        <ul class="{{page.title}}">
+          {% if page.bodyclass != 'home' %}
+           <li class="homepage"><a href="/"> Home </a></li>
+          {% endif %}
+          {% if page.bodyclass == "sonificationpage" %}
+            <li class="sonification active"><a href="/sonification/"> Sonification </a></li>
+          {% else %}
+            <li class="sonification"><a href="/sonification/"> Sonification </a></li>
+          {% endif %}
+          {% if page.bodyclass == "aboutpage" %}
+            <li class="about active"><a href="/about/"> About </a></li>
+          {% else %}
+            <li class="about"><a href="/about/"> About </a></li>
+          {% endif %}
+          {% if page.bodyclass == "learningpage" %}
+            <li class="learning active"><a href="/learning/"> Learning </a></li>
+          {% else %}
+            <li class="learning"><a href="/learning/"> Learning </a></li>
+          {% endif %}
+          <li class="documentation"><a href="/bikeshed-doc/questions-towards-humanities-data.html" target="_blank"> Documentation </a></li>
+        </ul>
+      </nav>
       <div class="provocation">
         <span class="your-clock"></span>
         <span id="cost"></span>
       </div>
     </header>
-    <nav class="nav-collapse">
-      <ul class="{{page.title}}">
-        {% if page.bodyclass != 'home' %}
-         <li class="homepage"><a href="/"> Home </a></li>
-        {% endif %}
-        {% if page.bodyclass == "sonificationpage" %}
-          <li class="sonification active"><a href="/sonification/"> Sonification </a></li>
-        {% else %}
-          <li class="sonification"><a href="/sonification/"> Sonification </a></li>
-        {% endif %}
-        {% if page.bodyclass == "aboutpage" %}
-          <li class="about active"><a href="/about/"> About </a></li>
-        {% else %}
-          <li class="about"><a href="/about/"> About </a></li>
-        {% endif %}
-        {% if page.bodyclass == "learningpage" %}
-          <li class="learning active"><a href="/learning/"> Learning </a></li>
-        {% else %}
-          <li class="learning"><a href="/learning/"> Learning </a></li>
-        {% endif %}
-        <li class="documentation"><a href="/bikeshed-doc/questions-towards-humanities-data.html" target="_blank"> Documentation </a></li>
 
-
-      </ul>
-    </nav>
     <main id="main" role="main">
         {{ content }}
 
