@@ -6,12 +6,14 @@
 }
 
 body {
-  margin-left: 0px;
-  margin-right: 0px;
+  margin-left: auto;
+  margin-right: auto;
   font-family: "Droid Sans", sans-serif;
   line-height: 1.8;
   word-spacing: .75px;
+  max-width: 900px;
 }
+
   h1 {
   padding: 5px 5px 0 5px;
   /*font-size: 30px;*/
@@ -23,10 +25,6 @@ h2 {
 
 a:link {
   text-decoration: none;
-}
-
-nav {
-  background-color: rgba(0,0,0,0.10);
 }
 
 nav ul {
@@ -88,59 +86,15 @@ nav li a:hover:not(.active) {
 }
 
 
-.sonificationpage nav ul {
+nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
 }
 
-.sonificationpage nav li {
-  float:left;
-  width: 130px;
-}
-
-.sonificationpage nav li a {
+nav li a {
   display: block;
-  text-align: center;
-  padding: 14px 10px;
-  text-decoration: none;
-}
-
-.aboutpage nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-
-.aboutpage nav li {
-  float:left;
-  width: 130px;
-}
-
-.aboutpage nav li a {
-  display: block;
-  text-align: center;
-  padding: 14px 10px;
-  text-decoration: none;
-}
-
-.learningpage nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-
-.learningpage nav li {
-  float:left;
-  width: 130px;
-}
-
-.learningpage nav li a {
-  display: block;
-  text-align: center;
   padding: 14px 10px;
   text-decoration: none;
 }
@@ -152,14 +106,44 @@ nav li a:hover:not(.active) {
  *  - Fixed position for navigation on interior pages.
  *
  * */
-@media screen and (min-width: 802px) {
-  body {
-    margin-left: 5%;
-    margin-right: 5%;
-    font-family: "Droid Sans", sans-serif;
-    line-height: 1.8;
-    word-spacing: 0.75px;
-  }
+@media screen and (min-width: 830px) {
+
+body{
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left:-300px;
+  width: 600px;
+}
+nav {
+    margin-bottom: 140px;
+}
+
+nav li {
+  display: block;
+  text-align: left;
+}
+
+html {
+    background-color: rgba(0,0,0,.10);
+}
+
+#banner {
+  position:absolute;
+  padding-top: 50px;
+  right: -125px;
+  width: 125px;
+}
+
+#banner h1 {
+  padding-left: 10px;
+}
+
+#main {
+  background-color: white;
+  padding: 2em;
+  float:left;
+}
 
   body.home {
     margin-left:0;
@@ -169,15 +153,6 @@ nav li a:hover:not(.active) {
     h1 {
     padding: 5px 20px 0 5px;
   }
-  nav {
-    display: block;
-    width: 125px;
-    position: fixed;
-    height: 100%;
-    overflow: auto;
-    right: 0;
-    background-color: rgba(0,0,0,.10);
-  }
 
   .sonificationpage nav li a {
     text-align: left;
@@ -185,7 +160,7 @@ nav li a:hover:not(.active) {
   .aboutpage nav li a {
     text-align: left;
   }
-  .\page nav li a {
+  .page nav li a {
     text-align: left;
   }
   .home nav {
@@ -227,27 +202,31 @@ nav li a:hover:not(.active) {
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1035px) {
+  body {
+    width: 700px;
+    margin-left: -350px;
+  }
 
+  #main {
+    font-size: 115%;
+  }
+}
+
+@media screen and (min-width: 1140px) {
+
+body {
+  width: 800px;
+  margin-left: -400px;
+}
+
+#main {
+  font-size: 125%;
 }
 
 
-.marginalia {
-font-family: "Droid Sans", sans-serif;
-font-size: 14px;
-float: right;
-width: 150px;
-background: blanchedalmond;
-border: 5px solid burlywood;
-padding: 15px;
 }
 
-.codequote {
-  font-family: monospace;
-  font-size: 16px;
-  background: rgba(0, 0, 0, 0.05);
-  padding: 15px;
-}
 
 .soundviz {
 display: block;
@@ -271,45 +250,9 @@ padding-top: 5px;
 padding-bottom: 20px;
 }
 
-#banner {
-  background-color: rgba(0,0,0,0.10);
-}
-
-@media screen and (min-width: 802px) {
-  #banner {
-    /*z-index: 100;*/
-    position:fixed;
-    bottom: 0;
-    right:0;
-    left:0;
-  }
-}
-
-#banner h1,
-#banner .provocation {
-font-size: 16px;
-line-height: 50px;
-display:inline;
-}
-
 #cost:before {
   content: "= ";
 }
-
-#main {
-margin-right: 20px;
-margin-left: 20px;
-padding-bottom: 200px;
-}
-
-@media screen and (min-width: 802px) {
-  #main {
-  margin-right: 140px;
-  margin-left: 20px;
-  padding-bottom: 200px;
-  }
-}
-
 
 /* stuff that has to do with flipclock*/
 .flip-clock-wrapper ul {
