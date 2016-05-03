@@ -75,7 +75,7 @@ nav li a:hover:not(.active) {
   background-color: plum;
 }
 
-.home .curriculum a {
+.home .learning a {
   background-color: royalblue;
 }
 
@@ -126,19 +126,19 @@ nav li a:hover:not(.active) {
   text-decoration: none;
 }
 
-.curriculumpage nav ul {
+.learningpage nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
 }
 
-.curriculumpage nav li {
+.learningpage nav li {
   float:left;
   width: 130px;
 }
 
-.curriculumpage nav li a {
+.learningpage nav li a {
   display: block;
   text-align: center;
   padding: 14px 10px;
@@ -185,7 +185,7 @@ nav li a:hover:not(.active) {
   .aboutpage nav li a {
     text-align: left;
   }
-  .curriculumpage nav li a {
+  .learningpage nav li a {
     text-align: left;
   }
   .home nav {
