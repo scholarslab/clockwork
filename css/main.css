@@ -185,7 +185,7 @@ nav li a:hover:not(.active) {
   .aboutpage nav li a {
     text-align: left;
   }
-  .learningpage nav li a {
+  .\page nav li a {
     text-align: left;
   }
   .home nav {
