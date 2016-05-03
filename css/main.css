@@ -258,6 +258,15 @@ height: 240;
 text-align: center;
 }
 
+.soundtutorial {
+display: block;
+margin: auto;
+padding-top: 5px;
+width: 200;
+height: 240;
+text-align: center;
+}
+
 .desc {
 text-align: center;
 font-style: italic;
