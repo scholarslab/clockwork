@@ -51,7 +51,11 @@
           {% else %}
             <li class="learning"><a href="/learning/"> Learning </a></li>
           {% endif %}
-          <li class="documentation"><a href="/bikeshed-doc/questions-towards-humanities-data.html" target="_blank"> Documentation </a></li>
+          {% if page.bodyclass == "documentation" %}
+            <li class="documentation active"><a href="/documentation/"> Documentation </a></li>
+          {% else %}
+            <li class="documentation"><a href="/documentation/"> Documentation </a></li>
+          {% endif %}
         </ul>
       </nav>
       <div class="provocation">
