@@ -27,6 +27,17 @@ body {
   min-width: 300px;
 }
 
+.provocation {
+  background-color: red;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: block;
+}
+
 .home #main {
   background-color: inherit;
 }
@@ -142,6 +153,17 @@ video {
 html {
   background-color: rgba(0,0,0,.10);
 }
+
+.provocation {
+  background-color: red;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  position: static;
+  width: auto;
+  margin-left: 10px;
+}
+
 
 body{
   position: absolute;

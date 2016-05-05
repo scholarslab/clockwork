@@ -31,6 +31,10 @@
   <body class="{{ page.bodyclass }}">
     <header role="banner" id="banner">
       <h1>ClockWork</h1>
+      <div class="provocation">
+        <span class="your-clock"></span>
+        <span id="cost"></span>
+      </div>
       <nav class="nav-collapse">
         <ul class="{{page.title}}">
           {% if page.bodyclass != 'home' %}
@@ -58,10 +62,6 @@
           {% endif %}
         </ul>
       </nav>
-      <div class="provocation">
-        <span class="your-clock"></span>
-        <span id="cost"></span>
-      </div>
     </header>
 
     <main id="main" role="main">
