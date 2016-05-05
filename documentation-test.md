@@ -3,7 +3,6 @@ layout: page
 generator: 'Bikeshed 1.0.0'
 title: 'Questions To Ask Your Data if You Are a Humanist (or, Just a Human)'
 bodyclass: documentation
-permalink: /documentation/
 ---
 
 <div class="head">
