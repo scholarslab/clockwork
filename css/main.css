@@ -93,8 +93,12 @@ nav li a:hover:not(.active) {
  *  - Use four columns for navigation on home page.
  *  - Fixed position for navigation on interior pages.
  *
- * */
+ **/
 @media screen and (min-width: 830px) {
+
+html {
+  background-color: rgba(0,0,0,.10);
+}
 
 body{
   position: absolute;
@@ -103,17 +107,24 @@ body{
   margin-left:-300px;
   width: 600px;
 }
+
+body.home {
+  position:static;
+  margin:0 auto;
+  width: 800px;
+}
+
 nav {
     margin-bottom: 140px;
+}
+
+.home nav {
+  margin-bottom:20px;
 }
 
 nav li {
   display: block;
   text-align: left;
-}
-
-html {
-    background-color: rgba(0,0,0,.10);
 }
 
 #banner {
@@ -123,8 +134,19 @@ html {
   width: 125px;
 }
 
+.home #banner {
+  position: static;
+  padding:0;
+  width: auto;
+}
+
 #banner h1 {
   padding-left: 10px;
+}
+
+.home #banner h1 {
+  text-align:center;
+  padding:0;
 }
 
 #main {
@@ -133,11 +155,8 @@ html {
   float:left;
 }
 
-  body.home {
-    margin-left:0;
-    margin-right:0;
-  }
-  #main.home {
+
+  .home #main {
     display: none;
   }
 
@@ -165,29 +184,28 @@ html {
     background-color: transparent;
   }
 
-
+  .home nav ul {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items:stretch;
+  }
   .home nav li {
-    display: inline-block;
-    width: 186px;
-    margin-left: .5%;
-    margin-right: .5%;
+    display:inline-block;
+    width: 24%;
   }
 
-  .home nav li:last-of-type {
-    margin-right: 0;
-  }
 
   .home nav li a {
-    display: block;
+    display:flex;
+    align-items: center;
+    justify-content: center;
     color: #000;
-    padding: 300px 10px 400px 10px;
-    margin: 0px 0px 0px 0px;
+    margin: 0;
     font-size: 20px;
     text-align: center;
     text-decoration: none;
-    height: 50vh;
-    min-width: 30px
-    max-height: 800px;
+    height: 70vh;
     font-weight: bold;
     text-transform: uppercase;
   }
@@ -197,6 +215,10 @@ html {
   body {
     width: 700px;
     margin-left: -350px;
+  }
+
+  .home {
+    width: 1000px;
   }
 
   #main {
@@ -209,6 +231,10 @@ html {
 body {
   width: 800px;
   margin-left: -400px;
+}
+
+.home {
+  width: 1100px;
 }
 
 #main {
