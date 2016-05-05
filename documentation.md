@@ -1,7 +1,9 @@
 ---
+layout: page
 generator: 'Bikeshed 1.0.0'
 title: 'Questions To Ask Your Data if You Are a Humanist (or, Just a Human)'
 viewport: 'width=device-width, initial-scale=1, shrink-to-fit=no'
+bodyclass: aboutpage
 ---
 
 <div class="head">
