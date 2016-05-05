@@ -29,6 +29,8 @@ look at the nuts and bolts of creating a digital humanities project.
 This standard draws on the style and technique of
 [security-privacy-questionnaire](http://www.w3.org/TR/security-privacy-questionnaire/) and [SocialJusticeandDH](http://criticaldh.roopikarisam.com).
 
+This is the simplified version of a spec in the W3C style available in [html](bikeshed-doc/questions-towards-humanities-data.html) and in [Bikeshed mark-up](bikeshed-doc/questions-towards-humanities-data.html)
+
 # Questions
 
 ## Representations of Data
