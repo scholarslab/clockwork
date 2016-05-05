@@ -161,6 +161,7 @@ html {
   font-weight: bold;
   position: static;
   width: auto;
+  margin-top: -75px;
 }
 
 
@@ -199,7 +200,6 @@ nav li {
 
 #banner {
   position:absolute;
-  padding-top: 50px;
   right: -125px;
   width: 125px;
 }
@@ -212,6 +212,7 @@ nav li {
 
 #banner h1 {
   padding-left: 10px;
+  margin-left: -1500px;
 }
 
 .home #banner h1 {
@@ -290,6 +291,11 @@ nav li {
     padding-right: 0;
   }
 
+  #banner h1 {
+    padding-left: 10px;
+    margin-left: -1705px;
+  }
+
   nav ul {
     border: inherit;
   }
@@ -311,6 +317,10 @@ nav li {
 
 @media screen and (min-width: 1140px) {
 
+  #banner h1 {
+    padding-left: 10px;
+    margin-left: -1850px;
+  }
 body {
   width: 800px;
   margin-left: -400px;
