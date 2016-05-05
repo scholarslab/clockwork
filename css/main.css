@@ -56,6 +56,14 @@ nav li {
   border-bottom: 1px solid #555;
 }
 
+.home nav ul {
+  border: none;
+}
+
+.home nav li {
+  border-bottom: none;
+}
+
 nav li a{
   display: block;
   color: #000;
