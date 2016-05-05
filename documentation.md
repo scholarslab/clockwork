@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 'Questions To Ask Your Data if You Are a Humanist (or, Just a Human)'
-bodyclass: aboutpage
+bodyclass: documentation
 permalink: /documentation/
 ---
 
