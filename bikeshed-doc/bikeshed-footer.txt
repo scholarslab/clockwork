@@ -1,0 +1,10 @@
+
+<pre class="biblio">
+{ "SocialJusticeandDH": {
+      "href": "http://criticaldh.roopikarisam.com",
+      "title": "Social Justice and the Digital Humanities",
+      "publisher": "Social Justice and the Digital Humanities",
+      "authors": [ "Roopika Risam", "micha cardenas", "Jeremy Boggs", "Ashley Byock", "Vinamarata Kaur", "Joan Lubin", "Emily Sessions", "Danica Savonick", "Sveta Stoytcheva" ]
+  }
+}
+</pre>

@@ -1,0 +1,13 @@
+<pre class='metadata'>
+Title: Questions To Ask Your Data if You Are a Humanist (or, Just a Human)
+Status: ED
+ED: https://github.com/cacology/humanities-data
+Shortname: hum-data-queries
+Level: 1
+Editor: Lydia Warren, University of Virginia Praxis Fellows, http://praxis.scholarslab.org
+Editor: James P. Ascher, University of Virginia Praxis Fellows, http://praxis.scholarslab.org
+Abstract: A series of questions developed to ask about data being used for a humanities based project, but that you might ask about data in general. The target audience consists of anyone building a web-based interpretation of data.
+Warning: Not Ready
+Date: 2016-03-30
+</pre>
+
