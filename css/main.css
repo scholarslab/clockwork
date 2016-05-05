@@ -27,6 +27,10 @@ body {
   min-width: 300px;
 }
 
+.home #main {
+  background-color: inherit;
+}
+
   h1 {
   padding: 5px 5px 0 5px;
   /*font-size: 30px;*/
@@ -42,11 +46,15 @@ a:link {
 
 nav ul {
   list-style-type: none;
+  border: 1px solid #555;
   margin: 0;
   padding: 0;
   overflow: hidden;
 }
 
+nav li {
+  border-bottom: 1px solid #555;
+}
 
 nav li a{
   display: block;
@@ -54,6 +62,10 @@ nav li a{
   padding: 14px 10px;
   text-decoration: none;
   text-transform: lowercase;
+}
+
+li:last-child{
+  border-bottom: none;
 }
 
 .home nav li a{
@@ -143,9 +155,13 @@ nav {
   margin-bottom:20px;
 }
 
+nav ul {
+  border: none;
+}
 nav li {
   display: block;
   text-align: left;
+  border-bottom: none;
 }
 
 #banner {
@@ -239,6 +255,14 @@ nav li {
     margin-left: -350px;
     padding-left: 0;
     padding-right: 0;
+  }
+
+  nav ul {
+    border: inherit;
+  }
+
+  nav li {
+    border-bottom: inherit;
   }
 
   .home {
