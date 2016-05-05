@@ -316,3 +316,23 @@ padding-bottom: 20px;
 .flip-clock-divider.seconds:before {
   content: ":";
 }
+
+/* Override jQuery UI stuffs. */
+.ui-widget-content {
+  border:none !important;
+}
+
+.ui-accordion .ui-accordion-content {
+  padding:0 !important;
+}
+
+.ui-widget {
+  font-family: inherit !important;
+  font-size: inherit !important;
+}
+
+.ui-helper-reset {
+  line-height: inherit !important;
+}
+
+
