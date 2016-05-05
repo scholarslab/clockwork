@@ -6,15 +6,11 @@ viewport: 'width=device-width, initial-scale=1, shrink-to-fit=no'
 bodyclass: aboutpage
 ---
 
-<div class="head">
-
 Questions To Ask Your Data if You Are a Humanist (or, Just a Human) {#title .p-name .no-ref}
 ===================================================================
 
 <span class="content">Editor’s Draft, 30 March 2016</span> {#subtitle .no-num .no-toc .no-ref .heading .settled}
 ----------------------------------------------------------
-
-<div data-fill-with="spec-metadata">
 
 This version:
 <https://github.com/cacology/humanities-data>
@@ -26,18 +22,6 @@ Editors:
 [James P. Ascher](http://praxis.scholarslab.org){.p-name .fn .u-url
 .url} (<span class="p-org org">University of Virginia Praxis
 Fellows</span>)
-
-</div>
-
-<div data-fill-with="warning">
-
-Not Ready For Implementation
-This spec is not yet ready for implementation. It exists in this
-repository to record the ideas and promote discussion.
-
-Before attempting to implement this spec, please contact the editors.
-
-</div>
 
 [![CC0](https://licensebuttons.net/p/zero/1.0/80x15.png)](http://creativecommons.org/publicdomain/zero/1.0/)
 To the extent possible under law, the editors have waived all copyright
@@ -53,7 +37,6 @@ document.
 
 ------------------------------------------------------------------------
 
-</div>
 
 <span class="content">Abstract</span> {#abstract .no-num .no-toc .no-ref .heading .settled}
 -------------------------------------
