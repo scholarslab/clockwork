@@ -5,13 +5,34 @@
   box-sizing: border-box;
 }
 
+html {
+  background-color: rgba(0,0,0,.10);
+}
+
 body {
   margin-left: auto;
   margin-right: auto;
   font-family: "Droid Sans", sans-serif;
   line-height: 1.8;
   word-spacing: .75px;
-  max-width: 900px;
+}
+
+#main {
+  padding-left: 10px;
+  padding-right: 5px;
+  padding-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: white;
+  min-width: 300px;
+}
+
+.home #main {
+  background-color: inherit;
+}
+
+#banner h1 {
+  text-align: center;
 }
 
   h1 {
@@ -29,11 +50,23 @@ a:link {
 
 nav ul {
   list-style-type: none;
+  border: 1px solid #555;
   margin: 0;
   padding: 0;
   overflow: hidden;
 }
 
+nav li {
+  border-bottom: 1px solid #555;
+}
+
+.home nav ul {
+  border: none;
+}
+
+.home nav li {
+  border-bottom: none;
+}
 
 nav li a{
   display: block;
@@ -41,6 +74,10 @@ nav li a{
   padding: 14px 10px;
   text-decoration: none;
   text-transform: lowercase;
+}
+
+li:last-child{
+  border-bottom: none;
 }
 
 .home nav li a{
@@ -112,6 +149,8 @@ body{
   left: 50%;
   margin-left:-300px;
   width: 600px;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 body.home {
@@ -128,9 +167,13 @@ nav {
   margin-bottom:20px;
 }
 
+nav ul {
+  border: none;
+}
 nav li {
   display: block;
   text-align: left;
+  border-bottom: none;
 }
 
 #banner {
@@ -158,6 +201,7 @@ nav li {
 #main {
   background-color: white;
   padding: 2em;
+  margin: auto;
   float:left;
 }
 
@@ -221,6 +265,16 @@ nav li {
   body {
     width: 700px;
     margin-left: -350px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  nav ul {
+    border: inherit;
+  }
+
+  nav li {
+    border-bottom: inherit;
   }
 
   .home {
@@ -229,6 +283,8 @@ nav li {
 
   #main {
     font-size: 115%;
+    margin: auto;
+    padding: auto;
   }
 }
 
@@ -237,6 +293,8 @@ nav li {
 body {
   width: 800px;
   margin-left: -400px;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .home {
@@ -334,5 +392,3 @@ padding-bottom: 20px;
 .ui-helper-reset {
   line-height: inherit !important;
 }
-
-
