@@ -42,6 +42,10 @@ body {
     color: white;
 }
 
+.provocation :visited {
+    color: white;
+}
+
 .home #main {
   background-color: inherit;
 }
