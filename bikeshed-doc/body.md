@@ -1,22 +1,23 @@
 # Introduction
 
-During the academic year 2015 to 2016, the six Praxis Fellows developed
-ClockWork, a series of sonifications exploring the issues of the cost of
-consumer goods and wages. We chose to use documentation as a way to record
-our inquiries and decision making process as we moved from an abstract,
-time-related concept to a completed project. Instead of a traditional and
-specific explanation of exactly what we asked and answered as a group to
-create ClockWork, this documents our journey, foregrounding the questions
-we faced, which are edited to be broadly applicable to any group working
-with and on humanities, data, and the digital world.
+During the academic year 2015 to 2016, the six Praxis Fellows
+developed ClockWork, a series of sonifications exploring the cost of
+consumer goods and wages. We chose to use questions as a way to
+record our inquiries and decision making process as we moved from an
+abstract, time-related concept to a completed project. Instead of a
+traditional and specific explanation of exactly what we asked and
+answered as a group to create ClockWork, this documents our journey,
+foregrounding the questions we faced, which are edited to be broadly
+applicable to any group working with and on humanities, data, and the
+digital world.
 
 The editors formed a documentation team to produce this document. The
 role of the documentation team is to note the inquiries and decision
 making processes of the Praxis group as we move from concept to
-conclusion.  This information is an effort to make our trajectory and
-final project transparent, highlighting how and why we reached our
+conclusion.  This information aims to make our trajectory and
+final project transparent by highlighting how and why we reached our
 deliverables. It allows others to model their projects after this
-one. It serves as a teaching tool, and offers a “behind the scenes”
+one. It serves as a teaching tool and offers a “behind the scenes”
 look at the nuts and bolts of creating a digital humanities project.
 
 This standard draws on the style and technique of
@@ -29,7 +30,7 @@ This standard draws on the style and technique of
 ### Scope
 
 This section asks a series of questions about the representation of
-data in any way. It was developed as questions regarding the
+data. It was developed as questions regarding
 sonification---representation by sound---of data, so sees all
 representation through this lens first, but has been generalized to
 suggest humanistic questions about the representation of data in
@@ -38,7 +39,7 @@ general.
 The process we found useful in doing the work was to make a very quick
 draft and present the rough version to the group to guide each
 revision. The questions are divided into planning and assessment. The
-planning are questions we found useful to ask *befoe* creating a draft
+planning are questions we found useful to ask *before* creating a draft
 the *assessment* questions were useful to ask of each draft to guide
 the next version.
 
@@ -60,7 +61,7 @@ the next version.
 4. How do the different changing values relate to each other in the
     sonification/representation? Which are linked in sound and which
     are not linked? Can we experiment with different linkages? For
-    example: Do we care more about how different incomes relate to
+    example: do we care more about how different incomes relate to
     commodities or how different incomes relate to each other? Can we
     try them different ways?
 
@@ -83,14 +84,14 @@ the next version.
 
 7. How much of this can you reuse to make something slightly different?
 
-8. How many versions to we want to present to make point?
+8. How many versions do we want to present to make our points?
 
 10. If sonic, can we make a visual version for accessibility? If
         visual, can we make a sonic version for accessibility?
 
 11. What does this particular sonification/representation of data
         argue? For example: is the take away from the data that poor
-        people have a harder time buying milk? how do we make sure that is
+        people have a harder time buying milk? How do we make sure that is
         not the (only) takeaway?
 
 12. What is the range of time and activities that our
@@ -102,38 +103,36 @@ the next version.
 
 ## Issues in Picking a data set for sonification
 
-1. What can we represent using sound and how? What are we showing/highlighting/saying with what we sonic representations?
+1. What can we represent using sound and how? What are we showing/highlighting/saying with our sonic representations?
 
 2. Are we being journalistic? Editorializing? Making a point, or proving a thesis? Or, are we allowing a set of data to show us connections and information we did not know to look for?
 
 3. Do we want granular blips or static pitches that change in amplitude? Harmonies? Mimetic sounds?
 
-4. What lends itself to sonification in terms of scale? Do years, or decades, become minutes? How do we decide this, and what is the significance or these decisions?
+4. What lends itself to sonification in terms of scale? Do years, or decades, become minutes? How do we decide this and what is the significance or these decisions?
 
-5. What is reliable data? Government? Corporate? Regarding our interest in prisons and prisoners- how do we acquire the data? What are the ethical implications of left out, non reported or under represented populations? How do we know what/whom we are missing?
+5. What is reliable data? Government? Corporate? Regarding our interest in prisons and prisoners: how do we acquire the data? What are the ethical implications of left out, non reported or under represented populations? How do we know what/whom we are missing?
 
-6. How do we make accessible our replication process for sonifying data? Can we teach this? Is the bar of entry too high if we are using supercollider/coding languages? How do we make sure it is model-able in Garage Band, Audacity, etc.?
-
-7. In terms of workflow to create a portal and online home for the sonifications, what are the groups we need to delineate among us, and who is in charge of them? Group member(s) need to gather the data for sonification, sonify, document, portal/website building, curriculum building- who does what, and why? What are the areas of intersection between groups?
+6. In terms of workflow to create a portal and online home for the sonifications, what are the groups we need to delineate among us, and who is in charge of them? Group member(s) need to gather the data for sonification, sonify, document, portal/website building, curriculum building: who does what, and why? What are the areas of intersection between groups?
 
 ## Team Organization and Planning
 
 1. If we are doing sonification in March, when do can we create a website/portal to display, explain, etc. the sonification? Do we want a visual element with it?
 
-2. how do we move ahead with the other tasks, e.g. how does curriculum move ahead without the sonification? can teams work in isolation? what exactly do we want to do with this thing if we had the perfect tool? what does a successful deliverable look like?
+2. How do we move ahead with the other tasks, e.g. how does curriculum move ahead without the sonification? Can teams work in isolation? What exactly do we want to do with this thing if we had the perfect tool? What does a successful deliverable look like?
 
-3. How do we make accessible our replication process for sonifying data? Can we teach this? Is the bar of entry too high if we are using supercollider/coding languages? How do we make sure it is model-able in Garage Band, Audacity, etc.?
+3. How do we make accessible our replication process for sonifying data? Can we teach this? Is the bar of entry too high if we are using SuperCollider/coding languages? How do we make sure it is reproducible in Garage Band, Audacity, etc.?
 
 ## Creating A Curriculum
 
 ### Scope
 
-This document attempts to create a set of questions to ask when
-creating a curriculum, teaching tool, or method to convey how one
-might replicate any portion of our sonification project, should they
-desire. The general questions below apply to all humanists creating a curriculum,
-and the more specific, nested questions reveal situations and issues
-we worked through in our own project.
+This section outlines a set of questions to ask when creating a
+curriculum, teaching tool, or method to convey how one might replicate
+any portion of our sonification project. The general questions below
+apply to all humanists creating a curriculum and the more specific,
+nested questions reveal situations and issues we worked through in our
+own project.
 
 ### General Questions
 
@@ -147,9 +146,9 @@ we worked through in our own project.
     3. Can we address systematic biases through our curriculum design? Does linking to outside resources reinforce or combat, for instance, gender bias in coding? How do we create an environment for everyone to feel empowered and comfortable coding?
 
 3. What are we trying to teach, and why?
-   1. Broadly, what are the primary spheres of our project, and our curriculum? Which aspects of our project are we explaining, teaching, and contextualizing?
-   2. What is implicitly prioritized or left out in our curriculum, and what are the implications of this?
-   3. How specific should our instructions be? For instance, do we make the Supercollider sonification tutorial so that that people can input their own data? Or do we simply show them how we created our project?
+   1. Broadly, what are the primary spheres of our project and our curriculum? Which aspects of our project are we explaining, teaching, and contextualizing?
+   2. What is implicitly prioritized or left out in our curriculum. What are the implications of these omissions?
+   3. How specific should our instructions be? For instance, do we make the SuperCollider sonification tutorial so that that people can input their own data? Or do we simply show them how we created our project?
 
 4. How do we create a curriculum that is interesting and alluring? Will anybody even look at it?
     1. Will people want to learn how to recreate projects like this one? Are we providing new ways of representing and understanding data?
@@ -163,7 +162,7 @@ we worked through in our own project.
 
 ### Scope
 
-This document attempts to create a set of questions to ask when
+This section outlines a set of questions to ask when
 designing a web-based portal for a project. The general questions
 are broadly applicable to websites and digital projects. The nested
 questions offer a view into our conversations and debates.
@@ -172,25 +171,25 @@ questions offer a view into our conversations and debates.
 
 1. What questions are we asking or answering with this portal?
     1. How will the information and the way it is presented transform a conversation?
-    2. Is it fruitful to design by targeting an imagined audience, like the digital humanities community? Is it fruitful to work instead on representations of data in time and space, imaging a user story instead of a user?
+    2. Is it fruitful to design by targeting an imagined audience, like the digital humanities community? Is it fruitful to work instead on representations of data in time and space by imaging a user story instead of a user?
 
 2. What functionality do we want/need from our portal?
-    1. What are the minimum features we need to present our information?
+    1. What are the minimum features we need to effectively present our information?
     2. What is our reason for designing a web portal? Could we use Twitter, Tumblr, or another extant platform to display our information?
     3. Will our portal have artificial constrains, like no scrolling, no navigation, or a frustrating user experience? Why? Is there a benefit to these, or to a private, site specific web element? Will these inhibit access? Is this purposeful inhibition provocative in a useful way?
     4. How do we make the purpose of our design choices clear to users?
 
-3. What is our content, and how do we label it? Who is in charge of what content, and where is the overlap?
-    1. Do we offer our curriculum, sonification, and documentation data via a traditional menu? Do we incorporate curriculum information throughout the site? Is this information embedded, or does it open another window?
+3. What is our content and how do we label it? Who is in charge of what content and where is the overlap?
+    1. Do we offer our curriculum, sonification, and documentation data via a traditional menu? Do we incorporate curriculum information throughout the site? Is this information embedded or does it open another window?
 
 4. How do we make our portal accessible?
-    1. Should we create a tactile, 3D printed version and visualizations to accompany our sonifications? Does built in frustrating user experience make the portal unfeasible for too many people?
+    1. Should we create a tactile, 3D-printed version or visualizations to accompany our sonifications? Does built in frustrating user experience make the portal unfeasible for too many people?
     2. Are there fonts, colors, etc. that are poor design choices for accessibility?
 
 5. What is the design process and workflow like?
-    1. Should we look through websites we like, or don’t like? Should we use drawings? What non-content information do we need to work on usability and functionality, creating a wire-frame prototype?
+    1. Should we look through websites we like or don’t like? Should we use drawings? What guidelines do we need for usability and functionality. Would creating a wire-frame prototype help?
     2. What do we want the portal to look and feel like? Where and how do we share our information?
-    3. What types of websites are there? Are longform websites or game-ifications feasible with our current skills?
+    3. What types of websites are there? Are long-form websites or game-ifications feasible with our current skills?
     4. Can we put the code on GitHub and into Jekyll so it can be group annotated?
 
 ## Documentation
@@ -236,7 +235,7 @@ form that the documentation itself will take.
 
 10. How do we implement our documentation page into our web portal? Do
      we want the whole web portal to be in the same format as the
-     documentation page? Do we want a link, an imbedded page?
+     documentation page? Do we want a link, an embedded page?
 
 ## Data Set Details
 
@@ -244,19 +243,19 @@ form that the documentation itself will take.
 
 This section attempts to create a set of questions to ask when
 considering using a particular collection of data for a project. Not
-all the questions need answers, but each will be considered and that
-any **lack** of knowledge about some aspect should be considered when
+all the questions need answers, but each will be considered and
+any *lack* of knowledge about some aspect should be considered when
 assessing a data set.
 
 1. Where does the data come from?
-    1. What do we understand to be reliable data? How are we acquiring this data, and how was this data initially acquired?
-    2. What are we doing when we use government data? How do we account for under-represented and non-reported information? How do we know what/whom we are missing?
+    1. What do we understand to be reliable data? How are we acquiring this data and how was this data initially acquired?
+    2. What are we doing when we use government data? How do we account for underrepresented and unreported information? How do we know what/whom we are missing?
     3. How transparent is the data? Are there undefined terms and unclear words? For instance, concerning BLS data, what is the difference between size A and B cities? What is meant by a “US Southern Average City?” Why are professions in which workers make over $200,000 per year not listed?
     4. What are ethics of data, data collection, and data usage as it pertains to our project?
 
 2. How does the mechanism of access to the data work? Can it be queried, downloaded, processed?
 
-    1. Who else can access the data? What special skills would the need? Institutional alliances? Legal or cultural capital?
+    1. Who else can access the data? What special skills would they need? Institutional alliances? Legal or cultural capital?
 
 3.  What laws, rules, or taboos apply to using the data?
     1. Is it public domain? Proprietary?
