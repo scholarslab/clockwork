@@ -5,7 +5,7 @@ permalink: /about/
 bodyclass: aboutpage
 ---
 
-*ClockWork* is a digital humanities sonification project developed by the 2015-2016 cohort of the Praxis Fellowship at the Scholars’ Lab of the University of Virginia.
+**ClockWork** is a digital humanities sonification project developed by the 2015-2016 cohort of the Praxis Fellowship at the Scholars’ Lab of the University of Virginia.
 
 We were charged by the Scholars’ Lab with imagining time outside of the commonly-used framework of a timeline. We theorized the relationships between time, commodities, the purchasing power of wages, and the value systems that these relationships structure from our cross-disciplinary perspectives.
 

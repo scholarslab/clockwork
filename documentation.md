@@ -9,7 +9,7 @@ bodyclass: documentation
 This is the simplified version of a spec in the W3C style available in
 [html](../bikeshed-doc/questions-towards-humanities-data.html) and in
 [Bikeshed mark-up](../bikeshed-doc/questions-towards-humanities-data.bs). Everything
-is available on [Github](https://github.com/scholarslab/clockwork/)
+is available on [Github](https://github.com/scholarslab/clockwork/).
 
 -   [Introduction](#introduction)
 -   [Questions](#questions)
