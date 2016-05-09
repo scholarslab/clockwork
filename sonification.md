@@ -5,7 +5,7 @@ permalink: /sonification/
 bodyclass: sonificationpage
 ---
   <p>
-    <b>ClockWork</b> is a multidimensional method for representing the purchasing power of wages against commodities over time in sound using the programming language SuperCollider. Here are four example sonifications (with video representations of the sound) that demonstrate the output of our method.
+    <div class="logotype">ClockWork</div> is a multidimensional method for representing the purchasing power of wages against commodities over time in sound using the programming language SuperCollider. Here are four example sonifications (with video representations of the sound) that demonstrate the output of our method.
   </p>
   <p>
     In the first two sonifications, we made use of two variables: pitch and dynamic level. As the average price of a gallon of gasoline rises or falls each month, so does pitch. Correspondingly, the more of a given hour's work at minimum wage required to purchase that gallon of gasoline, the louder the sound becomes.

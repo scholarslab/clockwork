@@ -9,6 +9,13 @@ html {
   background-color: rgba(0,0,0,.10);
 }
 
+.logotype {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  display: inline-block;
+  font-size: 120%;
+}
+
 #slab-link {
    content: " ";
  }
@@ -99,6 +106,12 @@ p a:visited{
 
 #banner h1 {
   text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.home #banner h1 {
+  font-size: 300%;
+  margin: 15px;
 }
 
   h1 {
