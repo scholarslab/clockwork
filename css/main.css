@@ -28,7 +28,7 @@ body {
 }
 
 .provocation {
-  background-color: #830C0C;
+  background-color: black;
   text-align: center;
   color: white;
   font-weight: bold;
@@ -172,6 +172,10 @@ html {
   margin-top: -75px;
 }
 
+.home .provocation {
+  margin-bottom: 5px;
+}
+
 
 body{
   position: absolute;
@@ -226,6 +230,11 @@ nav li {
 .home #banner h1 {
   text-align:center;
   padding:0;
+  margin-left: 0px;
+}
+
+.home .provocation {
+  margin-top: 1px;
 }
 
 #main {
@@ -327,7 +336,7 @@ nav li {
 
   #banner h1 {
     padding-left: 10px;
-    margin-left: -1850px;
+    margin-left: -1920px;
   }
 body {
   width: 800px;
