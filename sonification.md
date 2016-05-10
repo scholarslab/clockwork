@@ -34,5 +34,5 @@ bodyclass: sonificationpage
 </p>
 
 <p>
-    Please see our <a href="/learning/">Learning</a> and <a href="/bikeshed-doc/questions-towards-humanities-data.html">Documentation </a> pages to make your own sonification.
+    Want to make your own sonification?! Check out our <a href="/learning/">Learning</a> and <a href="http://clockwork.scholarslab.org/documentation/">Documentation </a> pages for a tutorial and for further discussion of the potential and limitations of sonifications.
 </p>
